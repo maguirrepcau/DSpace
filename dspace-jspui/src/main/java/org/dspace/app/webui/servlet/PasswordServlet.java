@@ -55,8 +55,10 @@ public class PasswordServlet extends DSpaceServlet
             SQLException, AuthorizeException
     {
         // Process the POSTed email and password
-        String email = request.getParameter("login_email");
-        String password = request.getParameter("login_password");
+        String email = "miguel@continental.edu.pe";
+        String password = "moapconti";
+        //String email = request.getParameter("login_email");
+        //String password = request.getParameter("login_password");
         String jsp = null;
 
         // Locate the eperson
