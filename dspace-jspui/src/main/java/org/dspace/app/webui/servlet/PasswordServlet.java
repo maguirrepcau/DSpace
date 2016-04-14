@@ -55,14 +55,16 @@ public class PasswordServlet extends DSpaceServlet
             SQLException, AuthorizeException
     {
         // Process the POSTed email and password
-        String email = "miguel@continental.edu.pe";
-        String password = "moapconti";
-        //String email = request.getParameter("login_email");
-        //String password = request.getParameter("login_password");
+        //String email = "xxx";
+        String password = "";
+        String dato =request.getParameter("email");
+        //System.out.println(email);
+        //System.out.println(password);
+        //System.out.println(request.getParameter("dato"));
         String jsp = null;
 
         // Locate the eperson
-        int status = AuthenticationManager.authenticate(context, email, password,
+        int status = AuthenticationManager.authenticate(context, dato, password,
                         null, request);
  
        
@@ -101,12 +103,12 @@ public class PasswordServlet extends DSpaceServlet
         }
         else
         {
-            jsp = "/login/incorrect.jsp";
+            jsp = "/login/incorrect-oauth.jsp";
         }
 
         // If we reach here, supplied email/password was duff.
         log.info(LogManager.getHeader(context, "failed_login",
-                "email=" + email + ", result=" + String.valueOf(status)));
+                "result=" + String.valueOf(status)));
         JSPManager.showJSP(request, response, jsp);
     }
 }

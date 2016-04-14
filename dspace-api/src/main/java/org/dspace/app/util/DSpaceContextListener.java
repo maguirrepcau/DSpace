@@ -29,7 +29,7 @@ public class DSpaceContextListener implements ServletContextListener
 {
     private static Logger log = Logger.getLogger(DSpaceContextListener.class);
 
-    /**
+    /*
      * Name of the context parameter giving the path to the DSpace configuration file.
      */
     public static final String DSPACE_CONFIG_PARAMETER = "dspace-config";

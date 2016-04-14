@@ -791,6 +791,7 @@ public class MyDSpaceServlet extends DSpaceServlet
             HttpServletResponse response) throws ServletException, IOException,
             SQLException, AuthorizeException
     {
+        System.out.println("ingresa main page");
         log.info(LogManager.getHeader(context, "view_mydspace", ""));
         EPerson currentUser = context.getCurrentUser();
 

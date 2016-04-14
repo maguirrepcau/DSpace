@@ -1,0 +1,1156 @@
+2016-04-06 09:47:17,243 INFO  org.dspace.core.ConfigurationManager @ Loading from classloader: file:/D:/dspace/config/dspace.cfg
+2016-04-06 09:47:17,273 INFO  org.dspace.core.ConfigurationManager @ Using dspace provided log configuration (log.init.config)
+2016-04-06 09:47:17,273 INFO  org.dspace.core.ConfigurationManager @ Loading: D:/projects/dspace/git/dspace/config/log4j.properties
+2016-04-06 09:47:19,660 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 09:47:19,660 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 09:47:19,665 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2016-04-06 09:47:19,692 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 09:47:19,729 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 09:47:19,760 INFO  org.flywaydb.core.internal.metadatatable.MetaDataTableImpl @ Creating Metadata table: "public"."schema_version"
+2016-04-06 09:47:19,812 INFO  org.flywaydb.core.internal.command.DbInit @ Schema initialized with version: 1
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Pending DSpace database schema migrations:
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.1 Initial DSpace 1.1 database schema SQL PENDING
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.2 Upgrade to DSpace 1.2 schema SQL PENDING
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.3 Upgrade to DSpace 1.3 schema SQL PENDING
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.3.9 Drop constraint for DSpace 1 4 schema JDBC PENDING
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.4 Upgrade to DSpace 1.4 schema SQL PENDING
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.5 Upgrade to DSpace 1.5 schema SQL PENDING
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.5.9 Drop constraint for DSpace 1 6 schema JDBC PENDING
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.6 Upgrade to DSpace 1.6 schema SQL PENDING
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.7 Upgrade to DSpace 1.7 schema SQL PENDING
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	1.8 Upgrade to DSpace 1.8 schema SQL PENDING
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	3.0 Upgrade to DSpace 3.x schema SQL PENDING
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	4.0 Upgrade to DSpace 4.x schema SQL PENDING
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	5.0.2014.08.08 DS-1945 Helpdesk Request a Copy SQL PENDING
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	5.0.2014.09.25 DS 1582 Metadata For All Objects drop constraint JDBC PENDING
+2016-04-06 09:47:19,853 INFO  org.dspace.storage.rdbms.DatabaseUtils @ 	5.0.2014.09.26 DS-1582 Metadata For All Objects SQL PENDING
+2016-04-06 09:47:19,880 INFO  org.flywaydb.core.internal.command.DbValidate @ Validated 16 migrations (execution time 00:00.022s)
+2016-04-06 09:47:19,902 INFO  org.flywaydb.core.internal.command.DbMigrate @ Current version of schema "public": 1
+2016-04-06 09:47:19,902 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.1
+2016-04-06 09:47:20,188 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.2
+2016-04-06 09:47:20,218 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.3
+2016-04-06 09:47:20,258 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.3.9
+2016-04-06 09:47:20,278 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.4
+2016-04-06 09:47:20,378 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.5
+2016-04-06 09:47:20,398 WARN  org.flywaydb.core.internal.dbsupport.JdbcTemplate @ eliminando ademÃ¡s 2 objetos mÃ¡s (SQL State: 00000 - Error Code: 0)
+2016-04-06 09:47:20,398 WARN  org.flywaydb.core.internal.dbsupport.JdbcTemplate @ eliminando ademÃ¡s 2 objetos mÃ¡s (SQL State: 00000 - Error Code: 0)
+2016-04-06 09:47:20,398 WARN  org.flywaydb.core.internal.dbsupport.JdbcTemplate @ eliminando ademÃ¡s 2 objetos mÃ¡s (SQL State: 00000 - Error Code: 0)
+2016-04-06 09:47:20,398 WARN  org.flywaydb.core.internal.dbsupport.JdbcTemplate @ eliminando ademÃ¡s 2 objetos mÃ¡s (SQL State: 00000 - Error Code: 0)
+2016-04-06 09:47:20,408 WARN  org.flywaydb.core.internal.dbsupport.JdbcTemplate @ eliminando ademÃ¡s 2 objetos mÃ¡s (SQL State: 00000 - Error Code: 0)
+2016-04-06 09:47:20,508 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.5.9
+2016-04-06 09:47:20,518 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.6
+2016-04-06 09:47:20,578 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.7
+2016-04-06 09:47:20,588 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 1.8
+2016-04-06 09:47:20,598 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 3.0
+2016-04-06 09:47:20,628 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 4.0
+2016-04-06 09:47:20,658 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 5.0.2014.08.08
+2016-04-06 09:47:20,678 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 5.0.2014.09.25
+2016-04-06 09:47:20,688 INFO  org.flywaydb.core.internal.command.DbMigrate @ Migrating schema "public" to version 5.0.2014.09.26
+2016-04-06 09:47:20,718 INFO  org.flywaydb.core.internal.command.DbMigrate @ Successfully applied 15 migrations to schema "public" (execution time 00:00.821s).
+2016-04-06 09:47:20,738 INFO  org.dspace.storage.rdbms.DatabaseRegistryUpdater @ Updating Bitstream Format Registry based on D:/projects/dspace/git/dspace\config\registries\bitstream-formats.xml
+2016-04-06 09:47:20,958 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=1
+2016-04-06 09:47:20,968 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=1
+2016-04-06 09:47:20,968 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=2
+2016-04-06 09:47:20,968 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=2
+2016-04-06 09:47:20,978 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=3
+2016-04-06 09:47:20,978 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=3
+2016-04-06 09:47:20,978 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=4
+2016-04-06 09:47:20,978 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=4
+2016-04-06 09:47:20,988 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=5
+2016-04-06 09:47:20,998 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=5
+2016-04-06 09:47:20,998 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=6
+2016-04-06 09:47:20,998 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=6
+2016-04-06 09:47:21,008 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=7
+2016-04-06 09:47:21,008 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=7
+2016-04-06 09:47:21,018 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=8
+2016-04-06 09:47:21,018 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=8
+2016-04-06 09:47:21,018 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=9
+2016-04-06 09:47:21,018 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=9
+2016-04-06 09:47:21,028 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=10
+2016-04-06 09:47:21,028 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=10
+2016-04-06 09:47:21,038 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=11
+2016-04-06 09:47:21,038 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=11
+2016-04-06 09:47:21,038 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=12
+2016-04-06 09:47:21,038 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=12
+2016-04-06 09:47:21,048 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=13
+2016-04-06 09:47:21,048 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=13
+2016-04-06 09:47:21,048 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=14
+2016-04-06 09:47:21,048 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=14
+2016-04-06 09:47:21,058 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=15
+2016-04-06 09:47:21,058 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=15
+2016-04-06 09:47:21,058 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=16
+2016-04-06 09:47:21,058 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=16
+2016-04-06 09:47:21,068 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=17
+2016-04-06 09:47:21,068 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=17
+2016-04-06 09:47:21,078 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=18
+2016-04-06 09:47:21,078 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=18
+2016-04-06 09:47:21,078 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=19
+2016-04-06 09:47:21,078 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=19
+2016-04-06 09:47:21,088 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=20
+2016-04-06 09:47:21,088 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=20
+2016-04-06 09:47:21,088 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=21
+2016-04-06 09:47:21,088 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=21
+2016-04-06 09:47:21,098 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=22
+2016-04-06 09:47:21,098 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=22
+2016-04-06 09:47:21,098 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=23
+2016-04-06 09:47:21,098 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=23
+2016-04-06 09:47:21,108 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=24
+2016-04-06 09:47:21,108 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=24
+2016-04-06 09:47:21,108 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=25
+2016-04-06 09:47:21,108 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=25
+2016-04-06 09:47:21,108 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=26
+2016-04-06 09:47:21,108 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=26
+2016-04-06 09:47:21,138 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=27
+2016-04-06 09:47:21,138 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=27
+2016-04-06 09:47:21,138 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=28
+2016-04-06 09:47:21,138 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=28
+2016-04-06 09:47:21,148 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=29
+2016-04-06 09:47:21,148 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=29
+2016-04-06 09:47:21,148 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=30
+2016-04-06 09:47:21,148 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=30
+2016-04-06 09:47:21,148 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=31
+2016-04-06 09:47:21,158 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=31
+2016-04-06 09:47:21,158 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=32
+2016-04-06 09:47:21,158 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=32
+2016-04-06 09:47:21,158 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=33
+2016-04-06 09:47:21,158 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=33
+2016-04-06 09:47:21,168 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=34
+2016-04-06 09:47:21,168 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=34
+2016-04-06 09:47:21,168 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=35
+2016-04-06 09:47:21,168 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=35
+2016-04-06 09:47:21,178 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=36
+2016-04-06 09:47:21,178 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=36
+2016-04-06 09:47:21,178 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=37
+2016-04-06 09:47:21,178 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=37
+2016-04-06 09:47:21,188 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=38
+2016-04-06 09:47:21,188 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=38
+2016-04-06 09:47:21,188 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=39
+2016-04-06 09:47:21,188 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=39
+2016-04-06 09:47:21,198 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=40
+2016-04-06 09:47:21,198 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=40
+2016-04-06 09:47:21,198 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=41
+2016-04-06 09:47:21,198 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=41
+2016-04-06 09:47:21,198 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=42
+2016-04-06 09:47:21,208 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=42
+2016-04-06 09:47:21,208 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=43
+2016-04-06 09:47:21,208 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=43
+2016-04-06 09:47:21,208 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=44
+2016-04-06 09:47:21,208 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=44
+2016-04-06 09:47:21,218 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=45
+2016-04-06 09:47:21,218 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=45
+2016-04-06 09:47:21,218 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=46
+2016-04-06 09:47:21,218 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=46
+2016-04-06 09:47:21,228 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=47
+2016-04-06 09:47:21,228 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=47
+2016-04-06 09:47:21,228 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=48
+2016-04-06 09:47:21,228 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=48
+2016-04-06 09:47:21,238 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=49
+2016-04-06 09:47:21,238 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=49
+2016-04-06 09:47:21,238 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=50
+2016-04-06 09:47:21,238 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=50
+2016-04-06 09:47:21,248 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=51
+2016-04-06 09:47:21,248 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=51
+2016-04-06 09:47:21,248 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=52
+2016-04-06 09:47:21,248 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=52
+2016-04-06 09:47:21,248 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=53
+2016-04-06 09:47:21,258 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=53
+2016-04-06 09:47:21,258 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=54
+2016-04-06 09:47:21,258 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=54
+2016-04-06 09:47:21,258 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=55
+2016-04-06 09:47:21,258 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=55
+2016-04-06 09:47:21,268 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=56
+2016-04-06 09:47:21,268 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=56
+2016-04-06 09:47:21,278 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=57
+2016-04-06 09:47:21,278 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=57
+2016-04-06 09:47:21,278 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=58
+2016-04-06 09:47:21,278 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=58
+2016-04-06 09:47:21,288 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=59
+2016-04-06 09:47:21,288 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=59
+2016-04-06 09:47:21,288 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=60
+2016-04-06 09:47:21,288 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=60
+2016-04-06 09:47:21,298 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=61
+2016-04-06 09:47:21,298 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=61
+2016-04-06 09:47:21,308 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=62
+2016-04-06 09:47:21,308 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=62
+2016-04-06 09:47:21,308 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=63
+2016-04-06 09:47:21,308 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=63
+2016-04-06 09:47:21,318 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=64
+2016-04-06 09:47:21,318 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=64
+2016-04-06 09:47:21,318 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=65
+2016-04-06 09:47:21,318 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=65
+2016-04-06 09:47:21,328 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=66
+2016-04-06 09:47:21,328 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=66
+2016-04-06 09:47:21,328 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=67
+2016-04-06 09:47:21,328 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=67
+2016-04-06 09:47:21,338 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=68
+2016-04-06 09:47:21,338 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=68
+2016-04-06 09:47:21,338 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=69
+2016-04-06 09:47:21,338 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=69
+2016-04-06 09:47:21,348 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=70
+2016-04-06 09:47:21,348 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=70
+2016-04-06 09:47:21,348 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=71
+2016-04-06 09:47:21,348 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=71
+2016-04-06 09:47:21,358 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=72
+2016-04-06 09:47:21,358 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=72
+2016-04-06 09:47:21,358 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=73
+2016-04-06 09:47:21,358 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=73
+2016-04-06 09:47:21,358 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=74
+2016-04-06 09:47:21,368 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=74
+2016-04-06 09:47:21,368 INFO  org.dspace.content.BitstreamFormat @ anonymous::create_bitstream_format:bitstream_format_id=75
+2016-04-06 09:47:21,368 INFO  org.dspace.content.BitstreamFormat @ anonymous::update_bitstream_format:bitstream_format_id=75
+2016-04-06 09:47:21,368 INFO  org.dspace.administer.RegistryLoader @ anonymous::load_bitstream_formats:number_loaded=75
+2016-04-06 09:47:21,368 INFO  org.dspace.storage.rdbms.DatabaseRegistryUpdater @ Updating Metadata Registries based on metadata type configs in D:/projects/dspace/git/dspace\config\registries\
+2016-04-06 09:47:21,378 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-06 09:47:21,418 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,428 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.contributor
+2016-04-06 09:47:21,428 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=1
+2016-04-06 09:47:21,428 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,428 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.contributor.advisor
+2016-04-06 09:47:21,428 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=2
+2016-04-06 09:47:21,438 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,438 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.contributor.author
+2016-04-06 09:47:21,438 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=3
+2016-04-06 09:47:21,438 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,438 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.contributor.editor
+2016-04-06 09:47:21,438 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=4
+2016-04-06 09:47:21,438 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,438 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.contributor.illustrator
+2016-04-06 09:47:21,448 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=5
+2016-04-06 09:47:21,448 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,448 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.contributor.other
+2016-04-06 09:47:21,448 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=6
+2016-04-06 09:47:21,448 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,448 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.coverage.spatial
+2016-04-06 09:47:21,448 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=7
+2016-04-06 09:47:21,448 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,448 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.coverage.temporal
+2016-04-06 09:47:21,458 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=8
+2016-04-06 09:47:21,458 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,458 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.creator
+2016-04-06 09:47:21,458 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=9
+2016-04-06 09:47:21,458 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,458 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date
+2016-04-06 09:47:21,458 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=10
+2016-04-06 09:47:21,468 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,468 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date.accessioned
+2016-04-06 09:47:21,468 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=11
+2016-04-06 09:47:21,468 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,468 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date.available
+2016-04-06 09:47:21,468 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=12
+2016-04-06 09:47:21,468 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,468 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date.copyright
+2016-04-06 09:47:21,468 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=13
+2016-04-06 09:47:21,478 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,478 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date.created
+2016-04-06 09:47:21,478 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=14
+2016-04-06 09:47:21,478 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,478 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date.issued
+2016-04-06 09:47:21,478 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=15
+2016-04-06 09:47:21,478 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,478 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date.submitted
+2016-04-06 09:47:21,478 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=16
+2016-04-06 09:47:21,478 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,478 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier
+2016-04-06 09:47:21,488 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=17
+2016-04-06 09:47:21,488 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,488 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.citation
+2016-04-06 09:47:21,488 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=18
+2016-04-06 09:47:21,488 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,488 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.govdoc
+2016-04-06 09:47:21,488 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=19
+2016-04-06 09:47:21,488 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,488 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.isbn
+2016-04-06 09:47:21,498 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=20
+2016-04-06 09:47:21,498 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,498 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.issn
+2016-04-06 09:47:21,498 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=21
+2016-04-06 09:47:21,498 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,498 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.sici
+2016-04-06 09:47:21,498 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=22
+2016-04-06 09:47:21,498 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,498 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.ismn
+2016-04-06 09:47:21,508 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=23
+2016-04-06 09:47:21,508 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,508 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.other
+2016-04-06 09:47:21,508 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=24
+2016-04-06 09:47:21,508 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,508 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.uri
+2016-04-06 09:47:21,518 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=25
+2016-04-06 09:47:21,518 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,528 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description
+2016-04-06 09:47:21,528 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=26
+2016-04-06 09:47:21,528 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,528 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description.abstract
+2016-04-06 09:47:21,528 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=27
+2016-04-06 09:47:21,528 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,528 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description.provenance
+2016-04-06 09:47:21,538 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=28
+2016-04-06 09:47:21,538 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,538 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description.sponsorship
+2016-04-06 09:47:21,538 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=29
+2016-04-06 09:47:21,538 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,538 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description.statementofresponsibility
+2016-04-06 09:47:21,538 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=30
+2016-04-06 09:47:21,538 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,548 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description.tableofcontents
+2016-04-06 09:47:21,548 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=31
+2016-04-06 09:47:21,548 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,548 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description.uri
+2016-04-06 09:47:21,548 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=32
+2016-04-06 09:47:21,558 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,558 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.format
+2016-04-06 09:47:21,558 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=33
+2016-04-06 09:47:21,568 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,568 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.format.extent
+2016-04-06 09:47:21,568 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=34
+2016-04-06 09:47:21,568 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,568 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.format.medium
+2016-04-06 09:47:21,568 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=35
+2016-04-06 09:47:21,568 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,578 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.format.mimetype
+2016-04-06 09:47:21,578 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=36
+2016-04-06 09:47:21,578 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,578 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.language
+2016-04-06 09:47:21,578 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=37
+2016-04-06 09:47:21,578 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,578 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.language.iso
+2016-04-06 09:47:21,578 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=38
+2016-04-06 09:47:21,578 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,588 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.publisher
+2016-04-06 09:47:21,588 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=39
+2016-04-06 09:47:21,588 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,588 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation
+2016-04-06 09:47:21,588 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=40
+2016-04-06 09:47:21,588 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,588 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.isformatof
+2016-04-06 09:47:21,588 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=41
+2016-04-06 09:47:21,588 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,598 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.ispartof
+2016-04-06 09:47:21,598 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=42
+2016-04-06 09:47:21,598 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,598 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.ispartofseries
+2016-04-06 09:47:21,598 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=43
+2016-04-06 09:47:21,598 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,598 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.haspart
+2016-04-06 09:47:21,598 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=44
+2016-04-06 09:47:21,608 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,608 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.isversionof
+2016-04-06 09:47:21,608 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=45
+2016-04-06 09:47:21,608 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,608 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.hasversion
+2016-04-06 09:47:21,608 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=46
+2016-04-06 09:47:21,608 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,608 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.isbasedon
+2016-04-06 09:47:21,618 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=47
+2016-04-06 09:47:21,618 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,618 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.isreferencedby
+2016-04-06 09:47:21,618 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=48
+2016-04-06 09:47:21,618 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,618 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.requires
+2016-04-06 09:47:21,618 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=49
+2016-04-06 09:47:21,618 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,628 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.replaces
+2016-04-06 09:47:21,628 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=50
+2016-04-06 09:47:21,628 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,628 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.isreplacedby
+2016-04-06 09:47:21,628 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=51
+2016-04-06 09:47:21,628 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,628 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.relation.uri
+2016-04-06 09:47:21,628 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=52
+2016-04-06 09:47:21,628 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,638 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.rights
+2016-04-06 09:47:21,638 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=53
+2016-04-06 09:47:21,638 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,638 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.rights.uri
+2016-04-06 09:47:21,638 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=54
+2016-04-06 09:47:21,638 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,638 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.source
+2016-04-06 09:47:21,638 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=55
+2016-04-06 09:47:21,638 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,648 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.source.uri
+2016-04-06 09:47:21,648 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=56
+2016-04-06 09:47:21,648 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,648 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.subject
+2016-04-06 09:47:21,648 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=57
+2016-04-06 09:47:21,648 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,658 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.subject.classification
+2016-04-06 09:47:21,658 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=58
+2016-04-06 09:47:21,658 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,658 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.subject.ddc
+2016-04-06 09:47:21,658 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=59
+2016-04-06 09:47:21,658 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,658 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.subject.lcc
+2016-04-06 09:47:21,658 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=60
+2016-04-06 09:47:21,668 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,668 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.subject.lcsh
+2016-04-06 09:47:21,668 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=61
+2016-04-06 09:47:21,668 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,668 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.subject.mesh
+2016-04-06 09:47:21,668 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=62
+2016-04-06 09:47:21,668 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,668 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.subject.other
+2016-04-06 09:47:21,678 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=63
+2016-04-06 09:47:21,678 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,678 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.title
+2016-04-06 09:47:21,678 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=64
+2016-04-06 09:47:21,678 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,678 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.title.alternative
+2016-04-06 09:47:21,678 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=65
+2016-04-06 09:47:21,688 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,688 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.type
+2016-04-06 09:47:21,688 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=66
+2016-04-06 09:47:21,688 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,688 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.provenance
+2016-04-06 09:47:21,688 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=67
+2016-04-06 09:47:21,688 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,688 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.rights.license
+2016-04-06 09:47:21,688 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=68
+2016-04-06 09:47:21,708 INFO  org.dspace.administer.MetadataImporter @ Registering Schema dcterms (http://purl.org/dc/terms/)
+2016-04-06 09:47:21,708 INFO  org.dspace.content.MetadataSchema @ anonymous::create_metadata_schema:metadata_schema_id=2
+2016-04-06 09:47:21,708 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-06 09:47:21,708 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,708 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.abstract
+2016-04-06 09:47:21,708 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=69
+2016-04-06 09:47:21,708 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,708 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.accessRights
+2016-04-06 09:47:21,718 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=70
+2016-04-06 09:47:21,718 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,718 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.accrualMethod
+2016-04-06 09:47:21,718 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=71
+2016-04-06 09:47:21,718 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,718 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.accrualPeriodicity
+2016-04-06 09:47:21,718 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=72
+2016-04-06 09:47:21,728 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,728 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.accrualPolicy
+2016-04-06 09:47:21,728 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=73
+2016-04-06 09:47:21,728 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,728 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.alternative
+2016-04-06 09:47:21,728 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=74
+2016-04-06 09:47:21,738 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,738 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.audience
+2016-04-06 09:47:21,738 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=75
+2016-04-06 09:47:21,738 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,738 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.available
+2016-04-06 09:47:21,738 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=76
+2016-04-06 09:47:21,738 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,738 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.bibliographicCitation
+2016-04-06 09:47:21,738 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=77
+2016-04-06 09:47:21,748 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,748 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.conformsTo
+2016-04-06 09:47:21,748 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=78
+2016-04-06 09:47:21,748 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,748 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.contributor
+2016-04-06 09:47:21,748 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=79
+2016-04-06 09:47:21,758 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,758 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.coverage
+2016-04-06 09:47:21,758 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=80
+2016-04-06 09:47:21,758 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,758 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.created
+2016-04-06 09:47:21,758 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=81
+2016-04-06 09:47:21,758 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,758 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.creator
+2016-04-06 09:47:21,758 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=82
+2016-04-06 09:47:21,768 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,768 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.date
+2016-04-06 09:47:21,768 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=83
+2016-04-06 09:47:21,768 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,768 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.dateAccepted
+2016-04-06 09:47:21,768 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=84
+2016-04-06 09:47:21,768 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,768 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.dateCopyrighted
+2016-04-06 09:47:21,768 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=85
+2016-04-06 09:47:21,778 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,778 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.dateSubmitted
+2016-04-06 09:47:21,778 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=86
+2016-04-06 09:47:21,778 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,778 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.description
+2016-04-06 09:47:21,778 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=87
+2016-04-06 09:47:21,778 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,778 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.educationLevel
+2016-04-06 09:47:21,778 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=88
+2016-04-06 09:47:21,778 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,788 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.extent
+2016-04-06 09:47:21,788 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=89
+2016-04-06 09:47:21,788 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,788 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.format
+2016-04-06 09:47:21,788 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=90
+2016-04-06 09:47:21,788 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,788 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.hasFormat
+2016-04-06 09:47:21,788 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=91
+2016-04-06 09:47:21,788 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,798 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.hasPart
+2016-04-06 09:47:21,798 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=92
+2016-04-06 09:47:21,798 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,798 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.hasVersion
+2016-04-06 09:47:21,798 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=93
+2016-04-06 09:47:21,798 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,798 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.identifier
+2016-04-06 09:47:21,808 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=94
+2016-04-06 09:47:21,808 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,808 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.instructionalMethod
+2016-04-06 09:47:21,808 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=95
+2016-04-06 09:47:21,808 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,808 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.isFormatOf
+2016-04-06 09:47:21,808 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=96
+2016-04-06 09:47:21,808 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,808 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.isPartOf
+2016-04-06 09:47:21,808 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=97
+2016-04-06 09:47:21,818 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,818 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.isReferencedBy
+2016-04-06 09:47:21,818 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=98
+2016-04-06 09:47:21,818 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,818 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.isReplacedBy
+2016-04-06 09:47:21,818 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=99
+2016-04-06 09:47:21,818 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,818 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.isRequiredBy
+2016-04-06 09:47:21,818 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=100
+2016-04-06 09:47:21,828 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,828 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.issued
+2016-04-06 09:47:21,828 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=101
+2016-04-06 09:47:21,828 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,828 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.isVersionOf
+2016-04-06 09:47:21,828 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=102
+2016-04-06 09:47:21,828 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,828 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.language
+2016-04-06 09:47:21,828 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=103
+2016-04-06 09:47:21,838 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,838 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.license
+2016-04-06 09:47:21,838 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=104
+2016-04-06 09:47:21,838 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,838 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.mediator
+2016-04-06 09:47:21,838 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=105
+2016-04-06 09:47:21,848 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,848 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.medium
+2016-04-06 09:47:21,848 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=106
+2016-04-06 09:47:21,848 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,848 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.modified
+2016-04-06 09:47:21,848 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=107
+2016-04-06 09:47:21,858 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,858 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.provenance
+2016-04-06 09:47:21,858 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=108
+2016-04-06 09:47:21,858 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,858 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.publisher
+2016-04-06 09:47:21,858 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=109
+2016-04-06 09:47:21,858 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,858 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.references
+2016-04-06 09:47:21,868 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=110
+2016-04-06 09:47:21,868 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,868 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.relation
+2016-04-06 09:47:21,868 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=111
+2016-04-06 09:47:21,868 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,868 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.replaces
+2016-04-06 09:47:21,868 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=112
+2016-04-06 09:47:21,868 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,878 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.requires
+2016-04-06 09:47:21,878 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=113
+2016-04-06 09:47:21,878 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,878 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.rights
+2016-04-06 09:47:21,878 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=114
+2016-04-06 09:47:21,878 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,888 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.rightsHolder
+2016-04-06 09:47:21,888 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=115
+2016-04-06 09:47:21,888 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,888 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.source
+2016-04-06 09:47:21,888 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=116
+2016-04-06 09:47:21,888 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,888 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.spatial
+2016-04-06 09:47:21,888 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=117
+2016-04-06 09:47:21,898 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,898 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.subject
+2016-04-06 09:47:21,898 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=118
+2016-04-06 09:47:21,898 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,908 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.tableOfContents
+2016-04-06 09:47:21,908 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=119
+2016-04-06 09:47:21,908 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,908 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.temporal
+2016-04-06 09:47:21,908 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=120
+2016-04-06 09:47:21,908 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,908 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.title
+2016-04-06 09:47:21,908 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=121
+2016-04-06 09:47:21,918 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,918 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.type
+2016-04-06 09:47:21,918 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=122
+2016-04-06 09:47:21,918 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,918 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dcterms.valid
+2016-04-06 09:47:21,918 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=123
+2016-04-06 09:47:21,928 INFO  org.dspace.administer.MetadataImporter @ Registering Schema eperson (http://dspace.org/eperson)
+2016-04-06 09:47:21,928 INFO  org.dspace.content.MetadataSchema @ anonymous::create_metadata_schema:metadata_schema_id=3
+2016-04-06 09:47:21,928 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-06 09:47:21,928 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,928 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field eperson.firstname
+2016-04-06 09:47:21,928 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=124
+2016-04-06 09:47:21,928 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,928 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field eperson.lastname
+2016-04-06 09:47:21,928 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=125
+2016-04-06 09:47:21,938 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,938 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field eperson.phone
+2016-04-06 09:47:21,938 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=126
+2016-04-06 09:47:21,938 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,938 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field eperson.language
+2016-04-06 09:47:21,938 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=127
+2016-04-06 09:47:21,948 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,948 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.date.updated
+2016-04-06 09:47:21,948 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=128
+2016-04-06 09:47:21,958 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,958 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.description.version
+2016-04-06 09:47:21,958 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=129
+2016-04-06 09:47:21,958 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,958 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.identifier.slug
+2016-04-06 09:47:21,958 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=130
+2016-04-06 09:47:21,958 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,958 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.language.rfc3066
+2016-04-06 09:47:21,968 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=131
+2016-04-06 09:47:21,968 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,968 INFO  org.dspace.administer.MetadataImporter @ Registering metadata field dc.rights.holder
+2016-04-06 09:47:21,968 INFO  org.dspace.content.MetadataField @ anonymous::create_metadata_field:metadata_field_id=132
+2016-04-06 09:47:21,968 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 09:47:21,968 INFO  org.dspace.storage.rdbms.DatabaseRegistryUpdater @ All Bitstream Format Regitry and Metadata Registry updates were completed.
+2016-04-06 09:47:21,978 INFO  org.dspace.eperson.Group @ anonymous::create_group:group_id=0
+2016-04-06 09:47:21,998 INFO  org.dspace.eperson.Group @ anonymous::update_group:group_id=0
+2016-04-06 09:47:21,998 INFO  org.dspace.eperson.Group @ anonymous::create_group:group_id=1
+2016-04-06 09:47:22,008 INFO  org.dspace.eperson.Group @ anonymous::update_group:group_id=1
+2016-04-06 09:47:22,008 INFO  org.dspace.event.EventManager @ 
+2016-04-06 09:51:34,769 INFO  org.dspace.eperson.EPerson @ anonymous::create_eperson:eperson_id=1
+2016-04-06 09:51:34,789 INFO  org.dspace.eperson.PasswordHash @ Initialized a random number stream using SHA1PRNG provided by SUN version 1.7
+2016-04-06 09:51:34,839 INFO  org.dspace.eperson.EPerson @ anonymous::update_eperson:eperson_id=1
+2016-04-06 09:51:34,899 INFO  org.dspace.eperson.Group @ anonymous::update_group:group_id=1
+2016-04-06 09:58:00,940 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 09:58:00,950 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 09:58:00,980 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 09:58:01,000 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 09:58:01,180 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 09:58:02,410 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-06 09:58:02,480 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-06 09:58:02,480 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-06 09:58:02,480 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-06 09:58:02,480 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-06 09:58:02,480 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-06 09:58:02,480 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-06 09:58:02,480 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-06 09:58:02,480 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-06 09:58:02,480 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-06 10:02:22,624 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 10:02:22,625 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 10:02:22,656 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 10:02:22,691 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 10:02:22,758 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 10:02:23,928 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-06 10:02:23,996 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-06 10:02:23,996 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-06 10:02:23,996 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-06 10:02:23,996 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-06 10:02:23,996 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-06 10:02:23,997 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-06 10:02:23,997 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-06 10:02:23,997 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-06 10:02:23,997 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-06 10:02:56,597 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 10:02:56,597 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 10:02:56,627 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 10:02:56,657 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 10:02:56,857 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 10:02:58,247 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-06 10:02:58,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-06 10:02:58,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-06 10:02:58,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-06 10:02:58,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-06 10:02:58,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-06 10:02:58,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-06 10:02:58,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-06 10:02:58,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-06 10:02:58,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-06 10:09:42,752 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 10:09:42,753 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 10:09:42,781 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 10:09:42,813 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 10:09:42,980 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 10:09:48,377 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 10:09:48,378 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 10:09:48,409 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 10:09:48,439 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 10:09:48,625 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 10:09:49,930 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-06 10:09:50,010 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-06 10:09:50,010 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-06 10:09:50,010 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-06 10:09:50,010 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-06 10:09:50,010 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-06 10:09:50,010 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-06 10:09:50,010 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-06 10:09:50,010 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-06 10:09:50,010 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-06 10:10:15,375 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-06 10:10:15,389 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 10:10:15,407 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=AB52D7C69B12156084105608B33FA582:ip_addr=127.0.0.1:browse_mini:
+2016-04-06 10:10:15,518 ERROR org.dspace.app.webui.components.RecentSubmissionsManager @ caught exception: 
+org.dspace.browse.BrowseException: org.dspace.discovery.SearchServiceException: Expected mime type application/octet-stream but got text/html. <html><head><title>Apache Tomcat/7.0.68 - Informe de Error</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Estado HTTP 404 - /solr/search/select</h1><HR size="1" noshade="noshade"><p><b>type</b> Informe de estado</p><p><b>mensaje</b> <u>/solr/search/select</u></p><p><b>descripción</b> <u>El recurso requerido no está disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.68</h3></body></html>
+	at org.dspace.browse.SolrBrowseDAO.getSolrResponse(SolrBrowseDAO.java:197)
+	at org.dspace.browse.SolrBrowseDAO.doQuery(SolrBrowseDAO.java:291)
+	at org.dspace.browse.BrowseEngine.browseMini(BrowseEngine.java:164)
+	at org.dspace.app.webui.components.RecentSubmissionsManager.getRecentSubmissions(RecentSubmissionsManager.java:89)
+	at org.dspace.app.webui.components.RecentSiteSubmissions.process(RecentSiteSubmissions.java:47)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:141)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.dspace.discovery.SearchServiceException: Expected mime type application/octet-stream but got text/html. <html><head><title>Apache Tomcat/7.0.68 - Informe de Error</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Estado HTTP 404 - /solr/search/select</h1><HR size="1" noshade="noshade"><p><b>type</b> Informe de estado</p><p><b>mensaje</b> <u>/solr/search/select</u></p><p><b>descripción</b> <u>El recurso requerido no está disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.68</h3></body></html>
+	at org.dspace.discovery.SolrServiceImpl.search(SolrServiceImpl.java:1618)
+	at org.dspace.browse.SolrBrowseDAO.getSolrResponse(SolrBrowseDAO.java:192)
+	... 35 more
+Caused by: org.apache.solr.client.solrj.impl.HttpSolrServer$RemoteSolrException: Expected mime type application/octet-stream but got text/html. <html><head><title>Apache Tomcat/7.0.68 - Informe de Error</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Estado HTTP 404 - /solr/search/select</h1><HR size="1" noshade="noshade"><p><b>type</b> Informe de estado</p><p><b>mensaje</b> <u>/solr/search/select</u></p><p><b>descripción</b> <u>El recurso requerido no está disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.68</h3></body></html>
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.executeMethod(HttpSolrServer.java:512)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:210)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:206)
+	at org.apache.solr.client.solrj.request.QueryRequest.process(QueryRequest.java:91)
+	at org.apache.solr.client.solrj.SolrServer.query(SolrServer.java:301)
+	at org.dspace.discovery.SolrServiceImpl.getSolr(SolrServiceImpl.java:160)
+	at org.dspace.discovery.SolrServiceImpl.search(SolrServiceImpl.java:1607)
+	... 36 more
+2016-04-06 10:10:15,521 ERROR org.dspace.jsp @ caught exception: 
+org.dspace.plugin.PluginException: org.dspace.app.webui.components.RecentSubmissionsException: org.dspace.browse.BrowseException: org.dspace.discovery.SearchServiceException: Expected mime type application/octet-stream but got text/html. <html><head><title>Apache Tomcat/7.0.68 - Informe de Error</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Estado HTTP 404 - /solr/search/select</h1><HR size="1" noshade="noshade"><p><b>type</b> Informe de estado</p><p><b>mensaje</b> <u>/solr/search/select</u></p><p><b>descripción</b> <u>El recurso requerido no está disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.68</h3></body></html>
+	at org.dspace.app.webui.components.RecentSiteSubmissions.process(RecentSiteSubmissions.java:53)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:141)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.dspace.app.webui.components.RecentSubmissionsException: org.dspace.browse.BrowseException: org.dspace.discovery.SearchServiceException: Expected mime type application/octet-stream but got text/html. <html><head><title>Apache Tomcat/7.0.68 - Informe de Error</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Estado HTTP 404 - /solr/search/select</h1><HR size="1" noshade="noshade"><p><b>type</b> Informe de estado</p><p><b>mensaje</b> <u>/solr/search/select</u></p><p><b>descripción</b> <u>El recurso requerido no está disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.68</h3></body></html>
+	at org.dspace.app.webui.components.RecentSubmissionsManager.getRecentSubmissions(RecentSubmissionsManager.java:105)
+	at org.dspace.app.webui.components.RecentSiteSubmissions.process(RecentSiteSubmissions.java:47)
+	... 31 more
+Caused by: org.dspace.browse.BrowseException: org.dspace.discovery.SearchServiceException: Expected mime type application/octet-stream but got text/html. <html><head><title>Apache Tomcat/7.0.68 - Informe de Error</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Estado HTTP 404 - /solr/search/select</h1><HR size="1" noshade="noshade"><p><b>type</b> Informe de estado</p><p><b>mensaje</b> <u>/solr/search/select</u></p><p><b>descripción</b> <u>El recurso requerido no está disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.68</h3></body></html>
+	at org.dspace.browse.SolrBrowseDAO.getSolrResponse(SolrBrowseDAO.java:197)
+	at org.dspace.browse.SolrBrowseDAO.doQuery(SolrBrowseDAO.java:291)
+	at org.dspace.browse.BrowseEngine.browseMini(BrowseEngine.java:164)
+	at org.dspace.app.webui.components.RecentSubmissionsManager.getRecentSubmissions(RecentSubmissionsManager.java:89)
+	... 32 more
+Caused by: org.dspace.discovery.SearchServiceException: Expected mime type application/octet-stream but got text/html. <html><head><title>Apache Tomcat/7.0.68 - Informe de Error</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Estado HTTP 404 - /solr/search/select</h1><HR size="1" noshade="noshade"><p><b>type</b> Informe de estado</p><p><b>mensaje</b> <u>/solr/search/select</u></p><p><b>descripción</b> <u>El recurso requerido no está disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.68</h3></body></html>
+	at org.dspace.discovery.SolrServiceImpl.search(SolrServiceImpl.java:1618)
+	at org.dspace.browse.SolrBrowseDAO.getSolrResponse(SolrBrowseDAO.java:192)
+	... 35 more
+Caused by: org.apache.solr.client.solrj.impl.HttpSolrServer$RemoteSolrException: Expected mime type application/octet-stream but got text/html. <html><head><title>Apache Tomcat/7.0.68 - Informe de Error</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Estado HTTP 404 - /solr/search/select</h1><HR size="1" noshade="noshade"><p><b>type</b> Informe de estado</p><p><b>mensaje</b> <u>/solr/search/select</u></p><p><b>descripción</b> <u>El recurso requerido no está disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.68</h3></body></html>
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.executeMethod(HttpSolrServer.java:512)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:210)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:206)
+	at org.apache.solr.client.solrj.request.QueryRequest.process(QueryRequest.java:91)
+	at org.apache.solr.client.solrj.SolrServer.query(SolrServer.java:301)
+	at org.dspace.discovery.SolrServiceImpl.getSolr(SolrServiceImpl.java:160)
+	at org.dspace.discovery.SolrServiceImpl.search(SolrServiceImpl.java:1607)
+	... 36 more
+2016-04-06 10:10:15,529 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=AB52D7C69B12156084105608B33FA582:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error
+-- Method: GET
+-- Parameters were:
+
+org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /index.jsp en línea 59
+
+56:             SiteHomeProcessor[] chp = (SiteHomeProcessor[]) PluginManager.getPluginSequence(SiteHomeProcessor.class);
+57:             for (int i = 0; i < chp.length; i++)
+58:             {
+59:                 chp[i].process(context, request, response);
+60:             }
+61:         }
+62:         catch (Exception e)
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:575)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: org.dspace.plugin.PluginException: org.dspace.app.webui.components.RecentSubmissionsException: org.dspace.browse.BrowseException: org.dspace.discovery.SearchServiceException: Expected mime type application/octet-stream but got text/html. <html><head><title>Apache Tomcat/7.0.68 - Informe de Error</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Estado HTTP 404 - /solr/search/select</h1><HR size="1" noshade="noshade"><p><b>type</b> Informe de estado</p><p><b>mensaje</b> <u>/solr/search/select</u></p><p><b>descripción</b> <u>El recurso requerido no está disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.68</h3></body></html>
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:148)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: org.dspace.plugin.PluginException: org.dspace.app.webui.components.RecentSubmissionsException: org.dspace.browse.BrowseException: org.dspace.discovery.SearchServiceException: Expected mime type application/octet-stream but got text/html. <html><head><title>Apache Tomcat/7.0.68 - Informe de Error</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Estado HTTP 404 - /solr/search/select</h1><HR size="1" noshade="noshade"><p><b>type</b> Informe de estado</p><p><b>mensaje</b> <u>/solr/search/select</u></p><p><b>descripción</b> <u>El recurso requerido no está disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.68</h3></body></html>
+	at org.dspace.app.webui.components.RecentSiteSubmissions.process(RecentSiteSubmissions.java:53)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:141)
+	... 30 more
+Caused by: org.dspace.app.webui.components.RecentSubmissionsException: org.dspace.browse.BrowseException: org.dspace.discovery.SearchServiceException: Expected mime type application/octet-stream but got text/html. <html><head><title>Apache Tomcat/7.0.68 - Informe de Error</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Estado HTTP 404 - /solr/search/select</h1><HR size="1" noshade="noshade"><p><b>type</b> Informe de estado</p><p><b>mensaje</b> <u>/solr/search/select</u></p><p><b>descripción</b> <u>El recurso requerido no está disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.68</h3></body></html>
+	at org.dspace.app.webui.components.RecentSubmissionsManager.getRecentSubmissions(RecentSubmissionsManager.java:105)
+	at org.dspace.app.webui.components.RecentSiteSubmissions.process(RecentSiteSubmissions.java:47)
+	... 31 more
+Caused by: org.dspace.browse.BrowseException: org.dspace.discovery.SearchServiceException: Expected mime type application/octet-stream but got text/html. <html><head><title>Apache Tomcat/7.0.68 - Informe de Error</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Estado HTTP 404 - /solr/search/select</h1><HR size="1" noshade="noshade"><p><b>type</b> Informe de estado</p><p><b>mensaje</b> <u>/solr/search/select</u></p><p><b>descripción</b> <u>El recurso requerido no está disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.68</h3></body></html>
+	at org.dspace.browse.SolrBrowseDAO.getSolrResponse(SolrBrowseDAO.java:197)
+	at org.dspace.browse.SolrBrowseDAO.doQuery(SolrBrowseDAO.java:291)
+	at org.dspace.browse.BrowseEngine.browseMini(BrowseEngine.java:164)
+	at org.dspace.app.webui.components.RecentSubmissionsManager.getRecentSubmissions(RecentSubmissionsManager.java:89)
+	... 32 more
+Caused by: org.dspace.discovery.SearchServiceException: Expected mime type application/octet-stream but got text/html. <html><head><title>Apache Tomcat/7.0.68 - Informe de Error</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Estado HTTP 404 - /solr/search/select</h1><HR size="1" noshade="noshade"><p><b>type</b> Informe de estado</p><p><b>mensaje</b> <u>/solr/search/select</u></p><p><b>descripción</b> <u>El recurso requerido no está disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.68</h3></body></html>
+	at org.dspace.discovery.SolrServiceImpl.search(SolrServiceImpl.java:1618)
+	at org.dspace.browse.SolrBrowseDAO.getSolrResponse(SolrBrowseDAO.java:192)
+	... 35 more
+Caused by: org.apache.solr.client.solrj.impl.HttpSolrServer$RemoteSolrException: Expected mime type application/octet-stream but got text/html. <html><head><title>Apache Tomcat/7.0.68 - Informe de Error</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Estado HTTP 404 - /solr/search/select</h1><HR size="1" noshade="noshade"><p><b>type</b> Informe de estado</p><p><b>mensaje</b> <u>/solr/search/select</u></p><p><b>descripción</b> <u>El recurso requerido no está disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.68</h3></body></html>
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.executeMethod(HttpSolrServer.java:512)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:210)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:206)
+	at org.apache.solr.client.solrj.request.QueryRequest.process(QueryRequest.java:91)
+	at org.apache.solr.client.solrj.SolrServer.query(SolrServer.java:301)
+	at org.dspace.discovery.SolrServiceImpl.getSolr(SolrServiceImpl.java:160)
+	at org.dspace.discovery.SolrServiceImpl.search(SolrServiceImpl.java:1607)
+	... 36 more
+2016-04-06 10:12:29,960 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 10:12:29,960 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 10:12:29,990 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 10:12:30,020 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 10:12:30,190 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 10:12:38,846 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 10:12:38,856 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 10:12:38,886 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 10:12:38,916 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 10:12:39,096 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 10:12:40,786 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-06 10:12:40,856 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-06 10:12:40,856 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-06 10:12:40,856 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-06 10:12:40,856 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-06 10:12:40,856 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-06 10:12:40,856 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-06 10:12:40,856 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-06 10:12:40,856 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-06 10:12:40,856 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-06 10:12:57,330 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-06 10:12:57,348 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 10:12:57,377 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=AB52D7C69B12156084105608B33FA582:ip_addr=127.0.0.1:browse_mini:
+2016-04-06 10:12:57,529 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Post database migration, reindexing all content in Discovery search and browse engine
+2016-04-06 10:12:57,605 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-06 10:12:57,671 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Reindexing is complete
+2016-04-06 10:34:11,635 INFO  org.dspace.core.ConfigurationManager @ Loading from classloader: file:/D:/dspace/config/dspace.cfg
+2016-04-06 10:34:11,655 INFO  org.dspace.core.ConfigurationManager @ Using dspace provided log configuration (log.init.config)
+2016-04-06 10:34:11,655 INFO  org.dspace.core.ConfigurationManager @ Loading: D:/projects/dspace/git/dspace/config/log4j.properties
+2016-04-06 10:34:13,945 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 10:34:13,945 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 10:34:13,974 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 10:34:14,006 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 10:34:14,058 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 10:35:25,111 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 10:35:25,131 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-06 10:35:25,151 INFO  org.dspace.eperson.PasswordHash @ Initialized a random number stream using SHA1PRNG provided by SUN version 1.7
+2016-04-06 10:35:25,171 INFO  org.dspace.eperson.EPerson @ anonymous::update_eperson:eperson_id=1
+2016-04-06 10:35:25,191 INFO  org.dspace.eperson.Group @ anonymous::update_group:group_id=1
+2016-04-06 10:35:25,191 INFO  org.dspace.event.EventManager @ 
+2016-04-06 10:39:19,131 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 10:39:19,131 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 10:39:19,161 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 10:39:19,201 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 10:39:19,341 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 10:39:28,042 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 10:39:28,042 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 10:39:28,072 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 10:39:28,102 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 10:39:28,602 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 10:39:30,249 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-06 10:39:30,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-06 10:39:30,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-06 10:39:30,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-06 10:39:30,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-06 10:39:30,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-06 10:39:30,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-06 10:39:30,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-06 10:39:30,327 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-06 10:39:30,328 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-06 10:40:00,650 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-06 10:40:00,695 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 10:40:00,769 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=AB52D7C69B12156084105608B33FA582:ip_addr=127.0.0.1:browse_mini:
+2016-04-06 10:40:01,020 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-06 10:58:04,396 INFO  org.dspace.core.ConfigurationManager @ Loading from classloader: file:/D:/dspace/config/dspace.cfg
+2016-04-06 10:58:04,416 INFO  org.dspace.core.ConfigurationManager @ Using dspace provided log configuration (log.init.config)
+2016-04-06 10:58:04,416 INFO  org.dspace.core.ConfigurationManager @ Loading: D:/projects/dspace/git/dspace/config/log4j.properties
+2016-04-06 10:58:06,644 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 10:58:06,644 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 10:58:06,680 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 10:58:06,715 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 10:58:06,776 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 10:58:06,786 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2016-04-06 10:58:31,827 INFO  org.dspace.eperson.EPerson @ anonymous::create_eperson:eperson_id=2
+2016-04-06 10:58:31,907 INFO  org.dspace.eperson.PasswordHash @ Initialized a random number stream using SHA1PRNG provided by SUN version 1.7
+2016-04-06 10:58:31,947 INFO  org.dspace.eperson.EPerson @ anonymous::update_eperson:eperson_id=2
+2016-04-06 10:58:31,977 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-06 10:58:32,027 INFO  org.dspace.eperson.Group @ anonymous::update_group:group_id=1
+2016-04-06 10:58:32,037 INFO  org.dspace.event.EventManager @ 
+2016-04-06 10:59:57,434 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 10:59:57,434 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 10:59:57,474 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 10:59:57,504 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 10:59:57,654 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 11:00:06,385 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 11:00:06,385 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 11:00:06,415 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 11:00:06,445 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 11:00:06,955 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 11:00:08,474 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-06 11:00:08,544 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-06 11:00:08,544 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-06 11:00:08,544 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-06 11:00:08,544 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-06 11:00:08,544 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-06 11:00:08,544 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-06 11:00:08,544 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-06 11:00:08,544 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-06 11:00:08,544 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-06 11:15:44,890 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 11:15:44,890 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 11:15:44,920 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 11:15:44,950 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 11:15:45,100 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 11:15:53,521 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 11:15:53,523 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 11:15:53,552 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 11:15:53,580 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 11:15:53,766 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 11:15:55,513 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-06 11:15:55,589 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-06 11:15:55,589 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-06 11:15:55,589 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-06 11:15:55,589 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-06 11:15:55,590 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-06 11:15:55,590 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-06 11:15:55,590 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-06 11:15:55,590 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-06 11:15:55,591 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-06 11:16:03,535 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=EC96DDA4F32688AD43D5FC7A1424C874:ip_addr=127.0.0.1:authenticate:attempting password auth of user=
+2016-04-06 11:16:03,606 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=EC96DDA4F32688AD43D5FC7A1424C874:ip_addr=127.0.0.1:failed_login:email=, result=4
+2016-04-06 11:39:35,434 INFO  org.dspace.core.ConfigurationManager @ Loading from classloader: file:/D:/app/config/dspace.cfg
+2016-04-06 11:39:35,474 INFO  org.dspace.core.ConfigurationManager @ Using dspace provided log configuration (log.init.config)
+2016-04-06 11:39:35,474 INFO  org.dspace.core.ConfigurationManager @ Loading: D:/projects/dspace/git/dspace/config/log4j.properties
+2016-04-06 11:39:37,702 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2016-04-06 11:39:37,797 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 11:39:37,797 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 11:39:37,830 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 11:39:37,880 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 11:39:37,944 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 11:39:54,003 INFO  org.dspace.eperson.EPerson @ anonymous::create_eperson:eperson_id=3
+2016-04-06 11:39:54,093 INFO  org.dspace.eperson.PasswordHash @ Initialized a random number stream using SHA1PRNG provided by SUN version 1.7
+2016-04-06 11:39:54,153 INFO  org.dspace.eperson.EPerson @ anonymous::update_eperson:eperson_id=3
+2016-04-06 11:39:54,193 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-06 11:39:54,253 INFO  org.dspace.eperson.Group @ anonymous::update_group:group_id=1
+2016-04-06 11:39:54,253 INFO  org.dspace.event.EventManager @ 
+2016-04-06 11:43:43,693 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 11:43:43,693 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 11:43:43,723 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 11:43:43,753 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 11:43:43,893 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 11:43:53,758 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 11:43:53,760 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 11:43:53,788 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 11:43:53,817 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 11:43:54,005 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 11:43:55,819 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-06 11:43:55,929 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-06 11:43:55,929 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-06 11:43:55,929 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-06 11:43:55,929 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-06 11:43:55,929 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-06 11:43:55,929 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-06 11:43:55,929 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-06 11:43:55,929 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-06 11:43:55,929 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-06 11:44:15,414 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-06 11:44:15,424 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 11:44:15,451 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=EC96DDA4F32688AD43D5FC7A1424C874:ip_addr=127.0.0.1:browse_mini:
+2016-04-06 11:44:15,639 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-06 12:24:51,161 INFO  org.dspace.core.ConfigurationManager @ Loading from classloader: file:/D:/app/config/dspace.cfg
+2016-04-06 12:24:51,201 INFO  org.dspace.core.ConfigurationManager @ Using dspace provided log configuration (log.init.config)
+2016-04-06 12:24:51,201 INFO  org.dspace.core.ConfigurationManager @ Loading: D:/projects/dspace/git/dspace/config/log4j.properties
+2016-04-06 12:24:53,791 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 12:24:53,791 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 12:24:53,831 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 12:24:53,861 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 12:24:53,911 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 12:25:05,541 INFO  org.dspace.eperson.EPerson @ anonymous::create_eperson:eperson_id=4
+2016-04-06 12:25:05,621 INFO  org.dspace.eperson.PasswordHash @ Initialized a random number stream using SHA1PRNG provided by SUN version 1.7
+2016-04-06 12:25:05,681 INFO  org.dspace.eperson.EPerson @ anonymous::update_eperson:eperson_id=4
+2016-04-06 12:25:05,711 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-06 12:25:05,761 INFO  org.dspace.eperson.Group @ anonymous::update_group:group_id=1
+2016-04-06 12:25:05,761 INFO  org.dspace.event.EventManager @ 
+2016-04-06 12:27:02,449 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 12:27:02,459 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 12:27:02,479 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 12:27:02,499 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2016-04-06 12:27:02,509 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 12:27:02,671 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 12:27:14,974 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 12:27:14,975 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 12:27:15,004 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 12:27:15,034 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 12:27:15,197 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 12:27:16,760 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-06 12:27:16,860 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-06 12:27:16,860 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-06 12:27:16,860 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-06 12:27:16,860 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-06 12:27:16,860 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-06 12:27:16,860 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-06 12:27:16,860 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-06 12:27:16,860 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-06 12:27:16,861 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-06 12:27:25,831 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-06 12:27:25,845 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 12:27:25,872 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=066540773F764F878419FF7CD6E4DF73:ip_addr=127.0.0.1:browse_mini:
+2016-04-06 12:27:26,104 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-06 19:15:27,876 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=E6FAB6C4525DEF7E6F8A112D129053C4:ip_addr=127.0.0.1:browse_mini:
+2016-04-06 19:15:27,950 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-06 19:20:50,201 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 19:20:50,281 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 19:23:27,682 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2016-04-06 19:23:27,732 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 19:23:27,732 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 19:23:27,762 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 19:23:27,792 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 19:23:27,862 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 19:23:32,867 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 19:23:32,947 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 19:23:37,058 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 19:23:37,058 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 19:23:37,088 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 19:23:37,118 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 19:23:37,168 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 19:23:43,713 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 19:23:43,713 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 19:23:43,743 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 19:23:43,763 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 19:23:43,813 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 19:25:31,841 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 19:25:31,841 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 19:25:31,871 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 19:25:31,891 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 19:25:31,941 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 19:25:36,605 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 19:25:36,688 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 19:25:40,261 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 19:25:40,261 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 19:25:40,291 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 19:25:40,321 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 19:25:40,371 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 19:25:44,432 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 19:25:44,432 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 19:25:44,462 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 19:25:44,502 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 19:25:44,542 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 19:26:29,112 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2016-04-06 19:26:29,232 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 19:26:29,232 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 19:26:29,262 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 19:26:29,292 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 19:26:29,342 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 19:26:34,151 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 19:26:34,221 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 19:26:37,817 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 19:26:37,817 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 19:26:37,847 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 19:26:37,877 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 19:26:37,917 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 19:26:42,022 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 19:26:42,022 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 19:26:42,052 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 19:26:42,072 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 19:26:42,112 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 19:31:50,639 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 19:31:50,639 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 19:31:50,669 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 19:31:50,699 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 19:31:50,739 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 19:31:58,609 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-06 19:31:58,609 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-06 19:31:58,639 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-06 19:31:58,669 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-06 19:31:58,719 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-06 19:32:00,211 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-06 19:32:00,291 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-06 19:32:00,291 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-06 19:32:00,291 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-06 19:32:00,301 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-06 19:32:00,301 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-06 19:32:00,301 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-06 19:32:00,301 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-06 19:32:00,301 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-06 19:32:00,301 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-06 19:40:59,736 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=78C6CEDDBCAED2FD39757B66CF9D2BBF:ip_addr=127.0.0.1:authenticate:attempting password auth of user=miguel
+2016-04-06 19:40:59,835 INFO  org.dspace.authenticate.PasswordAuthentication @ miguel:session_id=78C6CEDDBCAED2FD39757B66CF9D2BBF:ip_addr=127.0.0.1:authenticate:type=PasswordAuthentication
+2016-04-06 19:40:59,841 INFO  org.dspace.eperson.EPerson @ miguel:session_id=78C6CEDDBCAED2FD39757B66CF9D2BBF:ip_addr=127.0.0.1:update_eperson:eperson_id=4
+2016-04-06 19:40:59,892 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-06 19:40:59,913 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-06 19:40:59,926 INFO  org.dspace.app.webui.servlet.PasswordServlet @ miguel:session_id=78C6CEDDBCAED2FD39757B66CF9D2BBF:ip_addr=127.0.0.1:login:type=explicit
+2016-04-06 19:40:59,937 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ miguel:session_id=EA63C511FE103251696D47795287C7A8:ip_addr=127.0.0.1:view_mydspace:
+2016-04-06 19:41:00,034 INFO  org.dspace.app.itemimport.ItemImport @ Created org.dspace.app.batchitemimport.work.dir of: D:/projects/dspace/git/dspace/imports
+2016-04-06 19:41:18,150 INFO  org.dspace.app.webui.servlet.LogoutServlet @ miguel:session_id=EA63C511FE103251696D47795287C7A8:ip_addr=127.0.0.1:logout:
+2016-04-06 20:11:26,449 INFO  org.dspace.app.webui.servlet.LogoutServlet @ anonymous:session_id=0794F14331D90018878A67783E26A9C4:ip_addr=127.0.0.1:logout:

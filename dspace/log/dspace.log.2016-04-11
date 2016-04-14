@@ -1,0 +1,760 @@
+2016-04-11 12:26:41,185 WARN  org.dspace.storage.rdbms.DataSourceInit @ Exception initializing DB pool
+org.postgresql.util.PSQLException: Conexión rechazada. Verifique que el nombre del Host y el puerto sean correctos y que postmaster este aceptando conexiones TCP/IP.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:138)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:75)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:974)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.dspace.storage.rdbms.DataSourceInit.getDatasource(DataSourceInit.java:140)
+	at org.dspace.storage.rdbms.DatabaseManager.initDataSource(DatabaseManager.java:1440)
+	at org.dspace.storage.rdbms.DatabaseManager.initialize(DatabaseManager.java:1333)
+	at org.dspace.storage.rdbms.DatabaseManager.getDataSource(DatabaseManager.java:650)
+	at org.dspace.storage.rdbms.DatabaseManager.getConnection(DatabaseManager.java:629)
+	at org.dspace.core.Context.init(Context.java:121)
+	at org.dspace.core.Context.<init>(Context.java:95)
+	at org.dspace.app.util.AbstractDSpaceWebapp.register(AbstractDSpaceWebapp.java:79)
+	at org.dspace.app.util.DSpaceContextListener.contextInitialized(DSpaceContextListener.java:128)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5068)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5584)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1259)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1998)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:62)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:76)
+	... 36 more
+2016-04-11 12:26:41,185 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL getDataSource Error - 
+java.sql.SQLException: org.postgresql.util.PSQLException: Conexión rechazada. Verifique que el nombre del Host y el puerto sean correctos y que postmaster este aceptando conexiones TCP/IP.
+	at org.dspace.storage.rdbms.DataSourceInit.getDatasource(DataSourceInit.java:171)
+	at org.dspace.storage.rdbms.DatabaseManager.initDataSource(DatabaseManager.java:1440)
+	at org.dspace.storage.rdbms.DatabaseManager.initialize(DatabaseManager.java:1333)
+	at org.dspace.storage.rdbms.DatabaseManager.getDataSource(DatabaseManager.java:650)
+	at org.dspace.storage.rdbms.DatabaseManager.getConnection(DatabaseManager.java:629)
+	at org.dspace.core.Context.init(Context.java:121)
+	at org.dspace.core.Context.<init>(Context.java:95)
+	at org.dspace.app.util.AbstractDSpaceWebapp.register(AbstractDSpaceWebapp.java:79)
+	at org.dspace.app.util.DSpaceContextListener.contextInitialized(DSpaceContextListener.java:128)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5068)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5584)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1259)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1998)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.postgresql.util.PSQLException: Conexión rechazada. Verifique que el nombre del Host y el puerto sean correctos y que postmaster este aceptando conexiones TCP/IP.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:138)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:75)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:974)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.dspace.storage.rdbms.DataSourceInit.getDatasource(DataSourceInit.java:140)
+	... 21 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:62)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:76)
+	... 36 more
+2016-04-11 12:26:43,470 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL getDataSource Error - 
+org.postgresql.util.PSQLException: Conexión rechazada. Verifique que el nombre del Host y el puerto sean correctos y que postmaster este aceptando conexiones TCP/IP.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:138)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:75)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:974)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.dspace.storage.rdbms.DatabaseManager.initialize(DatabaseManager.java:1336)
+	at org.dspace.storage.rdbms.DatabaseManager.getDataSource(DatabaseManager.java:650)
+	at org.dspace.storage.rdbms.DatabaseManager.getConnection(DatabaseManager.java:629)
+	at org.dspace.core.Context.init(Context.java:121)
+	at org.dspace.core.Context.<init>(Context.java:95)
+	at org.dspace.app.util.AbstractDSpaceWebapp.deregister(AbstractDSpaceWebapp.java:97)
+	at org.dspace.app.util.DSpaceContextListener.contextDestroyed(DSpaceContextListener.java:146)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5115)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5779)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:159)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1259)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1998)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:62)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:76)
+	... 35 more
+2016-04-11 12:26:53,986 WARN  org.dspace.storage.rdbms.DataSourceInit @ Exception initializing DB pool
+org.postgresql.util.PSQLException: Conexión rechazada. Verifique que el nombre del Host y el puerto sean correctos y que postmaster este aceptando conexiones TCP/IP.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:138)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:75)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:974)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.dspace.storage.rdbms.DataSourceInit.getDatasource(DataSourceInit.java:140)
+	at org.dspace.storage.rdbms.DatabaseManager.initDataSource(DatabaseManager.java:1440)
+	at org.dspace.storage.rdbms.DatabaseManager.initialize(DatabaseManager.java:1333)
+	at org.dspace.storage.rdbms.DatabaseManager.getDataSource(DatabaseManager.java:650)
+	at org.dspace.storage.rdbms.DatabaseManager.getConnection(DatabaseManager.java:629)
+	at org.dspace.core.Context.init(Context.java:121)
+	at org.dspace.core.Context.<init>(Context.java:95)
+	at org.dspace.app.util.AbstractDSpaceWebapp.register(AbstractDSpaceWebapp.java:79)
+	at org.dspace.app.util.DSpaceContextListener.contextInitialized(DSpaceContextListener.java:128)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5068)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5584)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1259)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1998)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:62)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:76)
+	... 36 more
+2016-04-11 12:26:53,986 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL getDataSource Error - 
+java.sql.SQLException: org.postgresql.util.PSQLException: Conexión rechazada. Verifique que el nombre del Host y el puerto sean correctos y que postmaster este aceptando conexiones TCP/IP.
+	at org.dspace.storage.rdbms.DataSourceInit.getDatasource(DataSourceInit.java:171)
+	at org.dspace.storage.rdbms.DatabaseManager.initDataSource(DatabaseManager.java:1440)
+	at org.dspace.storage.rdbms.DatabaseManager.initialize(DatabaseManager.java:1333)
+	at org.dspace.storage.rdbms.DatabaseManager.getDataSource(DatabaseManager.java:650)
+	at org.dspace.storage.rdbms.DatabaseManager.getConnection(DatabaseManager.java:629)
+	at org.dspace.core.Context.init(Context.java:121)
+	at org.dspace.core.Context.<init>(Context.java:95)
+	at org.dspace.app.util.AbstractDSpaceWebapp.register(AbstractDSpaceWebapp.java:79)
+	at org.dspace.app.util.DSpaceContextListener.contextInitialized(DSpaceContextListener.java:128)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5068)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5584)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1259)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1998)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.postgresql.util.PSQLException: Conexión rechazada. Verifique que el nombre del Host y el puerto sean correctos y que postmaster este aceptando conexiones TCP/IP.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:138)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:75)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:974)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.dspace.storage.rdbms.DataSourceInit.getDatasource(DataSourceInit.java:140)
+	... 21 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:62)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:76)
+	... 36 more
+2016-04-11 12:26:57,572 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL getDataSource Error - 
+org.postgresql.util.PSQLException: Conexión rechazada. Verifique que el nombre del Host y el puerto sean correctos y que postmaster este aceptando conexiones TCP/IP.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:138)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:75)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:974)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.dspace.storage.rdbms.DatabaseManager.initialize(DatabaseManager.java:1336)
+	at org.dspace.storage.rdbms.DatabaseManager.getDataSource(DatabaseManager.java:650)
+	at org.dspace.storage.rdbms.DatabaseManager.getConnection(DatabaseManager.java:629)
+	at org.dspace.core.Context.init(Context.java:121)
+	at org.dspace.core.Context.<init>(Context.java:95)
+	at org.dspace.app.util.AbstractDSpaceWebapp.deregister(AbstractDSpaceWebapp.java:97)
+	at org.dspace.app.util.DSpaceContextListener.contextDestroyed(DSpaceContextListener.java:146)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5115)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5779)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:159)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1259)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1998)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:62)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:76)
+	... 35 more
+2016-04-11 12:30:03,211 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-11 12:30:03,212 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-11 12:30:03,241 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-11 12:30:03,277 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-11 12:30:03,442 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-11 12:30:11,604 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-11 12:30:11,604 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-11 12:30:11,635 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-11 12:30:11,667 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-11 12:30:11,886 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-11 12:30:13,725 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-11 12:30:13,803 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-11 12:30:13,803 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-11 12:30:13,803 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-11 12:30:13,803 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-11 12:30:13,803 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-11 12:30:13,803 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-11 12:30:13,803 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-11 12:30:13,803 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-11 12:30:13,819 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-11 12:35:19,055 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-11 12:35:19,055 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-11 12:35:19,087 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-11 12:35:19,122 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-11 12:35:19,269 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-11 12:35:27,719 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-11 12:35:27,720 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-11 12:35:27,751 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-11 12:35:27,783 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-11 12:35:27,959 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-11 12:35:29,700 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-11 12:35:29,763 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-11 12:35:29,763 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-11 12:35:29,763 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-11 12:35:29,763 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-11 12:35:29,763 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-11 12:35:29,763 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-11 12:35:29,763 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-11 12:35:29,763 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-11 12:35:29,763 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-11 12:35:53,123 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-11 12:35:53,134 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-11 12:35:53,159 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=894752C7C3DAB3F988EA6488CEE510EC:ip_addr=127.0.0.1:browse_mini:
+2016-04-11 12:35:53,333 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-11 12:42:45,943 INFO  org.dspace.app.webui.servlet.RegisterServlet @ anonymous:session_id=894752C7C3DAB3F988EA6488CEE510EC:ip_addr=127.0.0.1:sendtoken_register:email=migueloscarap@gmail.com
+2016-04-11 12:42:50,081 INFO  org.dspace.app.webui.servlet.RegisterServlet @ anonymous:session_id=894752C7C3DAB3F988EA6488CEE510EC:ip_addr=127.0.0.1:error_emailing:email=migueloscarap@gmail.com
+javax.mail.MessagingException: Unknown SMTP host: smtp.example.com;
+  nested exception is:
+	java.net.UnknownHostException: smtp.example.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1280)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:370)
+	at javax.mail.Service.connect(Service.java:275)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.eperson.AccountManager.sendEmail(AccountManager.java:262)
+	at org.dspace.eperson.AccountManager.sendInfo(AccountManager.java:222)
+	at org.dspace.eperson.AccountManager.sendRegistrationInfo(AccountManager.java:67)
+	at org.dspace.app.webui.servlet.RegisterServlet.processEnterEmail(RegisterServlet.java:260)
+	at org.dspace.app.webui.servlet.RegisterServlet.doDSPost(RegisterServlet.java:172)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:115)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.UnknownHostException: smtp.example.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:232)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:189)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1250)
+	... 40 more
+2016-04-11 13:09:57,687 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=894752C7C3DAB3F988EA6488CEE510EC:ip_addr=127.0.0.1:authenticate:attempting password auth of user=miguel@gmail.com
+2016-04-11 13:09:57,911 INFO  org.dspace.authenticate.PasswordAuthentication @ miguel@gmail.com:session_id=894752C7C3DAB3F988EA6488CEE510EC:ip_addr=127.0.0.1:authenticate:type=PasswordAuthentication
+2016-04-11 13:09:57,915 INFO  org.dspace.eperson.EPerson @ miguel@gmail.com:session_id=894752C7C3DAB3F988EA6488CEE510EC:ip_addr=127.0.0.1:update_eperson:eperson_id=3
+2016-04-11 13:09:57,964 INFO  org.dspace.app.webui.servlet.PasswordServlet @ miguel@gmail.com:session_id=894752C7C3DAB3F988EA6488CEE510EC:ip_addr=127.0.0.1:login:type=explicit
+2016-04-11 13:09:57,976 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ miguel@gmail.com:session_id=B8031117E775C3B16C37F763034FD450:ip_addr=127.0.0.1:view_mydspace:
+2016-04-11 13:10:07,742 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ miguel@gmail.com:session_id=B8031117E775C3B16C37F763034FD450:ip_addr=127.0.0.1:view_mydspace:
+2016-04-11 13:10:08,597 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ miguel@gmail.com:session_id=B8031117E775C3B16C37F763034FD450:ip_addr=127.0.0.1:view_own_submissions:count=0
+2016-04-11 13:10:14,849 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ miguel@gmail.com:session_id=B8031117E775C3B16C37F763034FD450:ip_addr=127.0.0.1:view_mydspace:
+2016-04-11 13:16:42,229 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL connection Error - 
+org.postgresql.util.PSQLException: Conexión rechazada. Verifique que el nombre del Host y el puerto sean correctos y que postmaster este aceptando conexiones TCP/IP.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:138)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:75)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:974)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.dspace.storage.rdbms.DatabaseManager.getConnection(DatabaseManager.java:634)
+	at org.dspace.core.Context.init(Context.java:121)
+	at org.dspace.core.Context.<init>(Context.java:95)
+	at org.dspace.app.util.AbstractDSpaceWebapp.deregister(AbstractDSpaceWebapp.java:97)
+	at org.dspace.app.util.DSpaceContextListener.contextDestroyed(DSpaceContextListener.java:146)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5115)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5779)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1588)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1577)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:62)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:76)
+	... 28 more
+2016-04-11 13:16:42,229 ERROR org.dspace.app.util.AbstractDSpaceWebapp @ Failed to record shutdown in Webapp table.
+org.postgresql.util.PSQLException: Conexión rechazada. Verifique que el nombre del Host y el puerto sean correctos y que postmaster este aceptando conexiones TCP/IP.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:138)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:75)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:974)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.dspace.storage.rdbms.DatabaseManager.getConnection(DatabaseManager.java:634)
+	at org.dspace.core.Context.init(Context.java:121)
+	at org.dspace.core.Context.<init>(Context.java:95)
+	at org.dspace.app.util.AbstractDSpaceWebapp.deregister(AbstractDSpaceWebapp.java:97)
+	at org.dspace.app.util.DSpaceContextListener.contextDestroyed(DSpaceContextListener.java:146)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5115)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5779)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1588)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1577)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:62)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:76)
+	... 28 more
+2016-04-11 13:16:44,679 ERROR org.dspace.storage.rdbms.DatabaseManager @ SQL connection Error - 
+org.postgresql.util.PSQLException: Conexión rechazada. Verifique que el nombre del Host y el puerto sean correctos y que postmaster este aceptando conexiones TCP/IP.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:138)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:75)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:974)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.dspace.storage.rdbms.DatabaseManager.getConnection(DatabaseManager.java:634)
+	at org.dspace.core.Context.init(Context.java:121)
+	at org.dspace.core.Context.<init>(Context.java:95)
+	at org.dspace.app.util.AbstractDSpaceWebapp.deregister(AbstractDSpaceWebapp.java:97)
+	at org.dspace.app.util.DSpaceContextListener.contextDestroyed(DSpaceContextListener.java:146)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5115)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5779)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1588)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1577)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:62)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:76)
+	... 28 more
+2016-04-11 13:16:44,679 ERROR org.dspace.app.util.AbstractDSpaceWebapp @ Failed to record shutdown in Webapp table.
+org.postgresql.util.PSQLException: Conexión rechazada. Verifique que el nombre del Host y el puerto sean correctos y que postmaster este aceptando conexiones TCP/IP.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:138)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at org.apache.commons.dbcp.DriverManagerConnectionFactory.createConnection(DriverManagerConnectionFactory.java:75)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:974)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.dspace.storage.rdbms.DatabaseManager.getConnection(DatabaseManager.java:634)
+	at org.dspace.core.Context.init(Context.java:121)
+	at org.dspace.core.Context.<init>(Context.java:95)
+	at org.dspace.app.util.AbstractDSpaceWebapp.deregister(AbstractDSpaceWebapp.java:97)
+	at org.dspace.app.util.DSpaceContextListener.contextDestroyed(DSpaceContextListener.java:146)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5115)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5779)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1588)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1577)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:62)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:76)
+	... 28 more
+2016-04-11 16:33:13,837 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-11 16:33:13,837 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-11 16:33:13,869 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-11 16:33:13,915 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-11 16:33:14,746 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-11 16:33:23,359 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-11 16:33:23,359 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-11 16:33:23,391 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-11 16:33:23,422 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-11 16:33:23,906 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-11 16:33:25,281 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-11 16:33:25,375 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-11 16:33:25,375 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-11 16:33:25,375 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-11 16:33:25,375 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-11 16:33:25,375 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-11 16:33:25,375 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-11 16:33:25,375 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-11 16:33:25,375 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-11 16:33:25,375 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-11 16:33:47,601 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=395B4E13932CCA1BFB77265EF3D6E4F8:ip_addr=127.0.0.1:authenticate:attempting password auth of user=miguel@gmail.com
+2016-04-11 16:33:47,727 INFO  org.dspace.authenticate.PasswordAuthentication @ miguel@gmail.com:session_id=395B4E13932CCA1BFB77265EF3D6E4F8:ip_addr=127.0.0.1:authenticate:type=PasswordAuthentication
+2016-04-11 16:33:47,734 INFO  org.dspace.eperson.EPerson @ miguel@gmail.com:session_id=395B4E13932CCA1BFB77265EF3D6E4F8:ip_addr=127.0.0.1:update_eperson:eperson_id=3
+2016-04-11 16:33:47,795 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-11 16:33:47,818 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-11 16:33:47,832 INFO  org.dspace.app.webui.servlet.PasswordServlet @ miguel@gmail.com:session_id=395B4E13932CCA1BFB77265EF3D6E4F8:ip_addr=127.0.0.1:login:type=explicit
+2016-04-11 16:33:47,843 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ miguel@gmail.com:session_id=5C9FE44D0C737DB603984ED3F3B6EA45:ip_addr=127.0.0.1:view_mydspace:
+2016-04-11 16:33:51,354 INFO  org.dspace.app.webui.servlet.LogoutServlet @ miguel@gmail.com:session_id=5C9FE44D0C737DB603984ED3F3B6EA45:ip_addr=127.0.0.1:logout:
+2016-04-11 16:34:00,881 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=5C9FE44D0C737DB603984ED3F3B6EA45:ip_addr=127.0.0.1:authenticate:attempting password auth of user=ghhjgkhjgjhg
+2016-04-11 16:34:00,884 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=5C9FE44D0C737DB603984ED3F3B6EA45:ip_addr=127.0.0.1:failed_login:email=ghhjgkhjgjhg, result=4
+2016-04-11 16:34:10,754 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=5C9FE44D0C737DB603984ED3F3B6EA45:ip_addr=127.0.0.1:authenticate:attempting password auth of user=kjlklkjlk@gmail.com
+2016-04-11 16:34:10,756 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=5C9FE44D0C737DB603984ED3F3B6EA45:ip_addr=127.0.0.1:failed_login:email=kjlklkjlk@gmail.com, result=4
+2016-04-11 16:36:16,908 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=5C9FE44D0C737DB603984ED3F3B6EA45:ip_addr=127.0.0.1:authenticate:attempting password auth of user=miguel@gmail.com
+2016-04-11 16:36:16,923 INFO  org.dspace.authenticate.PasswordAuthentication @ miguel@gmail.com:session_id=5C9FE44D0C737DB603984ED3F3B6EA45:ip_addr=127.0.0.1:authenticate:type=PasswordAuthentication
+2016-04-11 16:36:16,926 INFO  org.dspace.eperson.EPerson @ miguel@gmail.com:session_id=5C9FE44D0C737DB603984ED3F3B6EA45:ip_addr=127.0.0.1:update_eperson:eperson_id=3
+2016-04-11 16:36:16,935 INFO  org.dspace.app.webui.servlet.PasswordServlet @ miguel@gmail.com:session_id=5C9FE44D0C737DB603984ED3F3B6EA45:ip_addr=127.0.0.1:login:type=explicit
+2016-04-11 16:36:17,046 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ miguel@gmail.com:session_id=36322F8C8AC521DAAD5E481F70889089:ip_addr=127.0.0.1:view_mydspace:
+2016-04-11 16:36:20,166 INFO  org.dspace.app.webui.servlet.LogoutServlet @ miguel@gmail.com:session_id=36322F8C8AC521DAAD5E481F70889089:ip_addr=127.0.0.1:logout:
+2016-04-11 16:56:07,260 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-11 16:56:07,275 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-11 16:56:07,291 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-11 16:56:07,322 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-11 16:56:07,479 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-11 16:56:15,942 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-11 16:56:15,942 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-11 16:56:15,973 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-11 16:56:16,005 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-11 16:56:16,255 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-11 16:56:18,567 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-11 16:56:18,646 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-11 16:56:18,646 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-11 16:56:18,646 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-11 16:56:18,646 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-11 16:56:18,646 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-11 16:56:18,646 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-11 16:56:18,646 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-11 16:56:18,646 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-11 16:56:18,646 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-11 17:21:45,729 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-11 17:21:45,730 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-11 17:21:45,761 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-11 17:21:45,793 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-11 17:21:45,948 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-11 17:21:49,650 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2016-04-11 17:21:54,469 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-11 17:21:54,470 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-11 17:21:54,498 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-11 17:21:54,527 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-11 17:21:55,030 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-11 17:21:56,721 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-11 17:21:56,794 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-11 17:21:56,794 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-11 17:21:56,795 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-11 17:21:56,795 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-11 17:21:56,795 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-11 17:21:56,795 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-11 17:21:56,795 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-11 17:21:56,795 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-11 17:21:56,795 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-11 17:22:15,312 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=36322F8C8AC521DAAD5E481F70889089:ip_addr=127.0.0.1:authenticate:attempting password auth of user=miguel@gmail.com
+2016-04-11 17:22:15,419 INFO  org.dspace.authenticate.PasswordAuthentication @ miguel@gmail.com:session_id=36322F8C8AC521DAAD5E481F70889089:ip_addr=127.0.0.1:authenticate:type=PasswordAuthentication
+2016-04-11 17:22:15,422 INFO  org.dspace.eperson.EPerson @ miguel@gmail.com:session_id=36322F8C8AC521DAAD5E481F70889089:ip_addr=127.0.0.1:update_eperson:eperson_id=3
+2016-04-11 17:22:15,497 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-11 17:22:15,514 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-11 17:22:15,523 INFO  org.dspace.app.webui.servlet.PasswordServlet @ miguel@gmail.com:session_id=36322F8C8AC521DAAD5E481F70889089:ip_addr=127.0.0.1:login:type=explicit
+2016-04-11 17:22:15,533 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ miguel@gmail.com:session_id=8203FEC6E718C9E55177C292DF8BA1CA:ip_addr=127.0.0.1:view_mydspace:
+2016-04-11 17:22:39,724 INFO  org.dspace.app.webui.servlet.LogoutServlet @ miguel@gmail.com:session_id=8203FEC6E718C9E55177C292DF8BA1CA:ip_addr=127.0.0.1:logout:
+2016-04-11 17:22:48,338 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=8203FEC6E718C9E55177C292DF8BA1CA:ip_addr=127.0.0.1:authenticate:attempting password auth of user=miguel@gmail.com
+2016-04-11 17:22:48,347 INFO  org.dspace.authenticate.PasswordAuthentication @ miguel@gmail.com:session_id=8203FEC6E718C9E55177C292DF8BA1CA:ip_addr=127.0.0.1:authenticate:type=PasswordAuthentication
+2016-04-11 17:22:48,349 INFO  org.dspace.eperson.EPerson @ miguel@gmail.com:session_id=8203FEC6E718C9E55177C292DF8BA1CA:ip_addr=127.0.0.1:update_eperson:eperson_id=3
+2016-04-11 17:22:48,353 INFO  org.dspace.app.webui.servlet.PasswordServlet @ miguel@gmail.com:session_id=8203FEC6E718C9E55177C292DF8BA1CA:ip_addr=127.0.0.1:login:type=explicit
+2016-04-11 17:22:48,360 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ miguel@gmail.com:session_id=877E7FB56C5B75A4960B01202631B5FF:ip_addr=127.0.0.1:view_mydspace:
+2016-04-11 19:55:46,228 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-11 19:55:46,228 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-11 19:55:46,259 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-11 19:55:46,290 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-11 19:55:46,447 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-11 19:55:55,174 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-11 19:55:55,174 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-11 19:55:55,205 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-11 19:55:55,221 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-11 19:55:55,393 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-11 19:55:57,065 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-11 19:55:57,127 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-11 19:55:57,127 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-11 19:55:57,127 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-11 19:55:57,127 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-11 19:55:57,127 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-11 19:55:57,127 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-11 19:55:57,127 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-11 19:55:57,127 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-11 19:55:57,127 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-11 19:56:15,552 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-11 19:56:15,571 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-11 19:56:15,597 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2565D2D9545D30AB3D3FCFB5B6992CE1:ip_addr=127.0.0.1:browse_mini:
+2016-04-11 19:56:15,849 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-11 20:07:07,421 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-11 20:07:07,422 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-11 20:07:07,451 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-11 20:07:07,486 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-11 20:07:07,654 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-11 20:07:16,461 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-11 20:07:16,462 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-11 20:07:16,490 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-11 20:07:16,523 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-11 20:07:16,690 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-11 20:07:18,215 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-11 20:07:18,339 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-11 20:07:18,339 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-11 20:07:18,339 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-11 20:07:18,339 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-11 20:07:18,339 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-11 20:07:18,340 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-11 20:07:18,340 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-11 20:07:18,340 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-11 20:07:18,340 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-11 20:07:18,864 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-11 20:07:18,877 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-11 20:07:18,896 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2565D2D9545D30AB3D3FCFB5B6992CE1:ip_addr=127.0.0.1:browse_mini:
+2016-04-11 20:07:19,080 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3

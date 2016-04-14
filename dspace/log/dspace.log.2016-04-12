@@ -1,0 +1,556 @@
+2016-04-12 11:30:01,142 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=5A90DE8FC5F67D5AF02DC6EFA0C50785:ip_addr=127.0.0.1:authenticate:attempting password auth of user=miguel@gmail.com
+2016-04-12 11:30:01,600 INFO  org.dspace.authenticate.PasswordAuthentication @ miguel@gmail.com:session_id=5A90DE8FC5F67D5AF02DC6EFA0C50785:ip_addr=127.0.0.1:authenticate:type=PasswordAuthentication
+2016-04-12 11:30:01,605 INFO  org.dspace.eperson.EPerson @ miguel@gmail.com:session_id=5A90DE8FC5F67D5AF02DC6EFA0C50785:ip_addr=127.0.0.1:update_eperson:eperson_id=3
+2016-04-12 11:30:01,637 INFO  org.dspace.app.webui.servlet.PasswordServlet @ miguel@gmail.com:session_id=5A90DE8FC5F67D5AF02DC6EFA0C50785:ip_addr=127.0.0.1:login:type=explicit
+2016-04-12 11:30:01,648 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ miguel@gmail.com:session_id=957726781B0F5065775843F1C27E346E:ip_addr=127.0.0.1:view_mydspace:
+2016-04-12 12:58:25,207 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2016-04-12 12:58:25,217 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 12:58:25,218 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 12:58:25,246 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 12:58:25,278 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 12:58:25,438 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 12:58:34,060 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 12:58:34,061 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 12:58:34,090 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 12:58:34,119 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 12:58:34,309 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 12:58:36,133 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-12 12:58:36,330 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-12 12:58:36,331 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-12 12:58:36,331 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-12 12:58:36,331 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-12 12:58:36,331 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-12 12:58:36,331 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-12 12:58:36,331 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-12 12:58:36,331 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-12 12:58:36,331 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-12 12:58:50,030 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-12 12:58:50,043 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-12 12:58:50,061 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B68994AC754F4A117AEF7B275E9C6768:ip_addr=127.0.0.1:browse_mini:
+2016-04-12 12:58:50,249 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-12 12:59:20,354 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=B68994AC754F4A117AEF7B275E9C6768:ip_addr=127.0.0.1:authenticate:attempting password auth of user=miguel@gmail.com
+2016-04-12 12:59:20,476 INFO  org.dspace.authenticate.PasswordAuthentication @ miguel@gmail.com:session_id=B68994AC754F4A117AEF7B275E9C6768:ip_addr=127.0.0.1:authenticate:type=PasswordAuthentication
+2016-04-12 12:59:20,481 INFO  org.dspace.eperson.EPerson @ miguel@gmail.com:session_id=B68994AC754F4A117AEF7B275E9C6768:ip_addr=127.0.0.1:update_eperson:eperson_id=3
+2016-04-12 12:59:20,520 INFO  org.dspace.app.webui.servlet.PasswordServlet @ miguel@gmail.com:session_id=B68994AC754F4A117AEF7B275E9C6768:ip_addr=127.0.0.1:login:type=explicit
+2016-04-12 12:59:20,534 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ miguel@gmail.com:session_id=36206C1E93A23167FCFC03BE2A9A2BF8:ip_addr=127.0.0.1:view_mydspace:
+2016-04-12 12:59:35,229 INFO  org.dspace.app.webui.servlet.LogoutServlet @ miguel@gmail.com:session_id=36206C1E93A23167FCFC03BE2A9A2BF8:ip_addr=127.0.0.1:logout:
+2016-04-12 12:59:42,234 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=36206C1E93A23167FCFC03BE2A9A2BF8:ip_addr=127.0.0.1:authenticate:attempting password auth of user=miguel@gmail.com
+2016-04-12 12:59:42,253 INFO  org.dspace.authenticate.PasswordAuthentication @ miguel@gmail.com:session_id=36206C1E93A23167FCFC03BE2A9A2BF8:ip_addr=127.0.0.1:authenticate:type=PasswordAuthentication
+2016-04-12 12:59:42,256 INFO  org.dspace.eperson.EPerson @ miguel@gmail.com:session_id=36206C1E93A23167FCFC03BE2A9A2BF8:ip_addr=127.0.0.1:update_eperson:eperson_id=3
+2016-04-12 12:59:42,264 INFO  org.dspace.app.webui.servlet.PasswordServlet @ miguel@gmail.com:session_id=36206C1E93A23167FCFC03BE2A9A2BF8:ip_addr=127.0.0.1:login:type=explicit
+2016-04-12 12:59:42,278 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ miguel@gmail.com:session_id=D707A13DC3A03ED112E453EEC0D6CCE4:ip_addr=127.0.0.1:view_mydspace:
+2016-04-12 13:10:15,430 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2016-04-12 13:10:15,570 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 13:10:15,570 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 13:10:15,597 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 13:10:15,626 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 13:10:15,781 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 13:10:24,707 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 13:10:24,708 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 13:10:24,736 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 13:10:24,769 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 13:10:24,935 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 13:10:26,588 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-12 13:10:26,671 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-12 13:10:26,671 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-12 13:10:26,671 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-12 13:10:26,671 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-12 13:10:26,671 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-12 13:10:26,671 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-12 13:10:26,671 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-12 13:10:26,671 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-12 13:10:26,672 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-12 13:10:27,237 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-12 13:10:27,244 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-12 13:10:27,265 INFO  org.dspace.browse.BrowseEngine @ miguel@gmail.com:session_id=D707A13DC3A03ED112E453EEC0D6CCE4:ip_addr=127.0.0.1:browse_mini:
+2016-04-12 13:10:27,426 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-12 13:10:30,977 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ miguel@gmail.com:session_id=D707A13DC3A03ED112E453EEC0D6CCE4:ip_addr=127.0.0.1:view_mydspace:
+2016-04-12 13:10:34,537 INFO  org.dspace.app.webui.servlet.LogoutServlet @ miguel@gmail.com:session_id=D707A13DC3A03ED112E453EEC0D6CCE4:ip_addr=127.0.0.1:logout:
+2016-04-12 13:10:42,499 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=D707A13DC3A03ED112E453EEC0D6CCE4:ip_addr=127.0.0.1:auth:attempting trivial auth of user=miguel@gmail.com
+2016-04-12 13:10:42,508 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=D707A13DC3A03ED112E453EEC0D6CCE4:internal_error:-- URL Was: http://localhost:8080/jspui/password-login
+-- Method: POST
+-- Parameters were:
+-- login_email: "miguel@gmail.com"
+-- login_password: *not logged*
+-- login_submit: "Log In"
+
+java.lang.NullPointerException
+	at java.util.Hashtable.put(Hashtable.java:514)
+	at org.dspace.authenticate.OAuthAuthentication$SpeakerToLDAP.ldapAuthenticate(OAuthAuthentication.java:621)
+	at org.dspace.authenticate.OAuthAuthentication.authenticate(OAuthAuthentication.java:306)
+	at org.dspace.authenticate.AuthenticationManager.authenticateInternal(AuthenticationManager.java:162)
+	at org.dspace.authenticate.AuthenticationManager.authenticate(AuthenticationManager.java:99)
+	at org.dspace.app.webui.servlet.PasswordServlet.doDSPost(PasswordServlet.java:69)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:115)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-12 13:11:52,943 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=D707A13DC3A03ED112E453EEC0D6CCE4:ip_addr=127.0.0.1:auth:attempting trivial auth of user=miguel@gmail.com
+2016-04-12 13:11:52,950 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=D707A13DC3A03ED112E453EEC0D6CCE4:internal_error:-- URL Was: http://localhost:8080/jspui/password-login
+-- Method: POST
+-- Parameters were:
+-- login_email: "miguel@gmail.com"
+-- login_password: *not logged*
+-- login_submit: "Log In"
+
+java.lang.NullPointerException
+	at java.util.Hashtable.put(Hashtable.java:514)
+	at org.dspace.authenticate.OAuthAuthentication$SpeakerToLDAP.ldapAuthenticate(OAuthAuthentication.java:621)
+	at org.dspace.authenticate.OAuthAuthentication.authenticate(OAuthAuthentication.java:306)
+	at org.dspace.authenticate.AuthenticationManager.authenticateInternal(AuthenticationManager.java:162)
+	at org.dspace.authenticate.AuthenticationManager.authenticate(AuthenticationManager.java:99)
+	at org.dspace.app.webui.servlet.PasswordServlet.doDSPost(PasswordServlet.java:69)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:115)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-12 16:40:01,445 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=miguel@gmail.com
+2016-04-12 16:40:01,451 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:internal_error:-- URL Was: http://localhost:8080/jspui/password-login
+-- Method: POST
+-- Parameters were:
+-- login_email: "miguel@gmail.com"
+-- login_password: *not logged*
+-- login_submit: "Log In"
+
+java.lang.NullPointerException
+	at java.util.Hashtable.put(Hashtable.java:514)
+	at org.dspace.authenticate.OAuthAuthentication$SpeakerToLDAP.ldapAuthenticate(OAuthAuthentication.java:621)
+	at org.dspace.authenticate.OAuthAuthentication.authenticate(OAuthAuthentication.java:306)
+	at org.dspace.authenticate.AuthenticationManager.authenticateInternal(AuthenticationManager.java:162)
+	at org.dspace.authenticate.AuthenticationManager.authenticate(AuthenticationManager.java:99)
+	at org.dspace.app.webui.servlet.PasswordServlet.doDSPost(PasswordServlet.java:69)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:115)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-12 16:40:13,986 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=miguel@gmail.com
+2016-04-12 16:40:13,992 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:internal_error:-- URL Was: http://localhost:8080/jspui/password-login
+-- Method: POST
+-- Parameters were:
+-- login_email: "miguel@gmail.com"
+-- login_password: *not logged*
+-- login_submit: "Log In"
+
+java.lang.NullPointerException
+	at java.util.Hashtable.put(Hashtable.java:514)
+	at org.dspace.authenticate.OAuthAuthentication$SpeakerToLDAP.ldapAuthenticate(OAuthAuthentication.java:621)
+	at org.dspace.authenticate.OAuthAuthentication.authenticate(OAuthAuthentication.java:306)
+	at org.dspace.authenticate.AuthenticationManager.authenticateInternal(AuthenticationManager.java:162)
+	at org.dspace.authenticate.AuthenticationManager.authenticate(AuthenticationManager.java:99)
+	at org.dspace.app.webui.servlet.PasswordServlet.doDSPost(PasswordServlet.java:69)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:115)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-12 17:08:30,528 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 17:08:30,528 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 17:08:30,560 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 17:08:30,591 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 17:08:30,747 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 17:08:39,148 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 17:08:39,148 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 17:08:39,179 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 17:08:39,211 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 17:08:39,383 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 17:08:41,558 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-12 17:08:41,667 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-12 17:08:41,667 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-12 17:08:41,667 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-12 17:08:41,667 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-12 17:08:41,667 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-12 17:08:41,667 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-12 17:08:41,667 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-12 17:08:41,667 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-12 17:08:41,667 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-12 17:17:43,207 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2016-04-12 17:17:43,270 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 17:17:43,270 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 17:17:43,301 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 17:17:43,332 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 17:17:43,488 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 17:17:51,882 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 17:17:51,882 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 17:17:51,913 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 17:17:51,945 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 17:17:52,132 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 17:17:54,179 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-12 17:17:54,288 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-12 17:17:54,288 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-12 17:17:54,288 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-12 17:17:54,288 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-12 17:17:54,288 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-12 17:17:54,288 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-12 17:17:54,288 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-12 17:17:54,288 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-12 17:17:54,288 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-12 17:18:11,385 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:18:11,386 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:18:38,753 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:18:38,753 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:18:43,164 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:18:43,165 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:18:45,617 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:18:45,618 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:18:48,059 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:18:48,060 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:18:50,667 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:18:50,667 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:18:53,648 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:18:53,648 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:18:56,668 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:18:56,668 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:18:58,414 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:18:58,415 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:18:59,421 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:18:59,422 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:19:04,773 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:19:04,773 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:19:11,455 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:19:11,455 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:20:04,957 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:20:04,958 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:20:08,210 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:20:08,210 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:20:20,932 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-12 17:20:20,976 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-12 17:20:21,044 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:browse_mini:
+2016-04-12 17:20:21,377 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-12 17:20:24,798 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:20:24,798 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:24:51,219 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:24:51,219 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:37:15,490 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:37:15,491 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:37:34,440 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:37:34,440 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:37:36,041 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:37:36,041 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:37:37,248 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:37:37,248 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:37:37,976 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:37:37,976 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:37:48,400 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:37:48,400 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:37:49,346 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:37:49,346 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 17:41:00,834 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 17:41:00,835 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=miguel@gmail.com, result=5
+2016-04-12 18:00:27,210 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 18:00:27,210 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 18:00:27,241 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 18:00:27,256 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 18:00:27,413 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 18:00:35,643 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 18:00:35,643 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 18:00:35,659 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 18:00:35,690 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 18:00:35,862 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 18:00:37,573 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-12 18:00:37,651 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-12 18:00:37,651 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-12 18:00:37,651 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-12 18:00:37,651 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-12 18:00:37,651 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-12 18:00:37,651 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-12 18:00:37,651 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-12 18:00:37,651 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-12 18:00:37,651 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-12 18:00:58,877 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 18:00:58,879 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=xxx, result=5
+2016-04-12 18:26:04,237 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 18:26:04,237 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 18:26:04,268 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 18:26:04,299 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 18:26:04,455 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 18:26:13,113 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 18:26:13,113 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 18:26:13,144 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 18:26:13,175 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 18:26:13,363 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 18:26:14,648 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-12 18:26:14,726 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-12 18:26:14,726 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-12 18:26:14,726 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-12 18:26:14,726 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-12 18:26:14,726 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-12 18:26:14,726 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-12 18:26:14,726 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-12 18:26:14,726 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-12 18:26:14,726 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-12 18:26:24,799 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 18:26:24,800 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=xxx, result=5
+2016-04-12 18:26:29,937 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 18:26:29,937 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=xxx, result=5
+2016-04-12 18:27:04,620 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 18:27:04,620 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=xxx, result=5
+2016-04-12 18:55:59,524 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2016-04-12 18:55:59,555 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 18:55:59,555 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 18:55:59,586 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 18:55:59,618 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 18:55:59,774 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 18:56:08,060 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 18:56:08,060 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 18:56:08,091 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 18:56:08,122 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 18:56:08,575 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 18:56:09,862 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-12 18:56:09,940 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-12 18:56:09,940 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-12 18:56:09,940 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-12 18:56:09,940 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-12 18:56:09,940 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-12 18:56:09,940 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-12 18:56:09,940 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-12 18:56:09,940 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-12 18:56:09,940 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-12 18:56:19,237 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=null
+2016-04-12 18:56:19,237 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:failed_login:email=xxx, result=5
+2016-04-12 19:03:31,456 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 19:03:31,456 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 19:03:31,488 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 19:03:31,519 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 19:03:31,691 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 19:03:40,025 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 19:03:40,025 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 19:03:40,057 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 19:03:40,072 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 19:03:40,560 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 19:03:42,104 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-12 19:03:42,182 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-12 19:03:42,182 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-12 19:03:42,182 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-12 19:03:42,182 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-12 19:03:42,182 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-12 19:03:42,182 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-12 19:03:42,182 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-12 19:03:42,182 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-12 19:03:42,182 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-12 19:03:53,786 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:ip_addr=127.0.0.1:auth:attempting trivial auth of user=eyJhbGciOiJSUzI1NiIsImtpZCI6IjRjYjFjNDQ2MTliYzk3MmNiNzQ2ZDYwOTVmZTgyYWZjY2U0ZTYyZTkifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6Ilo5Y29SWll5QnFfMktHNXZTYXVSNkEiLCJhdWQiOiIxMDMxOTgwOTY5NDUwLWc1c25pNGdlN3ZpNGNrNm1tbnNiYTI5aXFxYWNiNTBxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE1Nzg3MTk0NzgwMDQ1OTY5MjAzIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjEwMzE5ODA5Njk0NTAtZzVzbmk0Z2U3dmk0Y2s2bW1uc2JhMjlpcXFhY2I1MHEuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJoZCI6ImNvbnRpbmVudGFsLmVkdS5wZSIsImVtYWlsIjoibWFndWlycmVwQGNvbnRpbmVudGFsLmVkdS5wZSIsImlhdCI6MTQ2MDUwMzU4NCwiZXhwIjoxNDYwNTA3MTg0LCJuYW1lIjoiTWlndWVsIE9zY2FyIEFndWlycmUgUGF1Y2FyIiwiZ2l2ZW5fbmFtZSI6Ik1pZ3VlbCBPc2NhciIsImZhbWlseV9uYW1lIjoiQWd1aXJyZSBQYXVjYXIiLCJsb2NhbGUiOiJlcyJ9.QXDMZ466PdYhpfgNoMasfrQ_MFfojwFmVd6hmskYr4hg3aNik3mMe_RB3-xWS-jUutbAdC5hPWDaK2LbyAdxd52fQecbthOd44-7_OBkCrDkVpnTsI_rAoBnI4C71KyFWuO7BB5ZCEfkW3iJOnGKSBcY5xypIerJ6gF3-KuFhGN0O59LWZigr0meusN_yItOiY_MmUQSGrJox1OwZ6-KACUTjJ6WjZdA6e0BgjTwQpCyERGUJ6vs7ZZ3pn298Khh-aRD3mFM33mT-nh1skutaazianx3ufFaWPAg5ni5_iV_5frTm9Ktw4QpIM81MVy7deH4v2CgcaANznu-d8AYFw
+2016-04-12 19:03:53,814 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=6C0A0E48CF8D98AB8CA5B96A043880D8:internal_error:-- URL Was: http://localhost:8080/jspui/password-login
+-- Method: POST
+-- Parameters were:
+-- dato: "eyJhbGciOiJSUzI1NiIsImtpZCI6IjRjYjFjNDQ2MTliYzk3MmNiNzQ2ZDYwOTVmZTgyYWZjY2U0ZTYyZTkifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6Ilo5Y29SWll5QnFfMktHNXZTYXVSNkEiLCJhdWQiOiIxMDMxOTgwOTY5NDUwLWc1c25pNGdlN3ZpNGNrNm1tbnNiYTI5aXFxYWNiNTBxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE1Nzg3MTk0NzgwMDQ1OTY5MjAzIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjEwMzE5ODA5Njk0NTAtZzVzbmk0Z2U3dmk0Y2s2bW1uc2JhMjlpcXFhY2I1MHEuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJoZCI6ImNvbnRpbmVudGFsLmVkdS5wZSIsImVtYWlsIjoibWFndWlycmVwQGNvbnRpbmVudGFsLmVkdS5wZSIsImlhdCI6MTQ2MDUwMzU4NCwiZXhwIjoxNDYwNTA3MTg0LCJuYW1lIjoiTWlndWVsIE9zY2FyIEFndWlycmUgUGF1Y2FyIiwiZ2l2ZW5fbmFtZSI6Ik1pZ3VlbCBPc2NhciIsImZhbWlseV9uYW1lIjoiQWd1aXJyZSBQYXVjYXIiLCJsb2NhbGUiOiJlcyJ9.QXDMZ466PdYhpfgNoMasfrQ_MFfojwFmVd6hmskYr4hg3aNik3mMe_RB3-xWS-jUutbAdC5hPWDaK2LbyAdxd52fQecbthOd44-7_OBkCrDkVpnTsI_rAoBnI4C71KyFWuO7BB5ZCEfkW3iJOnGKSBcY5xypIerJ6gF3-KuFhGN0O59LWZigr0meusN_yItOiY_MmUQSGrJox1OwZ6-KACUTjJ6WjZdA6e0BgjTwQpCyERGUJ6vs7ZZ3pn298Khh-aRD3mFM33mT-nh1skutaazianx3ufFaWPAg5ni5_iV_5frTm9Ktw4QpIM81MVy7deH4v2CgcaANznu-d8AYFw"
+
+java.lang.NullPointerException
+	at java.util.Hashtable.put(Hashtable.java:514)
+	at org.dspace.authenticate.OAuthAuthentication$SpeakerToLDAP.ldapAuthenticate(OAuthAuthentication.java:626)
+	at org.dspace.authenticate.OAuthAuthentication.authenticate(OAuthAuthentication.java:311)
+	at org.dspace.authenticate.AuthenticationManager.authenticateInternal(AuthenticationManager.java:162)
+	at org.dspace.authenticate.AuthenticationManager.authenticate(AuthenticationManager.java:99)
+	at org.dspace.app.webui.servlet.PasswordServlet.doDSPost(PasswordServlet.java:67)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:115)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doPost(DSpaceServlet.java:73)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-12 19:39:03,908 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2016-04-12 19:39:03,956 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 19:39:03,956 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 19:39:03,987 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 19:39:04,018 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 19:39:04,174 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 19:39:12,473 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 19:39:12,489 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 19:39:12,505 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 19:39:12,536 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 19:39:12,989 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 19:39:14,442 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-12 19:39:14,505 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-12 19:39:14,505 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-12 19:39:14,505 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-12 19:39:14,505 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-12 19:39:14,505 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-12 19:39:14,505 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-12 19:39:14,505 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-12 19:39:14,505 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-12 19:39:14,505 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-12 19:39:33,011 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=EC6893D1966D8A1FFFD7A42B96A0C096:ip_addr=127.0.0.1:auth:attempting trivial auth of user=eyJhbGciOiJSUzI1NiIsImtpZCI6IjRjYjFjNDQ2MTliYzk3MmNiNzQ2ZDYwOTVmZTgyYWZjY2U0ZTYyZTkifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6InJEYWhxeWpCTkhJN1FybWRmMVZaNlEiLCJhdWQiOiIxMDMxOTgwOTY5NDUwLWc1c25pNGdlN3ZpNGNrNm1tbnNiYTI5aXFxYWNiNTBxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE1Nzg3MTk0NzgwMDQ1OTY5MjAzIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjEwMzE5ODA5Njk0NTAtZzVzbmk0Z2U3dmk0Y2s2bW1uc2JhMjlpcXFhY2I1MHEuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJoZCI6ImNvbnRpbmVudGFsLmVkdS5wZSIsImVtYWlsIjoibWFndWlycmVwQGNvbnRpbmVudGFsLmVkdS5wZSIsImlhdCI6MTQ2MDUwNzkwNiwiZXhwIjoxNDYwNTExNTA2LCJuYW1lIjoiTWlndWVsIE9zY2FyIEFndWlycmUgUGF1Y2FyIiwiZ2l2ZW5fbmFtZSI6Ik1pZ3VlbCBPc2NhciIsImZhbWlseV9uYW1lIjoiQWd1aXJyZSBQYXVjYXIiLCJsb2NhbGUiOiJlcyJ9.qwWTR8wXvJo9GhqXXlVzZ-kav-x21acudqdEIuo1QwOlbFIlp5aGHqB2PcEg9UfSxANaxTVhOQ-n8PeQIcsam9m0NYwRPxXJfU1sZF_iy_A858DwQdwX5nwJgP9SCjzOl581yCSX2WHTnE64WusXLZfSr3vUzkzJDUXV_g-AM7BU_sD60FfJkWSWiEtaf8r3kqVA0TkUEYgOT1SzBkAnLjzwXFdfwuVEImR2zp0-EfUDr1F2TpyGa1fh-hp0IP3xb6j0kmRUX1b01ECH_4CFGTODE9MtDcgmVVwYmDYeAa54fVH04K31cUny3JvJBAh8V8OW8jRddrq_U2xX0IP6Ig
+2016-04-12 19:39:33,073 INFO  org.dspace.authenticate.OAuthAuthentication @ maguirrep@continental.edu.pe:session_id=EC6893D1966D8A1FFFD7A42B96A0C096:ip_addr=127.0.0.1:authenticate:type=ldap
+2016-04-12 19:39:33,077 INFO  org.dspace.eperson.EPerson @ maguirrep@continental.edu.pe:session_id=EC6893D1966D8A1FFFD7A42B96A0C096:ip_addr=127.0.0.1:update_eperson:eperson_id=1
+2016-04-12 19:39:33,178 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-12 19:39:33,204 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-12 19:39:33,218 INFO  org.dspace.app.webui.servlet.PasswordServlet @ maguirrep@continental.edu.pe:session_id=EC6893D1966D8A1FFFD7A42B96A0C096:ip_addr=127.0.0.1:login:type=explicit
+2016-04-12 19:39:33,249 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ maguirrep@continental.edu.pe:session_id=7FD7346D207CE635B9836994DC14E2BB:ip_addr=127.0.0.1:view_mydspace:
+2016-04-12 19:40:41,998 INFO  org.dspace.app.webui.servlet.LogoutServlet @ maguirrep@continental.edu.pe:session_id=7FD7346D207CE635B9836994DC14E2BB:ip_addr=127.0.0.1:logout:
+2016-04-12 19:40:48,790 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=7FD7346D207CE635B9836994DC14E2BB:ip_addr=127.0.0.1:auth:attempting trivial auth of user=eyJhbGciOiJSUzI1NiIsImtpZCI6IjRjYjFjNDQ2MTliYzk3MmNiNzQ2ZDYwOTVmZTgyYWZjY2U0ZTYyZTkifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6InJEYWhxeWpCTkhJN1FybWRmMVZaNlEiLCJhdWQiOiIxMDMxOTgwOTY5NDUwLWc1c25pNGdlN3ZpNGNrNm1tbnNiYTI5aXFxYWNiNTBxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE1Nzg3MTk0NzgwMDQ1OTY5MjAzIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjEwMzE5ODA5Njk0NTAtZzVzbmk0Z2U3dmk0Y2s2bW1uc2JhMjlpcXFhY2I1MHEuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJoZCI6ImNvbnRpbmVudGFsLmVkdS5wZSIsImVtYWlsIjoibWFndWlycmVwQGNvbnRpbmVudGFsLmVkdS5wZSIsImlhdCI6MTQ2MDUwNzkwNiwiZXhwIjoxNDYwNTExNTA2LCJuYW1lIjoiTWlndWVsIE9zY2FyIEFndWlycmUgUGF1Y2FyIiwiZ2l2ZW5fbmFtZSI6Ik1pZ3VlbCBPc2NhciIsImZhbWlseV9uYW1lIjoiQWd1aXJyZSBQYXVjYXIiLCJsb2NhbGUiOiJlcyJ9.qwWTR8wXvJo9GhqXXlVzZ-kav-x21acudqdEIuo1QwOlbFIlp5aGHqB2PcEg9UfSxANaxTVhOQ-n8PeQIcsam9m0NYwRPxXJfU1sZF_iy_A858DwQdwX5nwJgP9SCjzOl581yCSX2WHTnE64WusXLZfSr3vUzkzJDUXV_g-AM7BU_sD60FfJkWSWiEtaf8r3kqVA0TkUEYgOT1SzBkAnLjzwXFdfwuVEImR2zp0-EfUDr1F2TpyGa1fh-hp0IP3xb6j0kmRUX1b01ECH_4CFGTODE9MtDcgmVVwYmDYeAa54fVH04K31cUny3JvJBAh8V8OW8jRddrq_U2xX0IP6Ig
+2016-04-12 19:40:48,793 INFO  org.dspace.authenticate.OAuthAuthentication @ maguirrep@continental.edu.pe:session_id=7FD7346D207CE635B9836994DC14E2BB:ip_addr=127.0.0.1:authenticate:type=ldap
+2016-04-12 19:40:48,795 INFO  org.dspace.eperson.EPerson @ maguirrep@continental.edu.pe:session_id=7FD7346D207CE635B9836994DC14E2BB:ip_addr=127.0.0.1:update_eperson:eperson_id=1
+2016-04-12 19:40:48,804 INFO  org.dspace.app.webui.servlet.PasswordServlet @ maguirrep@continental.edu.pe:session_id=7FD7346D207CE635B9836994DC14E2BB:ip_addr=127.0.0.1:login:type=explicit
+2016-04-12 19:40:48,830 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ maguirrep@continental.edu.pe:session_id=28667751E3142F75D1A8742990CF994F:ip_addr=127.0.0.1:view_mydspace:
+2016-04-12 19:40:50,199 INFO  org.dspace.authenticate.OAuthAuthentication @ maguirrep@continental.edu.pe:session_id=28667751E3142F75D1A8742990CF994F:ip_addr=127.0.0.1:auth:attempting trivial auth of user=eyJhbGciOiJSUzI1NiIsImtpZCI6IjRjYjFjNDQ2MTliYzk3MmNiNzQ2ZDYwOTVmZTgyYWZjY2U0ZTYyZTkifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6InJEYWhxeWpCTkhJN1FybWRmMVZaNlEiLCJhdWQiOiIxMDMxOTgwOTY5NDUwLWc1c25pNGdlN3ZpNGNrNm1tbnNiYTI5aXFxYWNiNTBxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE1Nzg3MTk0NzgwMDQ1OTY5MjAzIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjEwMzE5ODA5Njk0NTAtZzVzbmk0Z2U3dmk0Y2s2bW1uc2JhMjlpcXFhY2I1MHEuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJoZCI6ImNvbnRpbmVudGFsLmVkdS5wZSIsImVtYWlsIjoibWFndWlycmVwQGNvbnRpbmVudGFsLmVkdS5wZSIsImlhdCI6MTQ2MDUwNzkwNiwiZXhwIjoxNDYwNTExNTA2LCJuYW1lIjoiTWlndWVsIE9zY2FyIEFndWlycmUgUGF1Y2FyIiwiZ2l2ZW5fbmFtZSI6Ik1pZ3VlbCBPc2NhciIsImZhbWlseV9uYW1lIjoiQWd1aXJyZSBQYXVjYXIiLCJsb2NhbGUiOiJlcyJ9.qwWTR8wXvJo9GhqXXlVzZ-kav-x21acudqdEIuo1QwOlbFIlp5aGHqB2PcEg9UfSxANaxTVhOQ-n8PeQIcsam9m0NYwRPxXJfU1sZF_iy_A858DwQdwX5nwJgP9SCjzOl581yCSX2WHTnE64WusXLZfSr3vUzkzJDUXV_g-AM7BU_sD60FfJkWSWiEtaf8r3kqVA0TkUEYgOT1SzBkAnLjzwXFdfwuVEImR2zp0-EfUDr1F2TpyGa1fh-hp0IP3xb6j0kmRUX1b01ECH_4CFGTODE9MtDcgmVVwYmDYeAa54fVH04K31cUny3JvJBAh8V8OW8jRddrq_U2xX0IP6Ig
+2016-04-12 19:40:50,202 INFO  org.dspace.authenticate.OAuthAuthentication @ maguirrep@continental.edu.pe:session_id=28667751E3142F75D1A8742990CF994F:ip_addr=127.0.0.1:authenticate:type=ldap
+2016-04-12 19:40:50,204 INFO  org.dspace.eperson.EPerson @ maguirrep@continental.edu.pe:session_id=28667751E3142F75D1A8742990CF994F:ip_addr=127.0.0.1:update_eperson:eperson_id=1
+2016-04-12 19:40:50,213 INFO  org.dspace.app.webui.servlet.PasswordServlet @ maguirrep@continental.edu.pe:session_id=28667751E3142F75D1A8742990CF994F:ip_addr=127.0.0.1:login:type=explicit
+2016-04-12 19:40:50,227 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ maguirrep@continental.edu.pe:session_id=28667751E3142F75D1A8742990CF994F:ip_addr=127.0.0.1:view_mydspace:
+2016-04-12 19:41:14,545 INFO  org.dspace.app.webui.servlet.LogoutServlet @ maguirrep@continental.edu.pe:session_id=28667751E3142F75D1A8742990CF994F:ip_addr=127.0.0.1:logout:
+2016-04-12 19:42:49,789 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=E1475AA35CCC625BF780BEF271DBA597:ip_addr=127.0.0.1:auth:attempting trivial auth of user=eyJhbGciOiJSUzI1NiIsImtpZCI6IjRjYjFjNDQ2MTliYzk3MmNiNzQ2ZDYwOTVmZTgyYWZjY2U0ZTYyZTkifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6ImtsYXRPNDY5WWhtTmZrd2h6LXVVU2ciLCJhdWQiOiIxMDMxOTgwOTY5NDUwLWc1c25pNGdlN3ZpNGNrNm1tbnNiYTI5aXFxYWNiNTBxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE3NjEwNTYwNjI1NTExMjU4NDAxIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjEwMzE5ODA5Njk0NTAtZzVzbmk0Z2U3dmk0Y2s2bW1uc2JhMjlpcXFhY2I1MHEuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJoZCI6ImNvbnRpbmVudGFsLmVkdS5wZSIsImVtYWlsIjoidTQ3NDQxNzc3QGNvbnRpbmVudGFsLmVkdS5wZSIsImlhdCI6MTQ2MDUwODEwMywiZXhwIjoxNDYwNTExNzAzLCJuYW1lIjoiUmFmYWVsIEZlcm5hbmRvIENhcnJhbnphIFZpbGxhIiwiZ2l2ZW5fbmFtZSI6IlJhZmFlbCBGZXJuYW5kbyIsImZhbWlseV9uYW1lIjoiQ2FycmFuemEgVmlsbGEiLCJsb2NhbGUiOiJlcyJ9.GZhpjoy-ilFH_1SYLg-AXgG9e_wKXHY9vm97TrrIyAHL4cR6IKBsC19xqJQSty1aQIFORXhrpdYUG5LCKuLmf3CDg5BzlmbGhYXEm9BYd2hMBwkWbdzkVouzkea7BcoV5UeNtsNCNBA5EuOUl-i12Z64ejcM46GH9GdX6Je53wVKa5xGD3gFi2hNnjqIId9hS8W_DyJlwdIhExUtIpEG-nWY8ViK-qPzulViKYv44QFjCIKes2JGX2teGGkE4XUB9fKGWn77sV8lf3iufhGYZ9R1R5EkyqN9UW4W3YzA-TInmsX_vDMr5aVoK2j-ZhaHF6EFxk-Xh-j1PerGwAosZg
+2016-04-12 19:42:49,793 WARN  org.dspace.core.ConfigurationManager @ Requested configuration module: OAuthAuthentication not found
+2016-04-12 19:42:49,794 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=E1475AA35CCC625BF780BEF271DBA597:ip_addr=127.0.0.1:failed_login:type=ldap_but_no_record
+2016-04-12 19:42:49,794 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=E1475AA35CCC625BF780BEF271DBA597:ip_addr=127.0.0.1:failed_login:result=4
+2016-04-12 20:08:10,161 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 20:08:10,161 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 20:08:10,192 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 20:08:10,223 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 20:08:10,395 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 20:08:19,105 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 20:08:19,105 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 20:08:19,136 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 20:08:19,168 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 20:08:19,340 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 20:08:20,645 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-12 20:08:20,723 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-12 20:08:20,723 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-12 20:08:20,723 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-12 20:08:20,723 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-12 20:08:20,723 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-12 20:08:20,723 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-12 20:08:20,723 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-12 20:08:20,723 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-12 20:08:20,723 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-12 20:08:34,183 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=E1475AA35CCC625BF780BEF271DBA597:ip_addr=127.0.0.1:auth:attempting trivial auth of user=eyJhbGciOiJSUzI1NiIsImtpZCI6IjRjYjFjNDQ2MTliYzk3MmNiNzQ2ZDYwOTVmZTgyYWZjY2U0ZTYyZTkifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6ImtsYXRPNDY5WWhtTmZrd2h6LXVVU2ciLCJhdWQiOiIxMDMxOTgwOTY5NDUwLWc1c25pNGdlN3ZpNGNrNm1tbnNiYTI5aXFxYWNiNTBxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE3NjEwNTYwNjI1NTExMjU4NDAxIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjEwMzE5ODA5Njk0NTAtZzVzbmk0Z2U3dmk0Y2s2bW1uc2JhMjlpcXFhY2I1MHEuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJoZCI6ImNvbnRpbmVudGFsLmVkdS5wZSIsImVtYWlsIjoidTQ3NDQxNzc3QGNvbnRpbmVudGFsLmVkdS5wZSIsImlhdCI6MTQ2MDUwODEwMywiZXhwIjoxNDYwNTExNzAzLCJuYW1lIjoiUmFmYWVsIEZlcm5hbmRvIENhcnJhbnphIFZpbGxhIiwiZ2l2ZW5fbmFtZSI6IlJhZmFlbCBGZXJuYW5kbyIsImZhbWlseV9uYW1lIjoiQ2FycmFuemEgVmlsbGEiLCJsb2NhbGUiOiJlcyJ9.GZhpjoy-ilFH_1SYLg-AXgG9e_wKXHY9vm97TrrIyAHL4cR6IKBsC19xqJQSty1aQIFORXhrpdYUG5LCKuLmf3CDg5BzlmbGhYXEm9BYd2hMBwkWbdzkVouzkea7BcoV5UeNtsNCNBA5EuOUl-i12Z64ejcM46GH9GdX6Je53wVKa5xGD3gFi2hNnjqIId9hS8W_DyJlwdIhExUtIpEG-nWY8ViK-qPzulViKYv44QFjCIKes2JGX2teGGkE4XUB9fKGWn77sV8lf3iufhGYZ9R1R5EkyqN9UW4W3YzA-TInmsX_vDMr5aVoK2j-ZhaHF6EFxk-Xh-j1PerGwAosZg
+2016-04-12 20:08:34,255 WARN  org.dspace.core.ConfigurationManager @ Requested configuration module: OAuthAuthentication not found
+2016-04-12 20:08:34,255 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=E1475AA35CCC625BF780BEF271DBA597:ip_addr=127.0.0.1:failed_login:type=ldap_but_no_record
+2016-04-12 20:08:34,255 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=E1475AA35CCC625BF780BEF271DBA597:ip_addr=127.0.0.1:failed_login:result=4
+2016-04-12 20:29:19,141 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 20:29:19,141 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 20:29:19,173 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 20:29:19,204 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 20:29:19,376 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 20:29:27,832 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-12 20:29:27,832 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-12 20:29:27,863 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-12 20:29:27,894 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-12 20:29:28,160 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-12 20:29:30,129 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-12 20:29:30,222 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-12 20:29:30,222 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-12 20:29:30,222 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-12 20:29:30,222 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-12 20:29:30,222 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-12 20:29:30,222 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-12 20:29:30,222 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-12 20:29:30,222 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-12 20:29:30,222 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-12 20:29:40,357 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=E1475AA35CCC625BF780BEF271DBA597:ip_addr=127.0.0.1:auth:attempting trivial auth of user=eyJhbGciOiJSUzI1NiIsImtpZCI6IjRjYjFjNDQ2MTliYzk3MmNiNzQ2ZDYwOTVmZTgyYWZjY2U0ZTYyZTkifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6ImtsYXRPNDY5WWhtTmZrd2h6LXVVU2ciLCJhdWQiOiIxMDMxOTgwOTY5NDUwLWc1c25pNGdlN3ZpNGNrNm1tbnNiYTI5aXFxYWNiNTBxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE3NjEwNTYwNjI1NTExMjU4NDAxIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjEwMzE5ODA5Njk0NTAtZzVzbmk0Z2U3dmk0Y2s2bW1uc2JhMjlpcXFhY2I1MHEuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJoZCI6ImNvbnRpbmVudGFsLmVkdS5wZSIsImVtYWlsIjoidTQ3NDQxNzc3QGNvbnRpbmVudGFsLmVkdS5wZSIsImlhdCI6MTQ2MDUwODEwMywiZXhwIjoxNDYwNTExNzAzLCJuYW1lIjoiUmFmYWVsIEZlcm5hbmRvIENhcnJhbnphIFZpbGxhIiwiZ2l2ZW5fbmFtZSI6IlJhZmFlbCBGZXJuYW5kbyIsImZhbWlseV9uYW1lIjoiQ2FycmFuemEgVmlsbGEiLCJsb2NhbGUiOiJlcyJ9.GZhpjoy-ilFH_1SYLg-AXgG9e_wKXHY9vm97TrrIyAHL4cR6IKBsC19xqJQSty1aQIFORXhrpdYUG5LCKuLmf3CDg5BzlmbGhYXEm9BYd2hMBwkWbdzkVouzkea7BcoV5UeNtsNCNBA5EuOUl-i12Z64ejcM46GH9GdX6Je53wVKa5xGD3gFi2hNnjqIId9hS8W_DyJlwdIhExUtIpEG-nWY8ViK-qPzulViKYv44QFjCIKes2JGX2teGGkE4XUB9fKGWn77sV8lf3iufhGYZ9R1R5EkyqN9UW4W3YzA-TInmsX_vDMr5aVoK2j-ZhaHF6EFxk-Xh-j1PerGwAosZg
+2016-04-12 20:29:40,441 INFO  org.dspace.eperson.EPerson @ anonymous:session_id=E1475AA35CCC625BF780BEF271DBA597:ip_addr=127.0.0.1:create_eperson:eperson_id=5
+2016-04-12 20:29:40,529 INFO  org.dspace.app.webui.servlet.PasswordServlet @ anonymous:session_id=E1475AA35CCC625BF780BEF271DBA597:ip_addr=127.0.0.1:failed_login:result=4
