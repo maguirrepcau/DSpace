@@ -956,3 +956,11 @@ javax.mail.AuthenticationFailedException
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
+2016-04-16 11:37:39,708 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 11:37:39,717 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 11:37:41,006 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:37:41,014 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:37:41,014 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:37:41,736 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:37:41,756 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:37:42,207 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
