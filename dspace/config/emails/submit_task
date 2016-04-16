@@ -6,19 +6,19 @@
 # {3}  Description of task
 # {4}  link to 'my DSpace' page 
 #
-Subject: DSpace: You have a new task
+Subject: DSpace: Usted tiene una nueva tarea
 
-A new item has been submitted:
+Un nuevo elemento se ha presentado:
 
-Title:        {0}
-Collection:   {1}
-Submitted by: {2}
+Título:        {0}
+Colección:   {1}
+enviado por: {2}
 
 {3}
 
-To claim this task, please visit your "My DSpace"
-page:  {4}
+Para reclamar esta tarea, por favor visite a su página"Mi DSpace":
+  {4}
 
-Many thanks!
+¡Muchas gracias!
 
-DSpace
+Repositorio Institucional Continental

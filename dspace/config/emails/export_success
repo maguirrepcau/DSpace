@@ -5,14 +5,14 @@
 #
 # See org.dspace.core.Email for information on the format of this file.
 #
-Subject: DSpace - Item export requested is ready for download
-The item export you requested from the repository is now ready for download.
+Subject: DSpace - La exportación del ítem solicitado está listo para descargar
+La exportación del ítem que solicitó desde el repositorio ya está listo para su descarga.
 
-You may download the compressed file using the following link:
+Usted puede descargar el archivo comprimido utilizando el siguiente enlace:
 {0}
 
-This file will remain available for at least {1} hours.  
+Este archivo permanecerá disponible durante al menos {1} horas.  
 
 
-The DSpace Team
+Repositorio Institucional Continental
 

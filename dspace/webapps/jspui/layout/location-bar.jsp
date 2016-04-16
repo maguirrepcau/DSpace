@@ -25,7 +25,7 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
   
 <%@ page import="java.util.List" %>
-<ol class="breadcrumb btn-success">
+<ol style="background-color:#888888;"  class="breadcrumb btn-success">
 <%
     List parentTitles = (List) request.getAttribute("dspace.layout.parenttitles");
     List parentLinks = (List) request.getAttribute("dspace.layout.parentlinks");

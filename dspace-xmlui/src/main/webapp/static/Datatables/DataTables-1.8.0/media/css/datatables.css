@@ -34,14 +34,14 @@
 .paging_two_button .fg-button {
 	float: left;
 	cursor: pointer;
-	* cursor: hand;
+	cursor: hand;
 }
 
 .paging_full_numbers .fg-button {
 	padding: 2px 6px;
 	margin: 0;
 	cursor: pointer;
-	* cursor: hand;
+	cursor: hand;
 }
 
 .dataTables_paginate .ui-button,
@@ -65,7 +65,7 @@
 div.dtcontainer table.display thead th {
 	padding: 3px 0px 3px 10px;
 	cursor: pointer;
-	* cursor: hand;
+	cursor: hand;
 }
 
 

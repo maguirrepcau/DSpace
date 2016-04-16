@@ -83,7 +83,6 @@
            <span class="icon-bar"></span>
            <span class="icon-bar"></span>
          </button>
-         <a class="navbar-brand" href="<%= request.getContextPath() %>/"><img height="25" src="<%= request.getContextPath() %>/image/dspace-logo-only.png" alt="DSpace logo" /></a>
        </div>
        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
          <ul class="nav navbar-nav">
@@ -195,5 +194,8 @@
 <%
             }
 %> --%>
+        <%-- Redes sociales --%>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-559d58df6f33099a" async="async"></script>
+        <%-- Redes sociales --%>
 	</form></div>
     </nav>

@@ -64,16 +64,17 @@
         }
         out.println( "<div class=\"media-body\"><h4 class=\"media-heading\"><a href=\"" + request.getContextPath() + "/handle/" 
         	+ c.getHandle() + "\">" + c.getMetadata("name") + "</a>");
-        if(ConfigurationManager.getBooleanProperty("webui.strengths.show"))
-        {
+        //if(ConfigurationManager.getBooleanProperty("webui.strengths.show"))
+        //{
             out.println(" <span class=\"badge\">" + ic.getCount(c) + "</span>");
-        }
+        //}
 		out.println("</h4>");
+                out.println("<a onclick='return blmostrocult(this);' style='cursor: hand; cursor: pointed;'>[+/-] Detalles</a><div style='display: none;'>");
 		if (StringUtils.isNotBlank(c.getMetadata("short_description")))
 		{
 			out.println(c.getMetadata("short_description"));
 		}
-		out.println("<br>");
+		//out.println("<br>");
         // Get the collections in this community
         Collection[] cols = (Collection[]) collectionMap.get(c.getID());
         if (cols != null && cols.length > 0)
@@ -91,10 +92,10 @@
                 		request.getContextPath() + "/retrieve/" + logoCol.getID() + "\" alt=\"collection logo\"></a>");
                 }
                 out.println("<div class=\"media-body\"><h4 class=\"media-heading\"><a href=\"" + request.getContextPath() + "/handle/" + cols[j].getHandle() + "\">" + cols[j].getMetadata("name") +"</a>");
-				if(ConfigurationManager.getBooleanProperty("webui.strengths.show"))
-                {
+		//		if(ConfigurationManager.getBooleanProperty("webui.strengths.show"))
+                //{
                     out.println(" [" + ic.getCount(cols[j]) + "]");
-                }
+                //}
 				out.println("</h4>");
 				if (StringUtils.isNotBlank(cols[j].getMetadata("short_description")))
 				{
@@ -117,6 +118,7 @@
             }
             out.println("</ul>"); 
         }
+        out.println("</div>");
         out.println("</div>");
         out.println("</li>");
     }

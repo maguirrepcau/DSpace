@@ -5,11 +5,11 @@
 #
 # See org.dspace.core.Email for information on the format of this file.
 #
-Subject: DSpace - Batch import successfully completed
-The batch item import you initiated from the DSpace UI has completed successfully.
+Subject: DSpace - Importación por lotes completado con éxito
+La importación por lotes que usted inició desde el DSpace IU se completó con éxito .
 
-You may find the mapfile for the import in the following path: {0}
+Usted puede encontrar el archivo de asignaciones para la importación en la siguiente ruta: {0}
 
 
-The DSpace Team
+Repositorio Institucional Continental
 

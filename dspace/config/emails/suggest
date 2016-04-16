@@ -10,17 +10,17 @@
 #             {7} sender message 
 # See org.dspace.core.Email for information on the format of this file.
 #
-Subject: An item of interest from DSpace
+Subject: Un elemento de interés de DSpace
 
-Hello {0}:
+Hola {0}:
 
-{1} requested we send you this email regarding an item available in {2}.
+{1} solicitó que le enviemos este correo electrónico en relación con un artículo disponible en {2}.
 
-Title: {3}
-Location: {5}
-In Collection: {6}
-Personal Message: {7}
+Título: {3}
+Localización: {5}
+Colección: {6}
+Mensaje personal: {7}
 
-The DSpace digital repository system captures, stores, indexes, preserves, and distributes digital material.
-For more information, visit www.dspace.org
+El sistema de repositorio digital DSpace captura, almacena , índices, conserva y distribuye material digital.
+Para más información, visite www.dspace.org
 

@@ -15,9 +15,9 @@
     prefix="fmt" %>
 	<div class="panel-body text-center">
             <div class="form-group ">
-                <p><fmt:message key="jsp.login.oauth.email-incorrect"/></p> 
+                <p><fmt:message key="jsp.login.oauth.login"/></p> 
                 <div>
-                     <div class="g-signin2" style="display: inline-block;" data-onsuccess="onSignIn"></div>
+                     <div id="g-signin-custom" class="g-signin2" style="display: inline-block;" data-onsuccess="onSignIn" theme="dark"></div>
                 </div>
             </div>
         </div>

@@ -68,6 +68,7 @@
 
     // Full title needs to be put into a string to use as tag argument
     String title = "";
+    String relationuri = "";
     if (handle == null)
  	{
 		title = "Workspace Item";
@@ -82,6 +83,11 @@
 		else
 		{
 			title = "Item " + handle;
+		}
+                Metadatum[] relationuriValue = item.getDC("relation","uri",Item.ANY);
+		if (relationuriValue.length != 0)
+		{
+			relationuri = relationuriValue[0].value;
 		}
 	}
     
@@ -132,7 +138,12 @@
 		<%
 		    }
 		%>
-		
+		<%--Video  externos embebidos--%>		
+<% if (relationuri != "") { %>
+<div style="text-align:center;"><iframe align="center" width="560" height="315" src="<%=relationuri%>" frameborder="0" allowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<br>
+<%  } %>
+<%--Video  externos embebidos--%>
 
                 <%-- <strong>Please use this identifier to cite or link to this item:
                 <code><%= HandleManager.getCanonicalForm(handle) %></code></strong>--%>

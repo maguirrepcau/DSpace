@@ -574,7 +574,7 @@ public class ConfigurationManager
         }
         catch (IOException ioE)
         {
-            fatal("Can't load configuration: " +
+            fatal("Can't load configuration ss: " +
                     (modFile == null ? "<unknown>" : modFile.getAbsolutePath()), ioE);
         }
     }
@@ -676,7 +676,7 @@ public class ConfigurationManager
         }
         catch (IOException e)
         {
-            fatal("Can't load configuration: " + url, e);
+            fatal("Can't load configuration yy: " + url, e);
 
             // FIXME: Maybe something more graceful here, but without a
             // configuration we can't do anything.

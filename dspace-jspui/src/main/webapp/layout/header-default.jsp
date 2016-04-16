@@ -80,9 +80,8 @@
         }
 %>
         
-	<!--<script type='text/javascript' src="<%= request.getContextPath() %>/static/js/jquery/jquery-1.10.2.min.js"></script>-->
-        <script  src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
-	<script type='text/javascript' src='<%= request.getContextPath() %>/static/js/jquery/jquery-ui.min.js'></script>
+	<script type='text/javascript' src="<%= request.getContextPath() %>/static/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type='text/javascript' src='<%= request.getContextPath() %>/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
 	<script type='text/javascript' src='<%= request.getContextPath() %>/static/js/bootstrap/bootstrap.min.js'></script>
 	<script type='text/javascript' src='<%= request.getContextPath() %>/static/js/holder.js'></script>
 	<script type="text/javascript" src="<%= request.getContextPath() %>/utils.js"></script>
@@ -127,6 +126,17 @@
   <script src="<%= request.getContextPath() %>/static/js/html5shiv.js"></script>
   <script src="<%= request.getContextPath() %>/static/js/respond.min.js"></script>
 <![endif]-->
+<script type='text/JavaScript'>
+function blmostrocult(blconted){
+var c=blconted.nextSibling;
+if(c.style.display=='none'){
+c.style.display='block';
+} else {
+c.style.display='none';
+}
+return false;
+}
+</script>
     </head>
 
     <%-- HACK: leftmargin, topmargin: for non-CSS compliant Microsoft IE browser --%>
@@ -154,17 +164,28 @@
 %>
 </header>
 
-<main id="content" role="main">
-<div class="container banner">
-	<div class="row">
-		<div class="col-md-9 brand">
-		<h1><fmt:message key="jsp.layout.header-default.brand.heading" /></h1>
-        <fmt:message key="jsp.layout.header-default.brand.description" /> 
-        </div>
-        <div class="col-md-3"><img class="pull-right" src="<%= request.getContextPath() %>/image/logo.gif" alt="DSpace logo" />
-        </div>
-	</div>
-</div>	
+<div id="myHeader" class="myclearfix">
+	<div id="myHeaderBox">
+	<br>
+    	<div id="headerLogo"><img src="<%= request.getContextPath() %>/image/encabezado.png" alt=""></div>
+    	<div id="tagline">Repositorio Institucional Continental</div>
+		<br>
+    </div>
+    <div id="bigBtns">
+    	<div id="myHeaderBox" >
+		<br>
+      <ul>
+          <li><a class="clearfix" href="<%= request.getContextPath() %>/simple-search?location=%2F&query=Tesis&rpp=10&sort_by=score&order=desc&filter_field_1=subject&filter_type_1=equals&filter_value_1=Tesis"><img src="<%= request.getContextPath() %>/image/tesis.png" alt=""><span>Tesis</span></a></li>
+		  <li><a class="clearfix" href="<%= request.getContextPath() %>/simple-search?location=%2F&query= Sílabos &rpp=10&sort_by=score&order=desc&filter_field_1=subject&filter_type_1=equals&filter_value_1= Sílabos"><img src="<%= request.getContextPath() %>/image/proyectos.png" alt=""><span>Sílabos</span></a></li>
+		  <li><a class="clearfix" href="<%= request.getContextPath() %>/simple-search?location=%2F&query= Libros &rpp=10&sort_by=score&order=desc&filter_field_1=subject&filter_type_1=equals&filter_value_1= Libros"><img src="<%= request.getContextPath() %>/image/libros.png" alt=""><span>Libros</span></a></li>
+		  <li><a class="clearfix" href="<%= request.getContextPath() %>/simple-search?location=123456789%2F132&query=&rpp=10&sort_by=score&order=desc"><img src="<%= request.getContextPath() %>/image/revista.png" alt=""><span>Revistas</span></a></li>		   
+          <li><a class="clearfix" href="<%= request.getContextPath() %>/simple-search?location=%2F&query=Polimedia&rpp=10&sort_by=score&order=desc&filter_field_1=subject&filter_type_1=equals&filter_value_1=Polimedia"><img src="<%= request.getContextPath() %>/image/polimedia.png" alt=""><span>Polimedias</span></a></li>
+          <li><a class="clearfix" href="<%= request.getContextPath() %>/simple-search?location=123456789%2F&query=&rpp=10&sort_by=score&order=desc"><img src="<%= request.getContextPath() %>/image/otros.png" alt=""><span>Otras Colecciones</span></a></li>
+
+      </ul>
+      </div>
+      </div>
+</div>
 <br/>
                 <%-- Location bar --%>
 <%

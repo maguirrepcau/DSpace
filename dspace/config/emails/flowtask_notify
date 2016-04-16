@@ -7,17 +7,18 @@
 # {4}  Task result
 # {5}  Workflow action taken
 #
-Subject: DSpace: Curation Task Report
+Subject: DSpace: Tarea de Curación de Informe 
 
-Title:         {0}
-Collection:    {1}
-Submitted by:  {2}
+Título:         {0}
+Colección:    {1}
+enviado por:  {2}
 
-Curation task {3} has been performed
-with the following result:
+La tarea de Curación  {3} se ha realizado
+con el siguiente resultado:
 
 {4}
 
-Action taken on the submission: {5}
+Curso dado a la presentación: {5}
 
-DSpace
+
+Repositorio Institucional Continental

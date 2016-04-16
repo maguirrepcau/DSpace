@@ -60,9 +60,9 @@
 
 <dspace:layout locbar="nolink" titlekey="jsp.home.title" feedData="<%= feedData %>">
 
-	<div class="jumbotron">
+	<!--<div class="jumbotron">
         <%= topNews %>
-	</div>
+	</div>-->
 
 <div class="row">
 <%
@@ -76,6 +76,7 @@ if (submissions != null && submissions.count() > 0)
               <%
     if(feedEnabled)
     {
+                
 	    	String[] fmts = feedData.substring(feedData.indexOf(':')+1).split(",");
 	    	String icon = null;
 	    	int width = 0;
@@ -97,6 +98,7 @@ if (submissions != null && submissions.count() > 0)
 	    	       width = 36;
 	    	    }
 	%>
+       
 	    <a href="<%= request.getContextPath() %>/feed/<%= fmts[j] %>/site"><img src="<%= request.getContextPath() %>/image/<%= icon %>" alt="RSS Feed" width="<%= width %>" height="15" style="margin: 3px 0 3px" /></a>
 	<%
 	    	}
@@ -125,7 +127,7 @@ if (submissions != null && submissions.count() > 0)
 		%>
 		    <div style="padding-bottom: 50px; min-height: 200px;" class="item <%= first?"active":""%>">
 		      <div style="padding-left: 80px; padding-right: 80px; display: inline-block;"><%= StringUtils.abbreviate(displayTitle, 400) %> 
-		      	<a href="<%= request.getContextPath() %>/handle/<%=item.getHandle() %>" class="btn btn-success">See</a>
+		      	<a href="<%= request.getContextPath() %>/handle/<%=item.getHandle() %>" class="btn btn-success">Ver</a>
                         <p><%= StringUtils.abbreviate(displayAbstract, 500) %></p>
 		      </div>
 		    </div>
@@ -149,7 +151,9 @@ if (submissions != null && submissions.count() > 0)
 		    <li data-target="#recent-submissions-carousel" data-slide-to="<%= i %>"></li>
 		    <% } %>
 	      </ol>
-     </div></div></div>
+        </div>
+        </div>
+        </div>
 <%
 }
 %>
@@ -182,6 +186,7 @@ if (communities != null && communities.length != 0)
 	<div class="col-md-12">
 <% }  %>		
 		<h4 class="list-group-item-heading"><a href="<%= request.getContextPath() %>/handle/<%= communities[i].getHandle() %>"><%= communities[i].getMetadata("name") %></a>
+                    <span class="badge pull-right"><%= ic.getCount(communities[i]) %></span>
 <%
         if (ConfigurationManager.getBooleanProperty("webui.strengths.show"))
         {
