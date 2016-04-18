@@ -9,6 +9,7 @@ package org.dspace.app.webui.servlet;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.Enumeration;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -58,8 +59,14 @@ public class SimpleSearchServlet extends DSpaceServlet
             HttpServletResponse response) throws ServletException, IOException,
             SQLException, AuthorizeException
     {
+        request.setCharacterEncoding("UTF-8");
         try
         {
+            Enumeration params = request.getParameterNames(); 
+            while(params.hasMoreElements()){
+             String paramName = (String)params.nextElement();
+             System.out.println("Parameter Name - "+paramName+", Value - "+request.getParameter(paramName));
+            }
             internalLogic.doSimpleSearch(context, request, response);
         }
         catch (SearchProcessorException e)

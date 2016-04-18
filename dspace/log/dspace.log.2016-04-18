@@ -1,0 +1,249 @@
+2016-04-18 09:17:05,270 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-18 09:17:05,348 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-18 09:17:12,398 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-18 09:17:12,398 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-18 09:17:12,430 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-18 09:17:12,461 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-18 09:17:12,492 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-18 09:17:19,770 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-18 09:17:19,770 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-18 09:17:19,801 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-18 09:17:19,817 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-18 09:17:19,863 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-18 09:17:27,489 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-18 09:17:27,489 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-18 09:17:27,520 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-18 09:17:27,551 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-18 09:17:27,723 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-18 09:17:53,750 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-18 09:17:53,750 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-18 09:17:53,782 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-18 09:17:53,813 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-18 09:17:53,969 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-18 09:17:56,275 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-18 09:17:56,385 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-18 09:17:56,385 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-18 09:17:56,385 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-18 09:17:56,385 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-18 09:17:56,385 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-18 09:17:56,385 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-18 09:17:56,385 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-18 09:17:56,385 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-18 09:17:56,385 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-18 09:18:12,230 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-18 09:18:12,246 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-18 09:18:12,311 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=307213AA9F73CCA36DDA75EDA261CB4E:ip_addr=127.0.0.1:browse_mini:
+2016-04-18 09:18:12,575 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-18 09:18:13,502 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=307213AA9F73CCA36DDA75EDA261CB4E:internal_error:-- URL Was: http://localhost:8080/internal-error
+-- Method: GET
+-- Parameters were:
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 46
+
+43: 
+44:     Locale sessionLocale = UIUtil.getSessionLocale(request);
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48: 
+49:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 46
+
+43: 
+44:     Locale sessionLocale = UIUtil.getSessionLocale(request);
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48: 
+49:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:575)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file news-top_es.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:174)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-04-18 09:18:15,380 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-18 09:18:24,013 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=307213AA9F73CCA36DDA75EDA261CB4E:ip_addr=127.0.0.1:browse_mini:
+2016-04-18 09:18:24,032 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-18 09:18:25,053 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=307213AA9F73CCA36DDA75EDA261CB4E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-18 09:18:25,057 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=307213AA9F73CCA36DDA75EDA261CB4E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-18 09:18:25,058 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=307213AA9F73CCA36DDA75EDA261CB4E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-18 09:18:25,865 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=307213AA9F73CCA36DDA75EDA261CB4E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-18 09:18:25,865 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=307213AA9F73CCA36DDA75EDA261CB4E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-18 09:18:25,887 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.spidersfile:null
+2016-04-18 09:18:25,887 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.server:http://localhost:8080/solr/statistics
+2016-04-18 09:18:25,888 INFO  org.dspace.statistics.SolrLogger @ usage-statistics.dbfile:D:/projects/dspace/git/dspace/config/GeoLiteCity.dat
+2016-04-18 09:18:25,921 INFO  org.dspace.statistics.SolrLogger @ useProxies=false
+2016-04-18 09:18:25,930 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  D:\projects\dspace\git\dspace\config\spiders\agents\example
+2016-04-18 09:18:25,942 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-altavista.txt
+2016-04-18 09:18:25,942 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-altavista.txt
+2016-04-18 09:18:25,943 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-excite.txt
+2016-04-18 09:18:25,944 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-excite.txt
+2016-04-18 09:18:25,951 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-google.txt
+2016-04-18 09:18:25,952 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-google.txt
+2016-04-18 09:18:25,954 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-infoseek.txt
+2016-04-18 09:18:25,954 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-infoseek.txt
+2016-04-18 09:18:25,965 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-inktomi.txt
+2016-04-18 09:18:25,967 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-inktomi.txt
+2016-04-18 09:18:25,968 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-lycos.txt
+2016-04-18 09:18:25,968 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-lycos.txt
+2016-04-18 09:18:26,046 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-misc.txt
+2016-04-18 09:18:26,047 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-misc.txt
+2016-04-18 09:18:26,346 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=307213AA9F73CCA36DDA75EDA261CB4E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-18 09:18:26,348 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  D:\projects\dspace\git\dspace\config\spiders\domains\example
+2016-04-18 09:18:26,906 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading panchma.tivra.com:  null
+2016-04-18 09:18:26,907 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading panchma.tivra.com:  null
+2016-04-18 09:18:27,715 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2016-04-18 09:18:27,716 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2016-04-18 09:18:28,524 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading dsl081-243-066.sfo1.dsl.speakeasy.net:  null
+2016-04-18 09:18:28,524 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading dsl081-243-066.sfo1.dsl.speakeasy.net:  null
+2016-04-18 09:18:29,331 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading morgue1.corp.yahoo.com:  null
+2016-04-18 09:18:29,332 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading morgue1.corp.yahoo.com:  null
+2016-04-18 09:18:30,218 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading tracerlock.com:  null
+2016-04-18 09:18:30,219 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading tracerlock.com:  null
+2016-04-18 09:18:31,024 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  null
+2016-04-18 09:18:31,025 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  null
+2016-04-18 09:18:31,833 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  null
+2016-04-18 09:18:31,834 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  null
+2016-04-18 09:18:32,641 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  null
+2016-04-18 09:18:32,642 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  null
+2016-04-18 09:18:33,153 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-18 09:18:33,303 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=307213AA9F73CCA36DDA75EDA261CB4E:ip_addr=127.0.0.1:search:scope=null,query="SÃ­labos",results=(0,0,0)
+2016-04-18 09:18:33,449 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading wfp2.almaden.ibm.com:  null
+2016-04-18 09:18:33,451 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading wfp2.almaden.ibm.com:  null
+2016-04-18 09:18:34,250 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  null
+2016-04-18 09:18:34,253 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  null
+2016-04-18 09:18:35,058 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  null
+2016-04-18 09:18:35,061 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  null
+2016-04-18 09:18:35,861 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading brain.grub.org:  null
+2016-04-18 09:18:35,864 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading brain.grub.org:  null
+2016-04-18 09:18:36,670 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading hanta.yahoo.com:  null
+2016-04-18 09:18:36,671 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading hanta.yahoo.com:  null
+2016-04-18 09:18:37,477 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2016-04-18 09:18:37,477 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2016-04-18 09:18:37,478 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-non_engines.txt
+2016-04-18 09:18:37,478 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-non_engines.txt
+2016-04-18 09:49:19,278 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-18 09:49:19,358 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-18 09:49:23,456 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-18 09:49:23,457 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-18 09:49:23,487 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-18 09:49:23,518 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-18 09:49:23,562 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-18 09:49:27,977 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-18 09:49:27,978 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-18 09:49:28,004 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-18 09:49:28,032 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-18 09:49:28,084 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-18 09:49:37,121 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-18 09:49:37,123 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-18 09:49:37,150 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-18 09:49:37,179 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-18 09:49:37,344 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-18 09:50:08,837 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-04-18 09:50:08,838 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-04-18 09:50:08,866 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-04-18 09:50:08,895 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-04-18 09:50:09,111 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-04-18 09:50:10,429 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-04-18 09:50:10,527 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-04-18 09:50:10,527 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-04-18 09:50:10,527 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-04-18 09:50:10,527 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-04-18 09:50:10,527 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-04-18 09:50:10,527 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-04-18 09:50:10,527 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-04-18 09:50:10,527 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-04-18 09:50:10,528 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-04-18 09:56:31,850 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-18 09:56:32,212 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-04-18 09:56:32,222 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-04-18 09:56:32,329 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=AAB6AF70318491235F391974D09B89D0:ip_addr=127.0.0.1:search:scope=null,query="SÃ­labos",results=(0,0,0)

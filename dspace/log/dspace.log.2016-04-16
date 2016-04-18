@@ -964,3 +964,762 @@ javax.mail.AuthenticationFailedException
 2016-04-16 11:37:41,736 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
 2016-04-16 11:37:41,756 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
 2016-04-16 11:37:42,207 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:45:12,400 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 11:45:12,416 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 11:45:13,394 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:45:13,395 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:45:13,400 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:45:14,159 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:45:14,207 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:45:14,648 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:45:23,616 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 11:45:23,623 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 11:45:24,146 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:45:24,146 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:45:24,146 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:45:24,650 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:45:24,656 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:45:25,138 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:49:03,333 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 11:49:03,348 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 11:49:03,579 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=10314EF1E40090A960236C5BCF96F7C2:internal_error:-- URL Was: http://localhost:8080/internal-error?locale=en
+-- Method: GET
+-- Parameters were:
+-- locale: "en"
+
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: 67 en el archivo jsp: /home.jsp
+Syntax error on token "else", delete this token
+64:     <%
+65: 	}
+66: 	%>
+67:     <%else
+68:     {
+69:     %>
+70: 		<p>Else</p>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:490)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:341)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:662)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:364)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-16 11:49:05,239 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-16 11:49:17,315 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 11:49:17,329 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 11:49:17,972 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:49:17,972 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:49:17,972 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:49:18,756 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:49:18,775 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:49:19,279 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:50:36,013 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 11:50:36,026 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 11:50:36,736 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:50:36,737 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:50:36,741 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:50:37,285 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:50:37,290 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:50:37,784 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:54:33,765 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 11:54:33,779 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 11:54:34,532 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:54:34,533 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:54:34,536 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:54:35,054 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:54:35,060 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:54:35,544 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:55:08,991 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 11:55:09,004 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 11:55:09,754 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:55:09,754 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:55:09,756 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:55:10,263 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:55:10,268 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:55:10,746 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:55:57,027 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 11:55:57,040 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 11:55:57,795 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:55:57,796 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:55:57,796 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:55:58,332 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:55:58,337 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:55:58,854 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:56:32,005 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 11:56:32,018 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 11:56:32,879 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:56:32,880 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:56:32,880 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:56:33,367 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:56:33,372 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:56:33,857 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:56:42,507 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 11:56:42,517 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 11:56:43,229 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:56:43,230 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:56:43,233 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:56:43,709 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:56:43,714 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:56:44,196 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:57:26,778 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 11:57:26,790 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 11:57:27,547 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:57:27,549 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:57:27,549 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:57:28,599 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:57:28,620 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:57:29,063 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:57:40,623 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 11:57:40,637 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 11:57:41,321 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:57:41,321 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:57:41,321 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:57:41,821 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:57:41,827 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:57:42,344 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:57:52,325 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 11:57:52,336 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 11:57:53,067 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:57:53,067 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 11:57:53,067 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:57:53,527 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 11:57:53,533 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 11:57:54,007 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 12:00:18,315 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 12:00:18,320 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:00:18,830 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 12:00:18,835 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 12:00:18,857 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 12:00:19,626 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 12:00:19,646 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 12:00:20,129 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 12:02:22,766 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 12:02:22,780 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:02:23,498 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 12:02:23,501 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 12:02:23,501 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 12:02:24,235 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 12:02:24,255 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 12:02:24,881 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 12:08:49,236 INFO  org.dspace.authenticate.OAuthAuthentication @ anonymous:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:auth:attempting trivial auth of user=maguirrep@continental.edu.pe
+2016-04-16 12:08:49,269 INFO  org.dspace.authenticate.OAuthAuthentication @ maguirrep@continental.edu.pe:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:authenticate:type=oauth
+2016-04-16 12:08:49,270 INFO  org.dspace.eperson.EPerson @ maguirrep@continental.edu.pe:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:update_eperson:eperson_id=129
+2016-04-16 12:08:49,280 INFO  org.dspace.app.webui.servlet.PasswordServlet @ maguirrep@continental.edu.pe:session_id=10314EF1E40090A960236C5BCF96F7C2:ip_addr=127.0.0.1:login:type=explicit
+2016-04-16 12:08:49,288 INFO  org.dspace.app.webui.servlet.MyDSpaceServlet @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:view_mydspace:
+2016-04-16 12:09:16,715 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:09:16,737 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:create_item:item_id=1059
+2016-04-16 12:09:16,770 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:09:16,771 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:create_workspace_item:workspace_item_id=-1item_id=1059collection_id=577
+2016-04-16 12:09:16,777 INFO  org.dspace.event.EventManager @ 
+2016-04-16 12:09:16,805 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1043
+2016-04-16 12:09:16,808 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:09:16,810 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1043
+2016-04-16 12:09:16,813 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:09:16,814 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1043
+2016-04-16 12:09:16,817 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:09:27,192 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1043
+2016-04-16 12:09:27,199 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:10:18,218 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1043
+2016-04-16 12:10:18,222 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:10:18,244 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1043
+2016-04-16 12:10:18,248 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:10:28,853 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1043
+2016-04-16 12:10:28,857 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:10:28,877 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1043
+2016-04-16 12:10:28,881 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:10:45,839 INFO  org.dspace.content.Bundle @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:create_bundle:bundle_id=869
+2016-04-16 12:10:45,841 INFO  org.dspace.content.Bundle @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_bundle:bundle_id=869
+2016-04-16 12:10:45,844 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:add_bundle:item_id=1059,bundle_id=869
+2016-04-16 12:10:45,886 INFO  org.dspace.content.Bitstream @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:create_bitstream:bitstream_id=898
+2016-04-16 12:10:45,889 INFO  org.dspace.content.Bundle @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:add_bitstream:bundle_id=869,bitstream_id=898
+2016-04-16 12:10:45,900 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:add_bundle:item_id=1059,bundle_id=869
+2016-04-16 12:10:45,903 INFO  org.dspace.content.Bitstream @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_bitstream:bitstream_id=898
+2016-04-16 12:10:45,907 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:10:45,908 INFO  org.dspace.content.Bitstream @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_bitstream:bitstream_id=898
+2016-04-16 12:10:54,180 WARN  org.dspace.app.webui.submit.step.JSPUploadStep @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:integrity_error:-- URL Was\colon; http\colon;//localhost\colon;8080/submit
+-- Method\colon; POST
+-- Parameters were\colon;
+-- workspace_item_id\colon; "1043"
+-- jsp\colon; "/submit/choose-file.jsp"
+-- page\colon; "1"
+-- ajaxUpload\colon; "false"
+-- description\colon; "silabus"
+-- file\colon; ""
+-- submit_upload\colon; "Next >"
+-- step\colon; "3"
+
+2016-04-16 12:22:37,877 WARN  org.dspace.app.webui.submit.step.JSPUploadStep @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:integrity_error:-- URL Was\colon; http\colon;//localhost\colon;8080/submit
+-- Method\colon; POST
+-- Parameters were\colon;
+-- workspace_item_id\colon; "1043"
+-- jsp\colon; "/submit/choose-file.jsp"
+-- page\colon; "1"
+-- ajaxUpload\colon; "false"
+-- description\colon; "silabus"
+-- file\colon; ""
+-- submit_upload\colon; "Next >"
+-- step\colon; "3"
+
+2016-04-16 12:24:06,128 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1043
+2016-04-16 12:24:06,134 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:24:17,710 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1043
+2016-04-16 12:24:17,715 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:24:23,713 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1043
+2016-04-16 12:24:23,717 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:24:28,552 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1043
+2016-04-16 12:24:28,557 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:24:36,283 INFO  org.dspace.submit.step.LicenseStep @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:accept_license:workspace_item_id1043
+2016-04-16 12:24:36,296 INFO  org.dspace.content.Bundle @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:create_bundle:bundle_id=870
+2016-04-16 12:24:36,299 INFO  org.dspace.content.Bundle @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_bundle:bundle_id=870
+2016-04-16 12:24:36,311 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:add_bundle:item_id=1059,bundle_id=870
+2016-04-16 12:24:36,348 INFO  org.dspace.content.Bitstream @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:create_bitstream:bitstream_id=899
+2016-04-16 12:24:36,359 INFO  org.dspace.content.Bundle @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:add_bitstream:bundle_id=870,bitstream_id=899
+2016-04-16 12:24:36,375 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:add_bundle:item_id=1059,bundle_id=870
+2016-04-16 12:24:36,379 INFO  org.dspace.content.Bitstream @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_bitstream:bitstream_id=899
+2016-04-16 12:24:36,390 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1043
+2016-04-16 12:24:36,395 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:24:36,397 INFO  org.dspace.content.Bitstream @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_bitstream:bitstream_id=899
+2016-04-16 12:24:36,413 INFO  org.dspace.submit.step.CompleteStep @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:submission_complete:Completed submission with id=1043
+2016-04-16 12:24:36,413 INFO  org.dspace.workflow.WorkflowManager @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:start_workflow:workspace_item_id=1043item_id=1059collection_id=577
+2016-04-16 12:24:36,426 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:24:36,444 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:delete_workspace_item:workspace_item_id=1043item_id=1059collection_id=577
+2016-04-16 12:24:36,634 INFO  org.dspace.workflow.WorkflowManager @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:archive_item:workflow_item_id=355item_id=1059collection_id=577
+2016-04-16 12:24:36,649 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:24:36,657 INFO  org.dspace.content.Collection @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:add_item:collection_id=577,item_id=1059
+2016-04-16 12:24:36,666 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1059
+2016-04-16 12:24:36,675 INFO  org.dspace.workflow.WorkflowManager @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:install_item:workflow_id=355, item_id=1059handle=FIXME
+2016-04-16 12:24:38,358 WARN  org.dspace.workflow.WorkflowManager @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:notifyOfArchive:cannot email user; item_id=1059\colon;  null
+2016-04-16 12:24:38,358 INFO  org.dspace.usage.LoggerUsageEventListener @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:workflow_item:handle=continental/2102
+2016-04-16 12:24:38,507 INFO  org.dspace.workflow.WorkflowManager @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:advance_workflow:workflow_item_id=355,item_id=1059,collection_id=577,old_state=6,new_state=7
+2016-04-16 12:24:38,507 INFO  org.dspace.usage.LoggerUsageEventListener @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:workflow_item:handle=continental/2102
+2016-04-16 12:24:38,542 INFO  org.dspace.workflow.WorkflowManager @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:advance_workflow:workflow_item_id=355,item_id=1059,collection_id=577,old_state=4,new_state=7
+2016-04-16 12:24:38,543 INFO  org.dspace.usage.LoggerUsageEventListener @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:workflow_item:handle=continental/2102
+2016-04-16 12:24:38,576 INFO  org.dspace.workflow.WorkflowManager @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:advance_workflow:workflow_item_id=355,item_id=1059,collection_id=577,old_state=2,new_state=7
+2016-04-16 12:24:38,577 INFO  org.dspace.usage.LoggerUsageEventListener @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:workflow_item:handle=continental/2102
+2016-04-16 12:24:38,610 INFO  org.dspace.workflow.WorkflowManager @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:advance_workflow:workflow_item_id=355,item_id=1059,collection_id=577,old_state=0,new_state=7
+2016-04-16 12:24:46,287 INFO  org.dspace.discovery.SolrServiceImpl @ Wrote Item: continental/2102 to Index
+2016-04-16 12:24:48,947 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1060
+2016-04-16 12:24:48,950 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:create_item:item_id=1060
+2016-04-16 12:24:48,969 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1060
+2016-04-16 12:24:48,971 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:create_workspace_item:workspace_item_id=-1item_id=1060collection_id=577
+2016-04-16 12:24:48,979 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1044
+2016-04-16 12:24:48,983 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1060
+2016-04-16 12:24:48,985 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1044
+2016-04-16 12:24:48,989 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1060
+2016-04-16 12:24:48,991 INFO  org.dspace.content.WorkspaceItem @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_workspace_item:workspace_item_id=1044
+2016-04-16 12:24:48,995 INFO  org.dspace.content.Item @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:update_item:item_id=1060
+2016-04-16 12:24:50,839 INFO  org.dspace.browse.BrowseEngine @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 12:24:50,857 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:24:51,151 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 12:24:51,455 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 12:24:51,455 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 12:24:51,739 INFO  org.dspace.usage.LoggerUsageEventListener @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 12:24:51,891 INFO  org.dspace.usage.LoggerUsageEventListener @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 12:24:52,175 INFO  org.dspace.usage.LoggerUsageEventListener @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 12:24:54,740 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:24:54,913 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃ­labos ",results=(0,0,0)
+2016-04-16 12:25:01,463 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:25:01,500 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃ­labos ",results=(0,0,0)
+2016-04-16 12:25:03,718 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:25:03,764 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃ­labos ",results=(0,0,0)
+2016-04-16 12:25:10,311 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:25:10,366 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃÂ­labos ",results=(0,0,0)
+2016-04-16 12:25:11,525 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:25:11,559 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃÂÃÂ­labos ",results=(0,0,0)
+2016-04-16 12:25:11,821 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:25:11,845 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃÂÃÂÃÂÃÂ­labos ",results=(0,0,0)
+2016-04-16 12:25:12,481 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:25:12,560 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­labos ",results=(0,0,0)
+2016-04-16 12:25:12,898 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:25:12,933 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­labos ",results=(0,0,0)
+2016-04-16 12:25:17,854 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:25:17,945 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="null",results=(0,0,10)
+2016-04-16 12:25:26,472 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:25:26,521 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃ­labos ",results=(0,0,0)
+2016-04-16 12:25:28,821 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:25:28,896 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃÂ­labos ",results=(0,0,10)
+2016-04-16 12:25:50,923 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:25:51,006 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="SÃ­labus",results=(0,0,2)
+2016-04-16 12:44:46,510 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:44:46,569 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="SÃ­labos",results=(0,0,2)
+2016-04-16 12:44:52,756 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:44:52,817 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="SÃ­labos",results=(0,0,2)
+2016-04-16 12:45:01,951 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:45:02,009 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="SÃ­labos",results=(0,0,2)
+2016-04-16 12:45:22,867 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:45:22,934 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="null",results=(0,0,10)
+2016-04-16 12:45:28,680 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:45:28,716 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃ­labos ",results=(0,0,0)
+2016-04-16 12:45:33,263 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:45:33,334 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="null",results=(0,0,10)
+2016-04-16 12:45:44,436 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:45:44,475 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="null",results=(0,0,10)
+2016-04-16 12:45:47,398 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:45:47,452 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="SÃ­labos",results=(0,0,2)
+2016-04-16 12:46:31,110 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:46:31,141 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="SÃ­labos",results=(0,0,2)
+2016-04-16 12:46:39,697 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:46:39,762 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="SÃ­labos",results=(0,0,2)
+2016-04-16 12:47:42,531 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:47:42,607 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="SÃÂ­labor",results=(0,0,10)
+2016-04-16 12:47:47,759 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:47:47,836 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="SÃÂÃÂ­labor",results=(0,0,10)
+2016-04-16 12:47:50,729 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:47:50,832 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="SÃÂÃÂÃÂÃÂ­labor",results=(0,0,10)
+2016-04-16 12:47:53,134 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:47:53,194 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="SÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­labor",results=(0,0,10)
+2016-04-16 12:47:59,603 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:47:59,725 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="SÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­labor",results=(0,0,10)
+2016-04-16 12:48:00,476 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:48:00,562 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="SÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­labor",results=(0,0,10)
+2016-04-16 12:48:00,951 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:48:01,016 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="SÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­labor",results=(0,0,10)
+2016-04-16 12:48:01,400 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:48:01,528 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="SÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­labor",results=(0,0,10)
+2016-04-16 12:48:01,830 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:48:01,888 ERROR org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:query=SÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­labor,scope=null,error=Error executing query
+org.dspace.discovery.SearchServiceException: Error executing query
+	at org.dspace.discovery.SolrServiceImpl.search(SolrServiceImpl.java:1618)
+	at org.dspace.discovery.SolrServiceImpl.search(SolrServiceImpl.java:1600)
+	at org.dspace.discovery.SolrServiceImpl.search(SolrServiceImpl.java:1583)
+	at org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor.doSimpleSearch(DiscoverySearchRequestProcessor.java:342)
+	at org.dspace.app.webui.servlet.SimpleSearchServlet.doDSGet(SimpleSearchServlet.java:63)
+	at org.dspace.app.webui.servlet.DSpaceServlet.processRequest(DSpaceServlet.java:119)
+	at org.dspace.app.webui.servlet.DSpaceServlet.doGet(DSpaceServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.client.solrj.SolrServerException: Error executing query
+	at org.apache.solr.client.solrj.request.QueryRequest.process(QueryRequest.java:100)
+	at org.apache.solr.client.solrj.SolrServer.query(SolrServer.java:301)
+	at org.dspace.discovery.SolrServiceImpl.search(SolrServiceImpl.java:1613)
+	... 32 more
+Caused by: org.apache.http.ParseException: Invalid content type: 
+	at org.apache.http.entity.ContentType.parse(ContentType.java:233)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.executeMethod(HttpSolrServer.java:496)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:210)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:206)
+	at org.apache.solr.client.solrj.request.QueryRequest.process(QueryRequest.java:91)
+	... 34 more
+2016-04-16 12:49:05,842 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:49:05,890 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃ­labos ",results=(0,0,0)
+2016-04-16 12:53:14,339 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:53:14,376 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃ­labos ",results=(0,0,0)
+2016-04-16 12:53:26,128 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:53:26,176 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃ­labos ",results=(0,0,0)
+2016-04-16 12:53:58,336 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:53:58,364 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃÂ­labos ",results=(0,0,0)
+2016-04-16 12:54:43,659 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:54:43,705 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃ­labos ",results=(0,0,0)
+2016-04-16 12:55:32,379 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:55:32,426 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃ­labos ",results=(0,0,0)
+2016-04-16 12:56:07,156 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:56:07,201 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃ­labos ",results=(0,0,0)
+2016-04-16 12:56:11,248 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:56:11,296 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="Tesis",results=(0,0,2)
+2016-04-16 12:56:15,184 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:56:15,206 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" Libros ",results=(0,0,2)
+2016-04-16 12:56:22,072 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:56:22,118 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃ­labos ",results=(0,0,0)
+2016-04-16 12:56:28,120 INFO  org.dspace.browse.BrowseEngine @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 12:56:28,138 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:56:28,196 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=A131F702385352522977BEDD8046419E:internal_error:-- URL Was: http://localhost:8080/internal-error
+-- Method: GET
+-- Parameters were:
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 46
+
+43: 
+44:     Locale sessionLocale = UIUtil.getSessionLocale(request);
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48: 
+49:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 46
+
+43: 
+44:     Locale sessionLocale = UIUtil.getSessionLocale(request);
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48: 
+49:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:575)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file news-top_es.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:174)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-04-16 12:56:28,198 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+java.lang.NullPointerException
+	at org.dspace.storage.rdbms.DatabaseManager.queryTable(DatabaseManager.java:230)
+	at org.dspace.content.DSpaceObject$MetadataCache.retrieveMetadata(DSpaceObject.java:1330)
+	at org.dspace.content.DSpaceObject$MetadataCache.get(DSpaceObject.java:1265)
+	at org.dspace.content.DSpaceObject.getMetadata(DSpaceObject.java:676)
+	at org.dspace.content.DSpaceObject.getMetadata(DSpaceObject.java:585)
+	at org.dspace.content.DSpaceObject.getMetadataFirstValue(DSpaceObject.java:653)
+	at org.dspace.eperson.EPerson.getFirstName(EPerson.java:772)
+	at org.dspace.eperson.EPerson.getFullName(EPerson.java:748)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:419)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-16 12:59:50,424 INFO  org.dspace.browse.BrowseEngine @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:browse_mini:
+2016-04-16 12:59:50,437 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 12:59:51,152 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 12:59:51,153 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 12:59:51,155 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 12:59:51,947 INFO  org.dspace.usage.LoggerUsageEventListener @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-04-16 12:59:51,995 INFO  org.dspace.usage.LoggerUsageEventListener @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-04-16 12:59:52,435 INFO  org.dspace.usage.LoggerUsageEventListener @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-04-16 13:00:58,204 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:00:58,250 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃ­labos ",results=(0,0,0)
+2016-04-16 13:01:02,395 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:01:02,446 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="Tesis",results=(0,0,2)
+2016-04-16 13:01:03,851 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:01:03,896 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" Libros ",results=(0,0,2)
+2016-04-16 13:01:04,343 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, org.dspace.content.Community@29d: 3
+2016-04-16 13:01:04,365 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=org.dspace.content.Community@29d,query="null",results=(0,0,10)
+2016-04-16 13:01:05,347 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:01:05,388 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="null",results=(0,0,10)
+2016-04-16 13:01:06,662 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:01:06,711 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query=" SÃ­labos ",results=(0,0,0)
+2016-04-16 13:01:21,480 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:01:21,527 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="Silabos",results=(0,0,0)
+2016-04-16 13:01:24,071 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:01:24,096 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="Silabos",results=(0,0,0)
+2016-04-16 13:01:25,444 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:01:25,488 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="Silabos",results=(0,0,0)
+2016-04-16 13:01:30,676 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:01:30,754 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="Silabos",results=(0,10,0)
+2016-04-16 13:01:32,257 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:01:32,309 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="Silabos",results=(0,10,0)
+2016-04-16 13:01:37,302 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:01:37,381 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="Silabos",results=(0,10,0)
+2016-04-16 13:01:39,640 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:01:39,700 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="null",results=(0,0,10)
+2016-04-16 13:01:41,404 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:01:41,464 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="null",results=(0,0,10)
+2016-04-16 13:01:45,846 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:01:45,865 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="silabos",results=(0,10,0)
+2016-04-16 13:01:51,025 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:01:51,097 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="silabos",results=(0,10,0)
+2016-04-16 13:01:52,566 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:01:52,626 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="null",results=(0,0,10)
+2016-04-16 13:02:09,001 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=EC644FC5F1378E1B98264909F002873F:ip_addr=172.16.50.48:browse_mini:
+2016-04-16 13:02:09,019 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:02:09,073 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=EC644FC5F1378E1B98264909F002873F:internal_error:-- URL Was: http://172.16.50.41:8080/internal-error
+-- Method: GET
+-- Parameters were:
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 46
+
+43: 
+44:     Locale sessionLocale = UIUtil.getSessionLocale(request);
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48: 
+49:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 46
+
+43: 
+44:     Locale sessionLocale = UIUtil.getSessionLocale(request);
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48: 
+49:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:575)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file news-top_es.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:174)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-04-16 13:02:10,759 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-16 13:02:11,209 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:02:11,278 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ maguirrep@continental.edu.pe:session_id=A131F702385352522977BEDD8046419E:ip_addr=127.0.0.1:search:scope=null,query="silabos",results=(0,10,0)
+2016-04-16 13:02:26,910 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:02:26,956 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=EC644FC5F1378E1B98264909F002873F:ip_addr=172.16.50.48:search:scope=null,query="Tesis",results=(0,0,2)
+2016-04-16 13:02:34,607 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:02:34,652 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=EC644FC5F1378E1B98264909F002873F:ip_addr=172.16.50.48:search:scope=null,query=" SÃ­labos ",results=(0,0,0)
+2016-04-16 13:02:43,693 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:02:43,751 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=EC644FC5F1378E1B98264909F002873F:ip_addr=172.16.50.48:search:scope=null,query="null",results=(0,0,10)
+2016-04-16 13:02:51,426 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:02:51,485 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=EC644FC5F1378E1B98264909F002873F:ip_addr=172.16.50.48:search:scope=null,query="null",results=(0,0,10)
+2016-04-16 13:02:54,675 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:02:54,735 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=EC644FC5F1378E1B98264909F002873F:ip_addr=172.16.50.48:search:scope=null,query="null",results=(0,0,10)
+2016-04-16 13:02:57,460 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:02:57,497 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=EC644FC5F1378E1B98264909F002873F:ip_addr=172.16.50.48:search:scope=null,query="null",results=(0,0,0)
+2016-04-16 13:03:00,515 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-04-16 13:03:00,573 INFO  org.dspace.app.webui.discovery.DiscoverySearchRequestProcessor @ anonymous:session_id=EC644FC5F1378E1B98264909F002873F:ip_addr=172.16.50.48:search:scope=null,query="null",results=(0,0,10)
