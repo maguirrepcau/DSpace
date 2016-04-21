@@ -1,8 +1,8 @@
 # The FULL URL to the DSpace sitemaps
-# The http://localhost:8080/xmlui will be auto-filled with the value in dspace.cfg
+# The http://demodspace.continental.edu.pe/jspui will be auto-filled with the value in dspace.cfg
 # XML sitemap is listed first as it is preferred by most search engines
-Sitemap: http://localhost:8080/xmlui/sitemap
-Sitemap: http://localhost:8080/xmlui/htmlmap
+Sitemap: http://demodspace.continental.edu.pe/jspui/sitemap
+Sitemap: http://demodspace.continental.edu.pe/jspui/htmlmap
 
 ##########################
 # Default Access Group

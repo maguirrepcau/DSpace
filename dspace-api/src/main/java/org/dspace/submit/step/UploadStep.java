@@ -140,10 +140,10 @@ public class UploadStep extends AbstractProcessingStep
         if ((contentType != null)
                 && (contentType.indexOf("multipart/form-data") != -1))
         {
+            
             // This is a multipart request, so it's a file upload
             // (return any status messages or errors reported)
             int status = processUploadFile(context, request, response, subInfo);
-
             // if error occurred, return immediately
             if (status != STATUS_COMPLETE)
             {
@@ -261,28 +261,46 @@ public class UploadStep extends AbstractProcessingStep
         // -------------------------------------------------
         // Step #3: Check for a change in file description
         // -------------------------------------------------
+        
+        
         String fileDescription = request.getParameter("description");
-
+        
         if (fileDescription != null && fileDescription.length() > 0)
         {
             // save this file description
+            if (subInfo.getBitstream() == null)
+            {
+                if (item != null)
+                {
+                    Bundle[] bundle = item.getBundles("ORIGINAL");
+                    if (bundle.length!=0)
+                    {
+                        Bitstream[] bitstreams = bundle[0].getBitstreams();
+                        if (bitstreams.length > 0) 
+                        {
+                          if (bitstreams[bitstreams.length-1] !=null)
+                          { 
+                            subInfo.setBitstream(bitstreams[bitstreams.length-1]);
+                          }
+                        }
+                    }
+                }
+            }
             int status = processSaveFileDescription(context, request, response,
                     subInfo);
-
             // if error occurred, return immediately
             if (status != STATUS_COMPLETE)
             {
                 return status;
             }
         }
-
         // ------------------------------------------
         // Step #4: Check for a file format change
         // (if user had to manually specify format)
         // ------------------------------------------
         int formatTypeID = Util.getIntParameter(request, "format");
         String formatDesc = request.getParameter("format_description");
-
+        
         // if a format id or description was found, then save this format!
         if (formatTypeID >= 0
                 || (formatDesc != null && formatDesc.length() > 0))
@@ -290,7 +308,6 @@ public class UploadStep extends AbstractProcessingStep
             // save this specified format
             int status = processSaveFileFormat(context, request, response,
                     subInfo);
-
             // if error occurred, return immediately
             if (status != STATUS_COMPLETE)
             {

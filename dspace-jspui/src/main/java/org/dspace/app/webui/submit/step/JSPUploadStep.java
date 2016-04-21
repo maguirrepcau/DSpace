@@ -133,7 +133,7 @@ public class JSPUploadStep extends JSPStep
             HttpServletResponse response, SubmissionInfo subInfo)
             throws ServletException, IOException, SQLException,
             AuthorizeException
-    {
+    {   
         // pass on the fileupload setting
         if (subInfo != null)
         {
@@ -148,7 +148,6 @@ public class JSPUploadStep extends JSPStep
             {
                 throw new ServletException(e);
             }
-
             // show whichever upload page is appropriate
             // (based on if this item already has files or not)
             showUploadPage(context, request, response, subInfo, false);
@@ -191,7 +190,6 @@ public class JSPUploadStep extends JSPStep
 
         // Do we need to skip the upload entirely?
         boolean fileRequired = ConfigurationManager.getBooleanProperty("webui.submit.upload.required", true);
-        
         if (UIUtil.getBoolParameter(request, "ajaxUpload"))
         {
             Gson gson = new Gson();
@@ -469,7 +467,6 @@ public class JSPUploadStep extends JSPStep
     {
         Bundle[] bundles = subInfo.getSubmissionItem().getItem().getBundles(
                 "ORIGINAL");
-        
         boolean fileAlreadyUploaded = false;
         
         if (!justUploaded)
@@ -483,7 +480,6 @@ public class JSPUploadStep extends JSPStep
 	        	}
 	        }
         }
-        
         // if user already has uploaded at least one file
         if (justUploaded || fileAlreadyUploaded)
         {
@@ -523,7 +519,6 @@ public class JSPUploadStep extends JSPStep
                     .hasISSNs(context, subInfo.getSubmissionItem()
                             .getItem()));
         }
-
         // set to null the bitstream in subInfo, we need to process a new file
         // we don't need any info about previous files...
         subInfo.setBitstream(null);
@@ -564,7 +559,7 @@ public class JSPUploadStep extends JSPStep
         // set a flag whether the current step is UploadWithEmbargoStep
         boolean withEmbargo = SubmissionController.getCurrentStepConfig(request, subInfo).getProcessingClassName().equals("org.dspace.submit.step.UploadWithEmbargoStep") ? true : false;
         request.setAttribute("with_embargo", Boolean.valueOf(withEmbargo));
-
+        
         // Always go to advanced view in workflow mode
         if (subInfo.isInWorkflow()
                 || subInfo.getSubmissionItem().hasMultipleFiles())

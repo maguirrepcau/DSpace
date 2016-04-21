@@ -181,7 +181,7 @@ public class OAuthAuthentication
         NetHttpTransport transport = new NetHttpTransport();
 
         GoogleIdTokenVerifier verifier = new GoogleIdTokenVerifier.Builder(transport,jsonFactory)
-        .setAudience(Arrays.asList("1031980969450-g5sni4ge7vi4ck6mmnsba29iqqacb50q.apps.googleusercontent.com"))
+        .setAudience(Arrays.asList("921461597171-9cqd1p15ulpepe83d7imo8gjh24kpnge.apps.googleusercontent.com"))
         // If you retrieved the token on Android using the Play Services 8.3 API or newer, set
         // the issuer to "https://accounts.google.com". Otherwise, set the issuer to
         // "accounts.google.com". If you need to verify tokens from multiple sources, build
