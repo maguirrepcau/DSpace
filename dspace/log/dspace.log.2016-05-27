@@ -1,0 +1,103 @@
+2016-05-27 09:23:02,665 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:browse_mini:
+2016-05-27 09:23:02,703 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-27 09:23:02,709 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-27 09:23:02,851 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-27 09:23:02,851 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-27 09:23:03,153 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-27 09:23:03,431 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-27 09:23:03,510 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-27 09:23:03,689 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-27 09:23:08,159 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:browse_mini:
+2016-05-27 09:23:08,166 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-27 09:23:08,168 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-27 09:23:08,301 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-27 09:23:08,301 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-27 09:23:08,301 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-27 09:23:08,561 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-27 09:23:08,562 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-27 09:23:08,819 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=E0F60DBB1F6700AFCCE25656A292082D:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-27 10:27:41,843 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-27 10:27:41,844 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-27 10:27:41,870 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-27 10:27:41,899 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-27 10:27:42,087 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-27 17:22:35,328 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-05-27 17:22:35,341 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-05-27 17:22:35,415 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:browse_mini:
+2016-05-27 17:22:35,541 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-27 17:22:35,606 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-27 17:22:37,067 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-27 17:22:37,067 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-27 17:22:37,067 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-27 17:22:37,421 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-27 17:22:37,430 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.spidersfile:null
+2016-05-27 17:22:37,430 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.server:http://localhost:8080/solr/statistics
+2016-05-27 17:22:37,431 INFO  org.dspace.statistics.SolrLogger @ usage-statistics.dbfile:D:/projects/dspace/git/dspace/config/GeoLiteCity.dat
+2016-05-27 17:22:37,442 INFO  org.dspace.statistics.SolrLogger @ useProxies=false
+2016-05-27 17:22:37,442 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-27 17:22:37,444 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  D:\projects\dspace\git\dspace\config\spiders\agents\example
+2016-05-27 17:22:37,446 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-altavista.txt
+2016-05-27 17:22:37,446 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-altavista.txt
+2016-05-27 17:22:37,447 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-excite.txt
+2016-05-27 17:22:37,447 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-excite.txt
+2016-05-27 17:22:37,448 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-google.txt
+2016-05-27 17:22:37,448 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-google.txt
+2016-05-27 17:22:37,448 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-infoseek.txt
+2016-05-27 17:22:37,448 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-infoseek.txt
+2016-05-27 17:22:37,450 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-inktomi.txt
+2016-05-27 17:22:37,450 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-inktomi.txt
+2016-05-27 17:22:37,451 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-lycos.txt
+2016-05-27 17:22:37,451 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-lycos.txt
+2016-05-27 17:22:37,458 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-misc.txt
+2016-05-27 17:22:37,460 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-misc.txt
+2016-05-27 17:22:37,663 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-27 17:22:37,665 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  D:\projects\dspace\git\dspace\config\spiders\domains\example
+2016-05-27 17:22:38,644 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2016-05-27 17:22:38,645 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2016-05-27 17:22:39,325 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2016-05-27 17:22:39,325 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2016-05-27 17:22:39,669 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2016-05-27 17:22:39,669 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2016-05-27 17:22:39,770 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2016-05-27 17:22:39,770 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2016-05-27 17:22:40,103 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2016-05-27 17:22:40,103 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2016-05-27 17:22:40,283 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2016-05-27 17:22:40,283 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2016-05-27 17:22:41,336 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2016-05-27 17:22:41,337 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-non_engines.txt
+2016-05-27 17:22:41,337 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2016-05-27 17:22:41,338 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-non_engines.txt
+2016-05-27 17:39:14,770 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-27 17:39:15,417 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-27 17:39:35,596 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:invalid_bitstream_id=2dd
+2016-05-27 17:54:01,563 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:invalid_bitstream_id=2 error
+2016-05-27 18:02:43,860 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-27 18:02:44,774 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-27 18:02:45,786 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:browse_mini:
+2016-05-27 18:02:45,796 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-27 18:02:45,800 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-27 18:02:46,267 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-27 18:02:46,274 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-27 18:02:46,274 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-27 18:02:46,976 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-27 18:02:47,651 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-27 18:02:47,969 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=F90EA57EC792A08B2ED3E858B2BB1335:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-27 18:42:39,173 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:browse_mini:
+2016-05-27 18:42:39,189 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-27 18:42:39,204 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-27 18:42:39,720 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:view_bitstream:bitstream_id=2
+2016-05-27 18:42:39,720 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:view_bitstream:bitstream_id=3
+2016-05-27 18:42:39,735 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:view_bitstream:bitstream_id=4
+2016-05-27 18:42:40,126 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:view_bitstream:bitstream_id=2
+2016-05-27 18:42:40,173 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:view_bitstream:bitstream_id=3
+2016-05-27 18:42:40,392 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:view_bitstream:bitstream_id=4
+2016-05-27 18:46:23,336 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:browse_mini:
+2016-05-27 18:46:23,366 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-27 18:46:23,382 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-27 18:46:23,592 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:view_bitstream:bitstream_id=2
+2016-05-27 18:46:23,971 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:view_bitstream:bitstream_id=2
+2016-05-27 18:46:24,072 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:view_bitstream:bitstream_id=3
+2016-05-27 18:46:24,337 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:view_bitstream:bitstream_id=3
+2016-05-27 18:46:24,371 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:view_bitstream:bitstream_id=4
+2016-05-27 18:46:24,640 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=759312BECC03C0CDF44222C3E045EB35:ip_addr=172.16.50.48:view_bitstream:bitstream_id=4

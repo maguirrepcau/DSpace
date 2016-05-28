@@ -18,8 +18,16 @@
 			<list>
 				<value>news-top.html</value>
 				<value>news-side.html</value>
-                                <value>news-top_es.html</value>
-                                <value>news-side_es.html</value>
+        <value>news-top_de.html</value>
+        <value>news-side_de.html</value>
+        <value>news-top_es.html</value>
+        <value>news-side_es.html</value>
+        <value>news-top_it.html</value>
+        <value>news-side_it.html</value>
+        <value>news-top_ja.html</value>
+        <value>news-side_ja.html</value>
+        <value>noticias-topo.html</value>
+        <value>noticias-lado.html</value>
 			</list>
 		</property>	
 	</bean>

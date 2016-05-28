@@ -1,0 +1,1898 @@
+2016-05-26 19:03:44,161 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 19:03:44,161 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 19:03:44,193 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 19:03:44,224 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 19:03:44,286 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 19:03:57,532 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 19:03:57,611 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 19:04:05,387 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 19:04:05,387 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 19:04:05,402 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 19:04:05,433 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 19:04:05,465 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 19:04:13,723 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 19:04:13,723 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 19:04:13,754 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 19:04:13,785 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 19:04:13,832 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 19:04:44,253 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 19:04:44,253 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 19:04:44,284 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 19:04:44,315 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 19:04:44,378 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 19:04:45,472 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-05-26 19:04:45,550 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-05-26 19:04:45,550 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-05-26 19:04:45,550 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-05-26 19:04:45,550 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-05-26 19:04:45,550 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-05-26 19:04:45,550 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-05-26 19:04:45,550 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-05-26 19:04:45,550 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-05-26 19:04:45,550 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-05-26 19:05:07,605 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-05-26 19:05:07,617 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-05-26 19:05:07,660 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:05:07,982 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:05:07,992 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:05:09,217 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:05:09,221 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:05:09,221 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:05:09,750 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:05:09,750 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:05:09,769 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.spidersfile:null
+2016-05-26 19:05:09,769 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.server:http://localhost:8080/solr/statistics
+2016-05-26 19:05:09,770 INFO  org.dspace.statistics.SolrLogger @ usage-statistics.dbfile:D:/projects/dspace/git/dspace/config/GeoLiteCity.dat
+2016-05-26 19:05:09,826 INFO  org.dspace.statistics.SolrLogger @ useProxies=false
+2016-05-26 19:05:09,829 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  D:\projects\dspace\git\dspace\config\spiders\agents\example
+2016-05-26 19:05:09,831 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-altavista.txt
+2016-05-26 19:05:09,831 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-altavista.txt
+2016-05-26 19:05:09,832 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-excite.txt
+2016-05-26 19:05:09,832 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-excite.txt
+2016-05-26 19:05:09,834 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-google.txt
+2016-05-26 19:05:09,834 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-google.txt
+2016-05-26 19:05:09,835 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-infoseek.txt
+2016-05-26 19:05:09,835 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-infoseek.txt
+2016-05-26 19:05:09,840 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-inktomi.txt
+2016-05-26 19:05:09,841 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-inktomi.txt
+2016-05-26 19:05:09,841 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-lycos.txt
+2016-05-26 19:05:09,841 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-lycos.txt
+2016-05-26 19:05:09,868 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-misc.txt
+2016-05-26 19:05:09,869 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-misc.txt
+2016-05-26 19:05:10,011 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:05:10,013 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  D:\projects\dspace\git\dspace\config\spiders\domains\example
+2016-05-26 19:05:11,078 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2016-05-26 19:05:11,079 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2016-05-26 19:05:11,644 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2016-05-26 19:05:11,644 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2016-05-26 19:05:11,896 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2016-05-26 19:05:11,896 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2016-05-26 19:05:12,706 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  null
+2016-05-26 19:05:12,709 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  null
+2016-05-26 19:05:12,953 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2016-05-26 19:05:12,953 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2016-05-26 19:05:13,080 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2016-05-26 19:05:13,080 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2016-05-26 19:05:14,130 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2016-05-26 19:05:14,131 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-non_engines.txt
+2016-05-26 19:05:14,135 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2016-05-26 19:05:14,135 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-non_engines.txt
+2016-05-26 19:07:13,660 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:07:13,691 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:07:13,699 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:07:13,871 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:07:13,917 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:07:14,131 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:07:14,152 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:07:14,190 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:07:14,416 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:07:15,324 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:07:15,330 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:07:15,332 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:07:15,494 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:07:15,495 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:07:15,495 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:07:15,754 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:07:15,910 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:07:16,020 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:07:16,323 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:07:16,330 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:07:16,333 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:07:16,515 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:07:16,515 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:07:16,515 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:07:16,776 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:07:16,781 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:07:17,033 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:07:17,091 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:07:17,097 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:07:17,100 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:07:17,218 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:07:17,218 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:07:17,219 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:07:17,476 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:07:17,479 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:07:17,737 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:07:46,504 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:07:46,532 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:07:46,541 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:07:46,799 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error?locale=pt_BR
+-- Method: GET
+-- Parameters were:
+-- locale: "pt_BR"
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file noticias-topo.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file noticias-topo.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file noticias-topo.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:174)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-05-26 19:07:47,843 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-26 19:08:00,290 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:08:00,301 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:08:00,309 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:08:00,492 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:08:00,531 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:08:00,794 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:08:00,853 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:08:00,899 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:08:01,120 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=04FB6FB9086CC8BA9E9678A226E0D7A5:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:52:23,414 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2016-05-26 19:52:23,538 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 19:52:23,538 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 19:52:23,564 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 19:52:23,594 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 19:52:23,766 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 19:52:32,130 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 19:52:32,205 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 19:52:38,647 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 19:52:38,648 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 19:52:38,674 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 19:52:38,701 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 19:52:38,743 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 19:52:45,320 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 19:52:45,321 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 19:52:45,346 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 19:52:45,374 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 19:52:45,414 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 19:53:10,602 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 19:53:10,604 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 19:53:10,630 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 19:53:10,659 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 19:53:10,807 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 19:53:12,084 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-05-26 19:53:12,170 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-05-26 19:53:12,170 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-05-26 19:53:12,170 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-05-26 19:53:12,170 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-05-26 19:53:12,170 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-05-26 19:53:12,170 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-05-26 19:53:12,170 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-05-26 19:53:12,171 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-05-26 19:53:12,171 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-05-26 19:53:12,730 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-05-26 19:53:12,753 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-05-26 19:53:12,804 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:53:13,038 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:53:13,064 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:53:14,640 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:53:14,644 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:53:14,645 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:53:15,123 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:53:15,124 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:53:15,129 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.spidersfile:null
+2016-05-26 19:53:15,129 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.server:http://localhost:8080/solr/statistics
+2016-05-26 19:53:15,129 INFO  org.dspace.statistics.SolrLogger @ usage-statistics.dbfile:D:/projects/dspace/git/dspace/config/GeoLiteCity.dat
+2016-05-26 19:53:15,142 INFO  org.dspace.statistics.SolrLogger @ useProxies=false
+2016-05-26 19:53:15,146 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  D:\projects\dspace\git\dspace\config\spiders\agents\example
+2016-05-26 19:53:15,153 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-altavista.txt
+2016-05-26 19:53:15,153 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-altavista.txt
+2016-05-26 19:53:15,154 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-excite.txt
+2016-05-26 19:53:15,154 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-excite.txt
+2016-05-26 19:53:15,159 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-google.txt
+2016-05-26 19:53:15,159 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-google.txt
+2016-05-26 19:53:15,161 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-infoseek.txt
+2016-05-26 19:53:15,161 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-infoseek.txt
+2016-05-26 19:53:15,169 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-inktomi.txt
+2016-05-26 19:53:15,169 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-inktomi.txt
+2016-05-26 19:53:15,170 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-lycos.txt
+2016-05-26 19:53:15,170 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-lycos.txt
+2016-05-26 19:53:15,206 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-misc.txt
+2016-05-26 19:53:15,208 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-misc.txt
+2016-05-26 19:53:15,387 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:53:15,388 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  D:\projects\dspace\git\dspace\config\spiders\domains\example
+2016-05-26 19:53:16,197 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2016-05-26 19:53:16,256 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2016-05-26 19:53:16,760 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2016-05-26 19:53:16,760 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2016-05-26 19:53:17,035 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2016-05-26 19:53:17,035 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2016-05-26 19:53:17,293 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2016-05-26 19:53:17,294 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2016-05-26 19:53:17,497 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2016-05-26 19:53:17,497 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2016-05-26 19:53:17,693 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2016-05-26 19:53:17,693 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2016-05-26 19:53:18,725 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2016-05-26 19:53:18,726 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-non_engines.txt
+2016-05-26 19:53:18,727 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2016-05-26 19:53:18,728 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-non_engines.txt
+2016-05-26 19:53:23,023 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:53:23,033 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:53:23,037 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:53:23,213 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:53:23,213 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:53:23,213 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:53:23,643 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:53:23,646 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:53:23,907 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:53:28,309 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:53:28,315 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:53:28,318 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:53:28,525 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error?locale=it
+-- Method: GET
+-- Parameters were:
+-- locale: "it"
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 48
+
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+49:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+50: 
+51:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 48
+
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+49:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+50: 
+51:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:575)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file news-top_it.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:176)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-05-26 19:53:29,614 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-26 19:54:39,575 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:54:39,580 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:54:39,585 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:54:39,658 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error?locale=de
+-- Method: GET
+-- Parameters were:
+-- locale: "de"
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 48
+
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+49:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+50: 
+51:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 48
+
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+49:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+50: 
+51:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:575)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file news-top_de.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:176)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-05-26 19:54:41,011 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-26 19:55:08,345 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:55:08,364 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:55:08,379 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:55:08,414 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error?locale=ja
+-- Method: GET
+-- Parameters were:
+-- locale: "ja"
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 48
+
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+49:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+50: 
+51:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 48
+
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+49:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+50: 
+51:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:575)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file news-top_ja.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:176)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-05-26 19:55:09,440 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-26 19:56:22,408 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:56:22,419 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:56:22,425 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:56:22,455 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error?locale=pt_BR
+-- Method: GET
+-- Parameters were:
+-- locale: "pt_BR"
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 48
+
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+49:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+50: 
+51:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 48
+
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+49:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+50: 
+51:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:575)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file noticias-topo.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:176)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-05-26 19:56:23,449 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-26 19:57:31,186 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:57:31,205 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:57:31,216 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:57:31,403 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:57:31,415 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:57:31,703 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:57:31,950 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:57:31,951 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:57:32,426 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:57:40,197 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:57:40,203 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:57:40,206 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:57:40,355 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:57:40,355 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:57:40,355 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:57:40,617 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 19:57:40,620 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 19:57:40,893 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 19:57:47,866 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 19:57:47,873 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 19:57:47,877 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 19:57:47,897 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error?locale=de
+-- Method: GET
+-- Parameters were:
+-- locale: "de"
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 48
+
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+49:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+50: 
+51:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: Ha sucedido una excepción al procesar la página JSP /home.jsp en línea 48
+
+45:     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+46:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+47:     System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+48:     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+49:     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+50: 
+51:     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:575)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file news-top_de.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:176)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-05-26 19:57:49,053 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-26 20:04:51,496 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2016-05-26 20:04:51,590 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 20:04:51,590 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 20:04:51,617 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 20:04:51,647 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 20:04:51,820 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 20:05:00,332 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 20:05:00,413 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 20:05:07,749 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 20:05:07,750 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 20:05:07,774 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 20:05:07,803 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 20:05:07,844 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 20:05:16,328 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 20:05:16,329 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 20:05:16,355 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 20:05:16,381 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 20:05:16,421 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 20:05:47,365 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 20:05:47,366 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 20:05:47,394 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 20:05:47,423 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 20:05:47,592 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 20:05:48,924 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-05-26 20:05:49,026 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-05-26 20:05:49,026 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-05-26 20:05:49,026 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-05-26 20:05:49,026 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-05-26 20:05:49,026 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-05-26 20:05:49,026 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-05-26 20:05:49,026 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-05-26 20:05:49,026 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-05-26 20:05:49,027 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-05-26 20:06:02,890 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-05-26 20:06:02,904 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-05-26 20:06:02,952 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:06:03,183 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:06:03,209 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:06:03,394 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error?locale=de
+-- Method: GET
+-- Parameters were:
+-- locale: "de"
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file news-top_de.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file news-top_de.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file news-top_de.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:176)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-05-26 20:06:04,987 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-26 20:06:07,320 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:06:07,327 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:06:07,331 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:06:07,351 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error?locale=de
+-- Method: GET
+-- Parameters were:
+-- locale: "de"
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file news-top_de.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file news-top_de.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file news-top_de.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:176)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-05-26 20:06:08,283 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-26 20:06:11,231 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:06:11,237 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:06:11,240 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:06:11,485 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:06:11,491 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:06:11,491 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:06:11,952 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:06:11,955 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:06:11,959 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.spidersfile:null
+2016-05-26 20:06:11,959 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.server:http://localhost:8080/solr/statistics
+2016-05-26 20:06:11,960 INFO  org.dspace.statistics.SolrLogger @ usage-statistics.dbfile:D:/projects/dspace/git/dspace/config/GeoLiteCity.dat
+2016-05-26 20:06:11,969 INFO  org.dspace.statistics.SolrLogger @ useProxies=false
+2016-05-26 20:06:11,970 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  D:\projects\dspace\git\dspace\config\spiders\agents\example
+2016-05-26 20:06:11,973 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-altavista.txt
+2016-05-26 20:06:11,973 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-altavista.txt
+2016-05-26 20:06:11,973 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-excite.txt
+2016-05-26 20:06:11,973 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-excite.txt
+2016-05-26 20:06:11,975 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-google.txt
+2016-05-26 20:06:11,975 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-google.txt
+2016-05-26 20:06:11,975 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-infoseek.txt
+2016-05-26 20:06:11,975 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-infoseek.txt
+2016-05-26 20:06:11,979 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-inktomi.txt
+2016-05-26 20:06:11,980 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-lycos.txt
+2016-05-26 20:06:11,980 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-inktomi.txt
+2016-05-26 20:06:11,980 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-lycos.txt
+2016-05-26 20:06:12,006 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-misc.txt
+2016-05-26 20:06:12,008 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-misc.txt
+2016-05-26 20:06:12,212 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:06:12,213 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  D:\projects\dspace\git\dspace\config\spiders\domains\example
+2016-05-26 20:06:12,857 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading panchma.tivra.com:  null
+2016-05-26 20:06:12,891 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading panchma.tivra.com:  null
+2016-05-26 20:06:13,660 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2016-05-26 20:06:13,692 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2016-05-26 20:06:13,749 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:06:13,758 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:06:13,762 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:06:13,920 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:06:13,927 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:06:13,929 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:06:13,962 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2016-05-26 20:06:13,962 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2016-05-26 20:06:13,963 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2016-05-26 20:06:13,963 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2016-05-26 20:06:13,964 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2016-05-26 20:06:13,965 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2016-05-26 20:06:13,972 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2016-05-26 20:06:13,972 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2016-05-26 20:06:13,973 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2016-05-26 20:06:13,973 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2016-05-26 20:06:14,193 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:06:14,360 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:06:14,449 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:06:14,953 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2016-05-26 20:06:14,953 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2016-05-26 20:06:14,953 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-non_engines.txt
+2016-05-26 20:06:14,953 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-non_engines.txt
+2016-05-26 20:06:16,309 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:06:16,317 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:06:16,321 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:06:16,470 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:06:16,471 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:06:16,471 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:06:16,921 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:06:16,923 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:06:17,360 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:06:18,510 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:06:18,515 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:06:18,519 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:06:18,540 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error?locale=pt_BR
+-- Method: GET
+-- Parameters were:
+-- locale: "pt_BR"
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file noticias-topo.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file noticias-topo.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file noticias-topo.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:176)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-05-26 20:06:19,929 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-26 20:06:22,261 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:06:22,268 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:06:22,271 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:06:22,289 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error?locale=it
+-- Method: GET
+-- Parameters were:
+-- locale: "it"
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file news-top_it.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file news-top_it.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file news-top_it.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:176)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-05-26 20:06:23,270 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-26 20:06:25,438 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:06:25,444 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:06:25,447 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:06:25,470 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error?locale=ja
+-- Method: GET
+-- Parameters were:
+-- locale: "ja"
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file news-top_ja.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file news-top_ja.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file news-top_ja.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:176)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-05-26 20:06:26,452 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-26 20:06:28,881 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:06:28,899 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:06:28,904 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:06:28,929 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error?locale=de
+-- Method: GET
+-- Parameters were:
+-- locale: "de"
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file news-top_de.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file news-top_de.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file news-top_de.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:176)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-05-26 20:06:29,889 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-26 20:06:32,471 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:06:32,477 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:06:32,480 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:06:32,606 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:06:32,880 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:06:32,914 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:06:32,915 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:06:33,172 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:06:33,188 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:06:37,314 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:06:37,322 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:06:37,325 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:06:37,449 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:06:37,449 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:06:37,449 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:06:37,701 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:06:37,719 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:06:37,957 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:06:39,837 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:06:39,842 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:06:39,845 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:06:39,959 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:06:39,959 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:06:39,959 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:06:40,212 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:06:40,217 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:06:40,469 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:06:43,070 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:06:43,077 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:06:43,080 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:06:43,093 WARN  org.dspace.app.webui.servlet.InternalErrorServlet @ :session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:internal_error:-- URL Was: http://localhost:8080/jspui/internal-error?locale=pt_BR
+-- Method: GET
+-- Parameters were:
+-- locale: "pt_BR"
+
+org.apache.jasper.JasperException: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file noticias-topo.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:462)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.dspace.utils.servlet.DSpaceWebappServletFilter.doFilter(DSpaceWebappServletFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.jasper.JasperException: java.lang.IllegalArgumentException: The file noticias-topo.html is not a valid news file
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:556)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.dspace.app.webui.util.JSPManager.showJSP(JSPManager.java:60)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:152)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 27 more
+Caused by: java.lang.IllegalArgumentException: The file noticias-topo.html is not a valid news file
+	at org.dspace.core.NewsManager.readNewsFile(NewsManager.java:47)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:176)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	... 44 more
+2016-05-26 20:06:44,054 WARN  org.dspace.app.webui.util.UIUtil @ Unable to send email alert
+javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at org.dspace.core.Email.send(Email.java:359)
+	at org.dspace.app.webui.util.UIUtil.sendAlert(UIUtil.java:426)
+	at org.dspace.app.webui.servlet.InternalErrorServlet.doGet(InternalErrorServlet.java:54)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:482)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:420)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:207)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2517)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2506)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-05-26 20:21:02,082 INFO  net.sf.ehcache.util.UpdateChecker @ New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]
+2016-05-26 20:21:02,102 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 20:21:02,102 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 20:21:02,129 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 20:21:02,158 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 20:21:02,303 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 20:21:10,663 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 20:21:10,736 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 20:21:18,217 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 20:21:18,218 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 20:21:18,243 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 20:21:18,270 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 20:21:18,311 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 20:21:26,014 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 20:21:26,015 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 20:21:26,039 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 20:21:26,067 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 20:21:26,105 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 20:21:56,408 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS is 'PostgreSQL'
+2016-05-26 20:21:56,410 INFO  org.dspace.storage.rdbms.DatabaseManager @ DBMS driver version is '9.5.2'
+2016-05-26 20:21:56,437 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:D:/projects/dspace/git/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2016-05-26 20:21:56,466 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 9.5)
+2016-05-26 20:21:56,637 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2016-05-26 20:21:57,964 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: D:/projects/dspace/git/dspace\config\xmlui.xconf
+2016-05-26 20:21:58,070 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2016-05-26 20:21:58,070 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2016-05-26 20:21:58,070 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2016-05-26 20:21:58,070 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2016-05-26 20:21:58,070 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2016-05-26 20:21:58,070 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2016-05-26 20:21:58,071 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2016-05-26 20:21:58,071 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2016-05-26 20:21:58,071 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2016-05-26 20:22:02,773 INFO  org.dspace.content.MetadataSchema @ Loading schema cache for fast finds
+2016-05-26 20:22:02,787 INFO  org.dspace.content.MetadataField @ Loading MetadataField elements into cache.
+2016-05-26 20:22:02,848 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:22:03,059 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:22:03,082 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:22:04,049 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:04,049 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:04,049 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:22:04,829 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:04,829 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:22:04,848 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.spidersfile:null
+2016-05-26 20:22:04,849 INFO  org.dspace.statistics.SolrLogger @ solr-statistics.server:http://localhost:8080/solr/statistics
+2016-05-26 20:22:04,849 INFO  org.dspace.statistics.SolrLogger @ usage-statistics.dbfile:D:/projects/dspace/git/dspace/config/GeoLiteCity.dat
+2016-05-26 20:22:04,870 INFO  org.dspace.statistics.SolrLogger @ useProxies=false
+2016-05-26 20:22:04,873 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  D:\projects\dspace\git\dspace\config\spiders\agents\example
+2016-05-26 20:22:04,878 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-altavista.txt
+2016-05-26 20:22:04,879 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-altavista.txt
+2016-05-26 20:22:04,879 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-excite.txt
+2016-05-26 20:22:04,880 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-excite.txt
+2016-05-26 20:22:04,883 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-google.txt
+2016-05-26 20:22:04,884 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-google.txt
+2016-05-26 20:22:04,885 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-infoseek.txt
+2016-05-26 20:22:04,885 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-infoseek.txt
+2016-05-26 20:22:04,896 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-inktomi.txt
+2016-05-26 20:22:04,897 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-lycos.txt
+2016-05-26 20:22:04,900 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-inktomi.txt
+2016-05-26 20:22:04,901 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-lycos.txt
+2016-05-26 20:22:04,933 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-misc.txt
+2016-05-26 20:22:04,934 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-misc.txt
+2016-05-26 20:22:05,166 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:05,169 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded pattern file:  D:\projects\dspace\git\dspace\config\spiders\domains\example
+2016-05-26 20:22:06,255 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2016-05-26 20:22:06,255 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat09.whizbang.com:  null
+2016-05-26 20:22:06,662 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2016-05-26 20:22:06,662 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawl8-public.alexa.com:  Unresolvable host name (empty response)
+2016-05-26 20:22:07,056 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2016-05-26 20:22:07,056 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading zeus.nj.nec.com:  Unresolvable host name (empty response)
+2016-05-26 20:22:07,311 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2016-05-26 20:22:07,311 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading xs4.kso.co.uk:  Unresolvable host name (empty response)
+2016-05-26 20:22:07,379 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:22:07,385 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:22:07,388 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:22:07,427 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2016-05-26 20:22:07,427 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading crawler918.com:  Unresolvable host name (empty response)
+2016-05-26 20:22:07,545 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:07,551 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:22:07,554 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:07,571 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2016-05-26 20:22:07,571 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading idle.eidetica.com:  Unresolvable host name (empty response)
+2016-05-26 20:22:07,935 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:22:07,941 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:08,507 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:09,009 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2016-05-26 20:22:09,009 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-non_engines.txt
+2016-05-26 20:22:09,011 WARN  org.dspace.statistics.util.SpiderDetector @ Not loading pixnat06.whizbang.com:  null
+2016-05-26 20:22:09,011 INFO  org.dspace.statistics.util.SpiderDetector @ Loaded Spider IP file: D:\projects\dspace\git\dspace\config\spiders\iplists.com-non_engines.txt
+2016-05-26 20:22:10,130 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:22:10,140 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:22:10,144 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:22:10,293 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:10,293 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:22:10,293 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:10,657 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:10,678 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:11,229 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:22:11,954 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:22:11,960 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:22:11,963 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:22:12,101 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:12,101 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:22:12,101 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:12,477 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:12,497 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:12,881 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:22:13,950 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:22:13,957 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:22:13,961 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:22:14,095 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:22:14,095 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:14,095 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:14,493 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:14,514 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:14,894 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:22:15,723 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:22:15,728 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:22:15,731 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:22:15,849 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:15,849 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:22:15,850 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:16,214 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:16,235 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:22:16,773 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:17,663 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:22:17,670 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:22:17,673 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:22:17,808 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:17,808 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:22:17,808 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:18,161 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:22:18,182 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:18,561 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:19,234 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:browse_mini:
+2016-05-26 20:22:19,239 ERROR org.dspace.discovery.SolrServiceImpl @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:Error while retrieving DSpace object from discovery index:Handle\colon; continental/2105
+2016-05-26 20:22:19,241 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 3
+2016-05-26 20:22:19,352 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:19,352 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:19,352 INFO  org.dspace.app.webui.servlet.RetrieveServlet @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2
+2016-05-26 20:22:19,736 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=4
+2016-05-26 20:22:19,742 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=3
+2016-05-26 20:22:20,125 INFO  org.dspace.usage.LoggerUsageEventListener @ anonymous:session_id=5FB72EF82EBF0F89D3B0C9D3DEE2D322:ip_addr=127.0.0.1:view_bitstream:bitstream_id=2

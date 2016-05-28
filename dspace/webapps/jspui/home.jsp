@@ -43,6 +43,8 @@
 
     Locale sessionLocale = UIUtil.getSessionLocale(request);
     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
+    System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
+    System.out.println(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
     String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
     String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
 
